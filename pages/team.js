@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Piscina Comprensoriale Agordina</title>
+				<title>Team | Piscina Comprensoriale Agordina</title>
 				<meta
 					name="description"
 					content="Sito web della piscina comprensoriale di agordo"
@@ -16,11 +16,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className="min-h-screen">
-				<div>
-					<Image src={heroImg} placeholder="blur" />
-				</div>
-			</main>
+			<main className="min-h-screen">Team Page</main>
 		</div>
 	);
 }

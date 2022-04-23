@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 // Components
-import { Layout, HeroSection } from "../components";
+import { Layout, HeroSection, SponsorSection } from "../components";
 
 const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 	return (
@@ -11,6 +11,7 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 					<title>Piscina di Agordo</title>
 				</Head>
 				<HeroSection />
+				<SponsorSection />
 			</Layout>
 		</>
 	);

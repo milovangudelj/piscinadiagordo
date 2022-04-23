@@ -19,3 +19,4 @@ export * from "./Date";
 export * from "./HeroPost";
 export * from "./Intro";
 export * from "./HeroSection";
+export * from "./SponsorSection";

@@ -5,7 +5,7 @@ export default {
 	fields: [
 		{
 			name: "title",
-			title: "Title",
+			title: "Titolo",
 			type: "string",
 		},
 		{
@@ -21,11 +21,11 @@ export default {
 			name: "author",
 			title: "Author",
 			type: "reference",
-			to: { type: "author" },
+			to: [{ type: "author" }],
 		},
 		{
-			name: "mainImage",
-			title: "Main image",
+			name: "coverImage",
+			title: "Cover Image",
 			type: "image",
 			options: {
 				hotspot: true,
@@ -47,13 +47,18 @@ export default {
 			title: "Body",
 			type: "blockContent",
 		},
+		{
+			name: "excerpt",
+			title: "Excerpt",
+			type: "string",
+		},
 	],
 
 	preview: {
 		select: {
 			title: "title",
 			author: "author.name",
-			media: "mainImage",
+			media: "coverImage",
 		},
 		prepare(selection) {
 			const { author } = selection;

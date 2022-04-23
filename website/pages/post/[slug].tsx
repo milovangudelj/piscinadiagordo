@@ -1,95 +1,117 @@
-import groq from "groq";
-import imageUrlBuilder from "@sanity/image-url";
-import { PortableText } from "@portabletext/react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import ErrorPage from "next/error";
+import {
+	Container,
+	PostBody,
+	MoreStories,
+	Header,
+	PostHeader,
+	SectionSeparator,
+	Layout,
+	PostTitle,
+} from "../../components";
 
-import client from "../../lib/sanity";
+import { CMS_NAME } from "../../lib/constants";
+import { postQuery, postSlugsQuery } from "../../lib/queries";
+import { urlForImage, usePreviewSubscription } from "../../lib/sanity";
+import {
+	sanityClient,
+	getClient,
+	overlayDrafts,
+} from "../../lib/sanity.server";
 
-const urlFor = (source: any) => {
-	return imageUrlBuilder(client).image(source);
-};
+export default function Post({
+	data = {},
+	preview,
+}: {
+	data: any;
+	preview: boolean;
+}) {
+	const router = useRouter();
 
-const ptComponents = {
-	types: {
-		image: ({ value }: { value: any }) => {
-			if (!value?.asset?._ref) {
-				return null;
-			}
-			return (
-				<img
-					alt={value.alt || " "}
-					loading="lazy"
-					src={urlFor(value)
-						.width(320)
-						.height(240)
-						.fit("max")
-						.auto("format")
-						.url()}
-				/>
-			);
-		},
-	},
-};
-
-const Post = ({ post }: { post: any }) => {
+	const slug = data?.post?.slug;
 	const {
-		title = "Missing title",
-		name = "Missing name",
-		categories,
-		authorImage,
-		body = [],
-	} = post;
+		data: { post, morePosts },
+	} = usePreviewSubscription(postQuery, {
+		params: { slug },
+		initialData: data,
+		enabled: preview && slug,
+	});
+
+	if (!router.isFallback && !slug) {
+		return <ErrorPage statusCode={404} />;
+	}
 
 	return (
-		<article>
-			<h1>{title}</h1>
-			<span>By {name}</span>
-			{categories && (
-				<ul>
-					Posted in
-					{categories.map((category: any) => (
-						<li key={category}>{category}</li>
-					))}
-				</ul>
-			)}
-			{authorImage && (
-				<div>
-					<img src={urlFor(authorImage).width(50).url()} />
-				</div>
-			)}
-			<PortableText value={body} components={ptComponents} />
-		</article>
+		<Layout preview={preview}>
+			<Container>
+				<Header />
+				{router.isFallback ? (
+					<PostTitle>Loading…</PostTitle>
+				) : (
+					<>
+						<article>
+							<Head>
+								<title>
+									{post.title} | Next.js Blog Example with {CMS_NAME}
+								</title>
+								{post.coverImage && (
+									<meta
+										key="ogImage"
+										property="og:image"
+										content={urlForImage(post.coverImage)
+											.width(1200)
+											.height(627)
+											.fit("crop")
+											.url()}
+									/>
+								)}
+							</Head>
+							<PostHeader
+								title={post.title}
+								coverImage={post.coverImage}
+								date={post.date}
+								author={post.author}
+							/>
+							<PostBody content={post.content} />
+						</article>
+						<SectionSeparator />
+						{morePosts.length > 0 && <MoreStories posts={morePosts} />}
+					</>
+				)}
+			</Container>
+		</Layout>
 	);
-};
+}
 
-const query = groq`*[_type == "post" && slug.current == $slug][0]{
-	title,
-	"name": author->name,
-	"categories": categories[]->title,
-	"authorImage": author->image,
-	body
- }`;
-
-export const getStaticPaths = async () => {
-	const paths = await client.fetch(
-		groq`*[_type == "post" && defined(slug.current)][].slug.current`
-	);
-
-	return {
-		paths: paths.map((slug: any) => ({ params: { slug } })),
-		fallback: true,
-	};
-};
-
-export const getStaticProps = async (context: any) => {
-	// It's important to default the slug so that it doesn't return "undefined"
-	const { slug = "" } = context.params;
-	const post = await client.fetch(query, { slug });
+export async function getStaticProps({
+	params,
+	preview = false,
+}: {
+	params: any;
+	preview: boolean;
+}) {
+	const { post, morePosts } = await getClient(preview).fetch(postQuery, {
+		slug: params.slug,
+	});
 
 	return {
 		props: {
-			post,
+			preview,
+			data: {
+				post,
+				morePosts: overlayDrafts(morePosts),
+			},
 		},
 	};
-};
+}
 
-export default Post;
+export async function getStaticPaths() {
+	const paths = await sanityClient.fetch(postSlugsQuery);
+	console.log({ paths });
+	return {
+		paths: paths.map((slug: string) => ({ params: { slug } })),
+		fallback: true,
+	};
+}

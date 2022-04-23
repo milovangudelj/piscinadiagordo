@@ -1,10 +1,10 @@
 export default {
-	name: "corso",
+	name: "course",
 	title: "Corso",
 	type: "document",
 	fields: [
 		{
-			name: "sigla",
+			name: "acronym",
 			title: "Sigla",
 			type: "string",
 		},
@@ -13,7 +13,7 @@ export default {
 			title: "Slug",
 			type: "slug",
 			options: {
-				source: "sigla",
+				source: "acronym",
 				maxLength: 96,
 			},
 		},

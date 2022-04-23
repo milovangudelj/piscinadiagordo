@@ -21,7 +21,7 @@ export const HeroSection = () => {
 						alt="Foto del piano vasca della piscina"
 					/>
 				</div>
-				<span className="absolute inset-0 right-1/2 block transform-gpu bg-white/50 backdrop-blur-lg"></span>
+				<span className="absolute inset-0 right-1/2 block transform-gpu bg-white/50 backdrop-blur-xl"></span>
 			</div>
 			<Container className="relative h-max">
 				<h1>Nuota con noi</h1>

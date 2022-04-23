@@ -33,7 +33,7 @@ export const CoverImage = ({
 	return (
 		<div className="sm:mx-0">
 			{slug ? (
-				<Link href={`/posts/${slug}`}>
+				<Link href={`/post/${slug}`} passHref>
 					<a aria-label={title}>{image}</a>
 				</Link>
 			) : (

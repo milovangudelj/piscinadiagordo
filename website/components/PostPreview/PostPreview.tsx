@@ -22,7 +22,7 @@ export const PostPreview = ({
 				<CoverImage slug={slug} title={title} image={coverImage} />
 			</div>
 			<h3 className="mb-3 text-3xl leading-snug">
-				<Link href={`/posts/${slug}`}>
+				<Link href={`/post/${slug}`} passHref>
 					<a className="hover:underline">{title}</a>
 				</Link>
 			</h3>

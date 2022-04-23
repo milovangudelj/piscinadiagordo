@@ -3,7 +3,7 @@ import {
 	ComponentPropsWithoutRef,
 	ReactNode,
 	useState,
-	useLayoutEffect,
+	useEffect,
 } from "react";
 
 import cn from "classnames";
@@ -54,9 +54,17 @@ export const Button = <T extends ElementType = "button">({
 }: ButtonProps<T> &
 	Omit<ComponentPropsWithoutRef<T>, keyof ButtonProps<T>>) => {
 	const Component = as || "button";
-	const [style, setStyle] = useState<string>("");
+	const [style, setStyle] = useState<string>(
+		cn(
+			classes.base,
+			classes.variant[color],
+			classes.disabled(disabled),
+			classes.loading(loading),
+			{ className: className }
+		)
+	);
 
-	useLayoutEffect(() => {
+	useEffect(() => {
 		setStyle(
 			cn(
 				classes.base,

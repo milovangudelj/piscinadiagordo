@@ -20,3 +20,6 @@ export * from "./HeroPost";
 export * from "./Intro";
 export * from "./HeroSection";
 export * from "./SponsorSection";
+export * from "./MarketingBlock";
+export * from "./MarketingGroup";
+export * from "./RecentNews";

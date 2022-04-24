@@ -45,7 +45,7 @@ export const SponsorSection = () => {
 									objectFit="cover"
 								/>
 							</div>
-							<span className="mt-2">{sponsor.name}</span>
+							{/* <span className="mt-2">{sponsor.name}</span> */}
 						</li>
 					))}
 				</ol>

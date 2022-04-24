@@ -1,7 +1,20 @@
 import Head from "next/head";
 
 // Components
-import { Layout, HeroSection, SponsorSection } from "../components";
+import {
+	Layout,
+	HeroSection,
+	SponsorSection,
+	SectionSeparator,
+	Container,
+	MarketingBlock,
+	MarketingGroup,
+	RecentNews,
+} from "../components";
+
+// Assets
+import imageWho from "../public/assets/images/chi-siamo.webp";
+import imageAttivita from "../public/assets/images/attività.webp";
 
 const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 	return (
@@ -12,6 +25,44 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 				</Head>
 				<HeroSection />
 				<SponsorSection />
+				<Container>
+					<SectionSeparator />
+				</Container>
+				<MarketingGroup>
+					<MarketingBlock
+						title="Chi siamo"
+						ctaText="Il nostro team"
+						ctaLink="/team"
+						image={imageWho}
+					>
+						<p className="mb-6">
+							Siamo nuotatori per passione e ci impegnamo giorno dopo
+							giorno per trasmetterla a voi.
+						</p>
+						<p>
+							Un team unito con una visione in comune: la piscina come
+							luogo di benessere e di incontro per tutti.
+						</p>
+					</MarketingBlock>
+					<MarketingBlock
+						title="Attività"
+						ctaText="Scopri i corsi"
+						ctaLink="/piscina/corsi"
+						image={imageAttivita}
+						side="right"
+					>
+						<p>
+							La Piscina Comprensoriale di Agordo offre molteplici
+							attività natatorie per sfruttare i benefici del movimento
+							in acqua, in un ambiente familiare e confortevole, sotto la
+							guida di istruttori dinamici e preparati.
+						</p>
+					</MarketingBlock>
+				</MarketingGroup>
+				<Container>
+					<SectionSeparator />
+				</Container>
+				<RecentNews />
 			</Layout>
 		</>
 	);

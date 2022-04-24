@@ -43,7 +43,7 @@ export const SponsorSection = () => {
 									width={105}
 									height={22}
 									objectFit="cover"
-									alt={`${sponsor.name} logo`}
+									alt={`Immagine del logo di ${sponsor.name}`}
 								/>
 							</div>
 							{/* <span className="mt-2">{sponsor.name}</span> */}

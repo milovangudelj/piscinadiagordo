@@ -64,7 +64,7 @@ export const Navbar = () => {
 	const router = useRouter();
 
 	return (
-		<div className="sticky top-0 z-10 bg-white py-2 px-4">
+		<div className="sticky top-0 z-10 bg-white py-2 px-4 shadow-sm">
 			<div className="mx-auto flex max-w-[1240px] items-center justify-between">
 				<div className="flex items-center">
 					<Logo />

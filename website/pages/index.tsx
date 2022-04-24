@@ -34,6 +34,7 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 						ctaText="Il nostro team"
 						ctaLink="/team"
 						image={imageWho}
+						imageAlt="Foto della piscina al tramonto"
 					>
 						<p className="mb-6">
 							Siamo nuotatori per passione e ci impegnamo giorno dopo
@@ -49,6 +50,7 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 						ctaText="Scopri i corsi"
 						ctaLink="/piscina/corsi"
 						image={imageAttivita}
+						imageAlt="Foto di uno dei corsi di nuoto per ragazzi"
 						side="right"
 					>
 						<p>

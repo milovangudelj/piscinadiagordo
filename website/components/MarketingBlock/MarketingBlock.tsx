@@ -11,6 +11,7 @@ export const MarketingBlock = ({
 	ctaText,
 	ctaLink,
 	image,
+	imageAlt,
 	side = "left",
 }: {
 	title: string;
@@ -18,6 +19,7 @@ export const MarketingBlock = ({
 	ctaText: string;
 	ctaLink: string;
 	image: string | StaticImageData;
+	imageAlt: string;
 	side?: "right" | "left";
 }) => {
 	return (
@@ -44,7 +46,12 @@ export const MarketingBlock = ({
 						{ "order-2": side === "left" }
 					)}
 				>
-					<Image src={image} layout="fill" objectFit="cover" />
+					<Image
+						src={image}
+						layout="fill"
+						objectFit="cover"
+						alt={imageAlt}
+					/>
 				</div>
 			</div>
 		</Container>

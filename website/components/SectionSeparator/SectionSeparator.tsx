@@ -1,3 +1,9 @@
+import { Container } from "../Container";
+
 export const SectionSeparator = () => {
-	return <hr className="border-gray-100" />;
+	return (
+		<Container>
+			<hr className="border-gray-100" />
+		</Container>
+	);
 };

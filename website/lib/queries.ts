@@ -35,3 +35,27 @@ export const postBySlugQuery = `
   ${postFields}
 }
 `;
+
+export const sponsorQuery = `
+{
+  "sponsors": *[_type == "sponsor"]{
+    _id,
+    name,
+    logo,
+    tier
+  }
+}
+`;
+
+export const recentPostsQuery = `
+{
+  "posts": *[_type == "post"] | order(date desc, publishedAt desc) [0...3]{
+    _id,
+    publishedAt,
+    title,
+    excerpt,
+    coverImage,
+    "slug": slug.current
+  }
+}
+`;

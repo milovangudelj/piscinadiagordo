@@ -1,6 +1,6 @@
 import { SanityProjectDetails } from "@sanity/image-url/lib/types/types";
 
-export const sanityConfig = {
+export const config = {
 	// Find your project ID and dataset in `sanity.json` in your studio project
 	dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
 	projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,

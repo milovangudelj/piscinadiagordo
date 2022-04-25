@@ -4,18 +4,20 @@
  * code that is not used on the client side.
  */
 import { createClient } from "next-sanity";
-import { sanityConfig } from "./config";
+import { config } from "./sanityConfig";
 
-export const sanityClient = createClient(sanityConfig);
+// Set up the client for fetching data in the getProps page functions
+export const sanityClient = createClient(config)
 
+// Set up a preview client with serverless authentication for drafts
 export const previewClient = createClient({
-	...sanityConfig,
+	...config,
 	useCdn: false,
 	token: process.env.SANITY_API_TOKEN,
 });
 
-export const getClient = (preview: any) =>
-	preview ? previewClient : sanityClient;
+// Helper function for easily switching between normal client and preview client
+export const getClient = (usePreview:boolean = false) => (usePreview ? previewClient : sanityClient)
 
 export function overlayDrafts(docs: any) {
 	const documents = docs || [];

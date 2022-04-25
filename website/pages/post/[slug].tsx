@@ -109,7 +109,7 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
 	const paths = await sanityClient.fetch(postSlugsQuery);
-	console.log({ paths });
+
 	return {
 		paths: paths.map((slug: string) => ({ params: { slug } })),
 		fallback: true,

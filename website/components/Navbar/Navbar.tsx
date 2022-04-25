@@ -4,6 +4,7 @@ import { PhoneIcon, PlusSmIcon } from "@heroicons/react/solid";
 
 import { Button } from "../Button";
 import { Logo } from "../Logo";
+import cn from "classnames";
 
 const links = [
 	{
@@ -61,7 +62,7 @@ const links = [
 ];
 
 export const Navbar = () => {
-	const router = useRouter();
+	const { pathname } = useRouter();
 
 	return (
 		<div className="sticky top-0 z-10 bg-white py-2 px-4 shadow-sm">
@@ -73,7 +74,19 @@ export const Navbar = () => {
 							{links.map((link) => (
 								<div className="group relative" key={link.text}>
 									<Link href={link.href} passHref>
-										<a className="inline-flex items-center py-2 px-4 transition hover:text-dark-me">
+										<a
+											className={cn(
+												`inline-flex items-center py-2 px-4 transition`,
+												{
+													"hover:text-dark-me":
+														link.href !== pathname,
+												},
+												{
+													"text-primary-500":
+														link.href === pathname,
+												}
+											)}
+										>
 											{link.text}
 											{link.dropdown && (
 												<span className="ml-1">

@@ -16,7 +16,33 @@ import {
 import imageWho from "../public/assets/images/chi-siamo.webp";
 import imageAttivita from "../public/assets/images/attività.webp";
 
-const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
+// Sanity
+import { getClient } from "../lib/sanity.server";
+import { recentPostsQuery, sponsorQuery } from "../lib/queries";
+
+export const getStaticProps = async () => {
+	const { sponsors } = await getClient().fetch(sponsorQuery);
+	const { posts } = await getClient().fetch(recentPostsQuery);
+
+	return {
+		props: {
+			sponsors,
+			posts
+		},
+	};
+};
+
+const Index = ({
+	allPosts,
+	preview,
+	sponsors,
+	posts
+}: {
+	allPosts: any;
+	preview: boolean;
+	sponsors: any[];
+	posts: any[];
+}) => {
 	return (
 		<>
 			<Layout preview={preview}>
@@ -24,10 +50,8 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 					<title>Piscina di Agordo</title>
 				</Head>
 				<HeroSection />
-				<SponsorSection />
-				<Container>
-					<SectionSeparator />
-				</Container>
+				<SponsorSection sponsors={sponsors} />
+				<SectionSeparator />
 				<MarketingGroup>
 					<MarketingBlock
 						title="Chi siamo"
@@ -61,10 +85,8 @@ const Index = ({ allPosts, preview }: { allPosts: any; preview: boolean }) => {
 						</p>
 					</MarketingBlock>
 				</MarketingGroup>
-				<Container>
-					<SectionSeparator />
-				</Container>
-				<RecentNews />
+				<SectionSeparator />
+				<RecentNews posts={posts} />
 			</Layout>
 		</>
 	);

@@ -59,3 +59,27 @@ export const recentPostsQuery = `
   }
 }
 `;
+
+export const queryDirettivo = `
+{
+  "direttivo": *[_type == "person" && stakeholder == true] | order(_createdAt asc, publishedAt asc){
+    _id,
+    name,
+    surname,
+    "role": role[0]->name,
+    image
+  }
+}
+`;
+
+export const queryCollaboratori = `
+{
+  "collaboratori": *[_type == "person" && stakeholder == false] | order(_createdAt asc, publishedAt asc){
+    _id,
+    name,
+    surname,
+    "role": role[0]->name,
+    image
+  }
+}
+`;

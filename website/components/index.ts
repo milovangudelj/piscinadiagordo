@@ -23,3 +23,5 @@ export * from "./SponsorSection";
 export * from "./MarketingBlock";
 export * from "./MarketingGroup";
 export * from "./RecentNews";
+export * from "./TeamMembersList";
+export * from "./CollaboratorsList";

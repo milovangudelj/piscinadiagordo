@@ -27,6 +27,7 @@ export const MarketingBlock = ({
 			<div className="flex items-center justify-between gap-12">
 				<div
 					className={cn(
+						"flex-1",
 						{ "order-1": side === "left" },
 						{ "order-2": side === "right" }
 					)}

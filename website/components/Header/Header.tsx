@@ -1,7 +1,8 @@
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
 import { ReactNode } from "react";
-import { Container } from "../Container";
+import Image, { StaticImageData } from "next/image";
+
+// Components
+import { Container } from "../";
 
 export const Header = ({
 	title,
@@ -22,6 +23,7 @@ export const Header = ({
 						src={image}
 						layout="fill"
 						objectFit="cover"
+						quality={100}
 						alt={imageAlt}
 					/>
 				</div>

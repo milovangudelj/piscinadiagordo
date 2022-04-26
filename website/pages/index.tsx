@@ -32,20 +32,10 @@ export const getStaticProps = async () => {
 	};
 };
 
-const Index = ({
-	allPosts,
-	preview,
-	sponsors,
-	posts
-}: {
-	allPosts: any;
-	preview: boolean;
-	sponsors: any[];
-	posts: any[];
-}) => {
+const Index = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
 	return (
 		<>
-			<Layout preview={preview}>
+			<Layout>
 				<Head>
 					<title>Piscina di Agordo</title>
 				</Head>

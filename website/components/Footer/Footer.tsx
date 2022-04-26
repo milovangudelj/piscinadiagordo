@@ -91,7 +91,11 @@ export const Footer = () => {
 	return (
 		<footer className="bg-gray-100">
 			<Container className="py-16">
-				<Logo />
+				<Link href="/" passHref>
+					<a>
+						<Logo />
+					</a>
+				</Link>
 			</Container>
 			<Container>
 				<nav className="flex gap-6 py-3">

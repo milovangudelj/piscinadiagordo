@@ -68,7 +68,11 @@ export const Navbar = () => {
 		<div className="sticky top-0 z-10 bg-white py-2 px-4 shadow-sm">
 			<div className="mx-auto flex max-w-[1240px] items-center justify-between">
 				<div className="flex items-center">
-					<Logo />
+					<Link href="/" passHref>
+						<a>
+							<Logo />
+						</a>
+					</Link>
 					<nav className="ml-4 font-montserrat text-button font-medium">
 						<ul className="flex items-center">
 							{links.map((link) => (

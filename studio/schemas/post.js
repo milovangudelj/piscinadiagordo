@@ -34,7 +34,7 @@ export default {
 				{
 					name: "alt",
 					type: "string",
-					title: "Alt text",
+					title: "Testo alternativo",
 					options: {
 						isHighlighted: true,
 					},

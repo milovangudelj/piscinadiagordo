@@ -22,8 +22,8 @@ const links = [
 		],
 	},
 	{
-		text: "Gruppo",
-		href: "/gruppo",
+		text: "Team",
+		href: "/team",
 	},
 	{
 		text: "Piscina",

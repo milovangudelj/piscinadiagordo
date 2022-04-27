@@ -25,3 +25,5 @@ export * from "./MarketingGroup";
 export * from "./RecentNews";
 export * from "./TeamMembersList";
 export * from "./CollaboratorsList";
+export * from "./AttivitaPalazzetto";
+export * from "./GruppoAttivita";

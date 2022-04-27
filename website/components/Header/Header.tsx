@@ -31,7 +31,7 @@ export const Header = ({
 					/>
 				</div>
 				<h1 className="mb-4">{title}</h1>
-				<div className="text-base">{children}</div>
+				<div className="space-y-4 text-base">{children}</div>
 			</Container>
 		</header>
 	);

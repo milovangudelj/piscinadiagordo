@@ -8,11 +8,13 @@ export const Header = ({
 	title,
 	image,
 	imageAlt,
+	imagePosition,
 	children,
 }: {
 	title: string;
 	image: string | StaticImageData;
 	imageAlt: string;
+	imagePosition?: string | number;
 	children: ReactNode;
 }) => {
 	return (
@@ -24,6 +26,7 @@ export const Header = ({
 						layout="fill"
 						objectFit="cover"
 						quality={100}
+						objectPosition={imagePosition}
 						alt={imageAlt}
 					/>
 				</div>

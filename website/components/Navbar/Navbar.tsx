@@ -52,8 +52,8 @@ const links = [
 		href: "/palazzetto",
 	},
 	{
-		text: "Centri Estivi",
-		href: "/centri-estivi",
+		text: "Centro estivo",
+		href: "/centro-estivo",
 	},
 	{
 		text: "News",

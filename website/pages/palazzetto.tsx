@@ -17,8 +17,8 @@ const Palazzetto = () => {
 				imagePosition="50% 24%"
 			>
 				La società sportiva Attivamente Agordino gestisce, oltre alla
-				piscina, anche l'uso del palazzetto. L&apos;impianto risale ai primi
-				anni &apos;80 ed è dotato di tribune con capienza di circa 200
+				piscina, anche l&apos;uso del palazzetto. L&apos;impianto risale ai
+				primi anni &apos;80 ed è dotato di tribune con capienza di circa 200
 				ospiti. La palestra si presta per lo svolgimento di numerose
 				discipline tra cui calcetto, pallavolo, basket, pattinaggio in
 				linea, tennis e numerose altre attività di gruppo. Il palazzetto
@@ -39,8 +39,8 @@ const Palazzetto = () => {
 						<h3>Aerobica latina</h3>
 						<div className="mt-4 mb-12 space-y-4 text-base">
 							<p>
-								Tutti i giovedì dalle 20 alle 21, un'ora di fitness a
-								ritmo di musica. Fatti travolgere dal dinamismo delle
+								Tutti i giovedì dalle 20 alle 21, un&apos;ora di fitness
+								a ritmo di musica. Fatti travolgere dal dinamismo delle
 								danze latine.
 							</p>
 							<p>
@@ -107,7 +107,7 @@ const Palazzetto = () => {
 						Sei una società sportiva alla ricerca di uno spazio utile dove
 						allenare la tua squadra o dare il via ad una nuova attività di
 						gruppo? Il palazzetto di Agordo è il posto giusto per voi,
-						un'ampio spazio disponibile per ogni attività.
+						un&apos;ampio spazio disponibile per ogni attività.
 					</p>
 					<p>Tariffa oraria: 20€</p>
 					<p>

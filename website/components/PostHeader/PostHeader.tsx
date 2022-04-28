@@ -1,4 +1,4 @@
-import { Avatar, CoverImage, PostTitle, Date } from "../";
+import { Avatar, CoverImage, PostTitle, PostDate } from "../";
 
 export const PostHeader = ({
 	title,
@@ -25,7 +25,7 @@ export const PostHeader = ({
 					<Avatar name={author.name} picture={author.image} />
 				</div>
 				<div className="mb-6 text-lg">
-					<Date dateString="2022-04-22 17:27" />
+					<PostDate date={date} />
 				</div>
 			</div>
 		</>

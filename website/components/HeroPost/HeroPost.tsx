@@ -1,4 +1,4 @@
-import { Avatar, Date, CoverImage } from "../";
+import { Avatar, PostDate, CoverImage } from "../";
 import Link from "next/link";
 
 export const HeroPost = ({
@@ -29,7 +29,7 @@ export const HeroPost = ({
 						</Link>
 					</h3>
 					<div className="mb-4 text-lg md:mb-0">
-						<Date dateString="2022-04-22 17:27" />
+						<PostDate date={date} />
 					</div>
 				</div>
 				<div>

@@ -60,9 +60,10 @@ const News = ({
 		setPosts(await refetch(page * pageSize, pageSize));
 	};
 
-	useEffect(() => {
-		handleRefetch(currentPage);
-	}, [pageSize]);
+	// Not necessary unless allowing user defined page sizes
+	// useEffect(() => {
+	// 	handleRefetch(currentPage);
+	// }, [pageSize]);
 
 	return (
 		<PaginationProvider pageSize={pageSize} itemsCount={postCount}>

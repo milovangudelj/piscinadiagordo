@@ -25,6 +25,8 @@ export const Header = ({
 						src={image}
 						layout="fill"
 						objectFit="cover"
+						priority
+						placeholder="blur"
 						quality={100}
 						objectPosition={imagePosition}
 						alt={imageAlt}

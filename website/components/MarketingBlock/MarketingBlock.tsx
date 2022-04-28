@@ -49,6 +49,7 @@ export const MarketingBlock = ({
 				>
 					<Image
 						src={image}
+						placeholder="blur"
 						layout="fill"
 						objectFit="cover"
 						alt={imageAlt}

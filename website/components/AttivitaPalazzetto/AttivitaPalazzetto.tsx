@@ -18,6 +18,7 @@ export const AttivitaPalazzetto = ({
 				<div className="relative h-[400px] w-[300px]">
 					<Image
 						src={image}
+						placeholder="blur"
 						layout="fill"
 						objectFit="cover"
 						alt={imageAlt}

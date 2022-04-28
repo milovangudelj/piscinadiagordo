@@ -15,6 +15,7 @@ export const HeroSection = () => {
 				<div className="pointer-events-none relative h-full w-[150%]">
 					<Image
 						src={heroImage}
+						placeholder="blur"
 						objectFit="cover"
 						sizes="150vw"
 						priority

@@ -12,13 +12,13 @@ export const HeroSection = () => {
 	return (
 		<div className="relative flex h-[620px] items-center justify-center">
 			<div className="absolute inset-0">
-				<div className="relative h-full w-[150%]">
+				<div className="pointer-events-none relative h-full w-[150%]">
 					<Image
 						src={heroImage}
-						blurDataURL={heroImage.blurDataURL}
 						objectFit="cover"
+						sizes="150vw"
+						priority
 						layout="fill"
-						quality={100}
 						alt="Foto del piano vasca della piscina"
 					/>
 				</div>

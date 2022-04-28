@@ -26,7 +26,7 @@ export const PostPreview = ({ post }: { post: Post }) => {
 				<PostDate date={publishedAt} />
 				<p className="mb-6 text-lg leading-relaxed">{excerpt}</p>
 				<Button as={Link} href={`/news/${slug}`} passHref>
-					Leggi l'articolo
+					Leggi l&apos;articolo
 				</Button>
 				{/* <Avatar name={author.name} picture={author.image} /> */}
 			</div>

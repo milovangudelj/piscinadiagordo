@@ -1,12 +1,10 @@
 const postFields = `
   _id,
-  name,
+  publishedAt,
   title,
-  date,
   excerpt,
   coverImage,
-  "slug": slug.current,
-  "author": author->{name, image},
+  "slug": slug.current
 `;
 
 export const indexQuery = `
@@ -17,11 +15,9 @@ export const indexQuery = `
 export const postQuery = `
 {
   "post": *[_type == "post" && slug.current == $slug] | order(_updatedAt desc) [0] {
-    content,
     ${postFields}
   },
   "morePosts": *[_type == "post" && slug.current != $slug] | order(date desc, _updatedAt desc) [0...2] {
-    content,
     ${postFields}
   }
 }`;
@@ -50,12 +46,7 @@ export const sponsorQuery = `
 export const recentPostsQuery = `
 {
   "posts": *[_type == "post"] | order(date desc, publishedAt desc) [0...3]{
-    _id,
-    publishedAt,
-    title,
-    excerpt,
-    coverImage,
-    "slug": slug.current
+    ${postFields}
   }
 }
 `;
@@ -67,12 +58,7 @@ export const recentPostsQuery = `
 export const postsQueryPaginated = `
 {
   "posts": *[_type == "post"] | order(date desc, publishedAt desc) [$startAt...($startAt+$take)]{
-    _id,
-    publishedAt,
-    title,
-    excerpt,
-    coverImage,
-    "slug": slug.current
+    ${postFields}
   }
 }
 `;

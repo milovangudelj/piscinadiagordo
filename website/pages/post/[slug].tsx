@@ -70,10 +70,9 @@ export default function Post({
 							<PostHeader
 								title={post.title}
 								coverImage={post.coverImage}
-								date={post.date}
-								author={post.author}
+								date={post.publishedAt}
 							/>
-							<PostBody content={post.content} />
+							{/* <PostBody content={post.content} /> */}
 						</article>
 						<SectionSeparator />
 						{morePosts.length > 0 && <MoreStories posts={morePosts} />}

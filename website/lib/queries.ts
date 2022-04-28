@@ -3,6 +3,7 @@ const postFields = `
   publishedAt,
   title,
   excerpt,
+  body,
   coverImage,
   "slug": slug.current
 `;

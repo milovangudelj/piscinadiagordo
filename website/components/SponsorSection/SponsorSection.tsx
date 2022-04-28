@@ -16,7 +16,7 @@ export const SponsorSection = ({ sponsors }: { sponsors: any[] }) => {
 				<ol className="flex gap-8">
 					{sponsors.map((sponsor) => (
 						<li key={sponsor._id}>
-							<div className="flex aspect-[3/2] w-[150px] items-center justify-center rounded-lg bg-gray-300">
+							<div className="flex aspect-[3/2] w-[150px] items-center justify-center rounded-lg">
 								<Image
 									src={urlForImage(sponsor.logo)
 										.height(22)

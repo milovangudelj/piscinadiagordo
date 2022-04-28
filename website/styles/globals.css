@@ -36,23 +36,41 @@
 	}
 
 	.btn-primary {
-		@apply  bg-primary-500 hover:bg-primary-400 active:bg-primary-700 focus-visible:ring-primary-500;
+		@apply bg-primary-500 hover:bg-primary-400 focus-visible:ring-primary-500 active:bg-primary-700;
 	}
 
 	.btn-secondary {
-		@apply  bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-700 focus-visible:ring-secondary-500;
+		@apply bg-secondary-500 hover:bg-secondary-400 focus-visible:ring-secondary-500 active:bg-secondary-700;
 	}
 
 	.btn-success {
-		@apply  bg-success-500 hover:bg-success-400 active:bg-success-700 focus-visible:ring-success-500;
+		@apply bg-success-500 hover:bg-success-400 focus-visible:ring-success-500 active:bg-success-700;
 	}
 
 	.btn-error {
-		@apply  bg-error-500 hover:bg-error-400 active:bg-error-700 focus-visible:ring-error-500;
+		@apply bg-error-500 hover:bg-error-400 focus-visible:ring-error-500 active:bg-error-700;
 	}
-	
+
 	.btn-gray {
-		@apply  bg-gray-500 hover:bg-gray-400 active:bg-gray-700 focus-visible:ring-gray-500;
+		@apply bg-gray-500 hover:bg-gray-400 focus-visible:ring-gray-500 active:bg-gray-700;
+	}
+}
+
+@layer utilities {
+	.clickable {
+		@apply border transition;
+	}
+
+	.unclickable {
+		@apply cursor-default text-dark-me;
+	}
+
+	.clickable.unselected {
+		@apply cursor-pointer border-transparent text-dark-me hover:border-cyan-100 hover:bg-cyan-50;
+	}
+
+	.clickable.selected {
+		@apply cursor-default border-cyan-500 text-cyan-500;
 	}
 }
 

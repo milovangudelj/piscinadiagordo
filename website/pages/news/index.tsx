@@ -17,11 +17,16 @@ import { getClient } from "../../lib/sanity.server";
 // Types
 import { Post } from "../../lib/types";
 
+const postQueryParams = {
+	startAt: 0,
+	take: 5,
+};
+
 export const getStaticProps: GetStaticProps = async () => {
-	const { posts } = await getClient().fetch(postsQueryPaginated, {
-		startAt: 0,
-		take: 10,
-	});
+	const { posts } = await getClient().fetch(
+		postsQueryPaginated,
+		postQueryParams
+	);
 	const { count } = await getClient().fetch(postCountQuery);
 
 	return {
@@ -40,7 +45,7 @@ const News = ({
 	postCount: number;
 }) => {
 	const [posts, setPosts] = useState<Post[]>(news);
-	const [pageSize, setPageSize] = useState<number>(1);
+	const [pageSize, setPageSize] = useState<number>(postQueryParams.take);
 	const [currentPage, setCurrentPage] = useState<number>(0);
 
 	const refetch = async (

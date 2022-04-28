@@ -60,6 +60,29 @@ export const recentPostsQuery = `
 }
 `;
 
+/**
+ * @param startAt Index of the first element to take
+ * @param take Number of elements to take
+ */
+export const postsQueryPaginated = `
+{
+  "posts": *[_type == "post"] | order(date desc, publishedAt desc) [$startAt...($startAt+$take)]{
+    _id,
+    publishedAt,
+    title,
+    excerpt,
+    coverImage,
+    "slug": slug.current
+  }
+}
+`;
+
+export const postCountQuery = `
+{
+  "count": count(*[_type == "post"])
+}
+`;
+
 export const queryDirettivo = `
 {
   "direttivo": *[_type == "person" && stakeholder == true] | order(_createdAt asc, publishedAt asc){

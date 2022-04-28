@@ -11,6 +11,7 @@ export type Post = {
 	publishedAt: string;
 	title: string;
 	excerpt: string;
+	body: any;
 	coverImage: any;
 	slug: string;
 };

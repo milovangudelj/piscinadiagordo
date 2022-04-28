@@ -5,3 +5,12 @@ export type Person = {
 	role: string;
 	image: any;
 };
+
+export type Post = {
+	_id: string;
+	publishedAt: string;
+	title: string;
+	excerpt: string;
+	coverImage: any;
+	slug: string;
+};

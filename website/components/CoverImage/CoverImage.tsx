@@ -9,31 +9,34 @@ export const CoverImage = ({
 	image: source,
 }: {
 	title: any;
-	slug?: any;
+	slug?: string;
 	image: any;
 }) => {
 	const image = source ? (
 		<div
-			className={cn("shadow-small", {
-				"hover:shadow-medium transition-shadow duration-200": slug,
-			})}
+			className={cn(
+				"shadow-small relative aspect-video h-[300px] overflow-hidden rounded-lg",
+				{
+					"hover:shadow-medium transition-shadow duration-200": slug,
+				}
+			)}
 		>
 			<Image
-				layout="responsive"
-				width={2000}
-				height={1000}
-				alt={`Cover Image for ${title}`}
-				src={urlForImage(source).height(1000).width(2000).url()}
+				layout="fill"
+				objectFit="cover"
+				alt={`Immagine di copertina per ${title}`}
+				title={`Immagine di copertina per ${title}`}
+				src={urlForImage(source).quality(100).url()}
 			/>
 		</div>
 	) : (
-		<div style={{ paddingTop: "50%", backgroundColor: "#ddd" }} />
+		<div className="aspect-video h-[300px] overflow-hidden rounded-lg bg-gray-300" />
 	);
 
 	return (
 		<div className="sm:mx-0">
 			{slug ? (
-				<Link href={`/post/${slug}`} passHref>
+				<Link href={`/news/${slug}`} passHref>
 					<a aria-label={title}>{image}</a>
 				</Link>
 			) : (

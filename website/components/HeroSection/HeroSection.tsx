@@ -15,6 +15,7 @@ export const HeroSection = () => {
 				<div className="relative h-full w-[150%]">
 					<Image
 						src={heroImage}
+						blurDataURL={heroImage.blurDataURL}
 						objectFit="cover"
 						layout="fill"
 						quality={100}

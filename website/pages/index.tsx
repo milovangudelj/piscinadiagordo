@@ -6,7 +6,6 @@ import {
 	HeroSection,
 	SponsorSection,
 	SectionSeparator,
-	Container,
 	MarketingBlock,
 	MarketingGroup,
 	RecentNews,
@@ -27,7 +26,7 @@ export const getStaticProps = async () => {
 	return {
 		props: {
 			sponsors,
-			posts
+			posts,
 		},
 	};
 };
@@ -76,7 +75,7 @@ const Index = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
 					</MarketingBlock>
 				</MarketingGroup>
 				<SectionSeparator />
-				<RecentNews posts={posts} />
+				<RecentNews title="News" posts={posts} />
 			</Layout>
 		</>
 	);

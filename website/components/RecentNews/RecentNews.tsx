@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Components
-import { Button, Container, PostDate } from "../";
+import { Button, Container, PostDate } from "..";
 
 // Lib
 import { urlForImage } from "../../lib/sanity";
@@ -10,14 +10,20 @@ import { urlForImage } from "../../lib/sanity";
 // Types
 import { Post } from "../../lib/types";
 
-export const RecentNews = ({ posts }: { posts: Post[] }) => {
+export const RecentNews = ({
+	title,
+	posts,
+}: {
+	title: string;
+	posts: Post[];
+}) => {
 	return (
 		<Container className="my-12">
-			<h2>News</h2>
+			<h2 className="text-h2">{title}</h2>
 			<ol className="mt-12 flex gap-12">
 				{posts.map((post) => (
-					<li key={post._id}>
-						<div className="relative h-[200px] w-[380px] overflow-hidden rounded-lg">
+					<li key={post._id} className="flex-1">
+						<div className="relative aspect-video overflow-hidden rounded-lg">
 							<Image
 								src={urlForImage(post.coverImage).quality(100).url()}
 								layout="fill"
@@ -29,7 +35,7 @@ export const RecentNews = ({ posts }: { posts: Post[] }) => {
 						<PostDate date={post.publishedAt} />
 						<p className="mb-6 text-base">{post.excerpt}</p>
 						<Button as={Link} href={`/news/${post.slug}`} passHref>
-							Leggi tutto
+							Leggi l&apos;articolo
 						</Button>
 					</li>
 				))}

@@ -1,13 +1,29 @@
-import { Alert, Footer, Meta } from "../";
-import { Navbar } from "../Navbar";
+import { ReactNode } from "react";
+import cn from "classnames";
 
-export const Layout = ({ children }: { children: any }) => {
+import { Alert, Footer, Meta, Navbar } from "../";
+
+export const Layout = ({
+	children,
+	main = "auto",
+}: {
+	children: ReactNode;
+	main?: "full" | "screen" | "auto";
+}) => {
 	return (
 		<>
 			<Meta />
-			<Navbar />
 			<div className="min-h-screen">
-				<main>{children}</main>
+				<Navbar />
+				<main
+					className={cn(
+						{ "h-full": main === "full" },
+						{ "h-screen": main === "screen" },
+						{ "h-auto": main === "auto" }
+					)}
+				>
+					{children}
+				</main>
 			</div>
 			<Footer />
 		</>

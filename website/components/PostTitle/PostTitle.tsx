@@ -1,7 +1,5 @@
-export const PostTitle = ({ children }: { children: any }) => {
-	return (
-		<h1 className="mb-12 text-center text-6xl font-bold leading-tight tracking-tighter md:text-left md:text-7xl md:leading-none lg:text-8xl">
-			{children}
-		</h1>
-	);
+import { ReactNode } from "react";
+
+export const PostTitle = ({ children }: { children: ReactNode }) => {
+	return <h1 className="text-h1 font-semibold">{children}</h1>;
 };

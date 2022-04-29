@@ -1,16 +1,18 @@
-// Components
 import Head from "next/head";
 import { useRouter } from "next/router";
+
+// Pages
+import ErrorPage from "../404";
+
+// Components
 import {
 	Container,
 	Layout,
-	MoreStories,
+	RecentNews,
 	PostBody,
 	PostHeader,
-	PostTitle,
 	SectionSeparator,
 } from "../../components";
-import { CMS_NAME } from "../../lib/constants";
 
 // Lib
 import { postQuery, postSlugsQuery } from "../../lib/queries";
@@ -20,6 +22,8 @@ import {
 	overlayDrafts,
 	sanityClient,
 } from "../../lib/sanity.server";
+
+// Types
 import { Post } from "../../lib/types";
 
 type PostPageData = {
@@ -57,21 +61,19 @@ const Post = ({ data }: { data: PostPageData }) => {
 	const router = useRouter();
 
 	if (!router.isFallback && !data?.post?.slug) {
-		return (
-			<Layout>
-				<Container>Not found</Container>
-			</Layout>
-		);
+		return <ErrorPage statusCode={404} />;
 	}
 
 	return (
 		<Layout>
 			<Container>
 				{router.isFallback ? (
-					<PostTitle>Loading…</PostTitle>
+					<span className="my-60 flex justify-center text-base">
+						In caricamento…
+					</span>
 				) : (
 					<>
-						<article>
+						<article className="mb-12">
 							<Head>
 								<title>{data.post.title} | Piscina di Agordo</title>
 								{data.post.coverImage && (
@@ -88,14 +90,18 @@ const Post = ({ data }: { data: PostPageData }) => {
 							</Head>
 							<PostHeader
 								title={data.post.title}
+								excerpt={data.post.excerpt}
 								coverImage={data.post.coverImage}
 								date={data.post.publishedAt}
 							/>
 							<PostBody content={data.post.body} />
 						</article>
-						<SectionSeparator />
+						<SectionSeparator className="py-6" />
 						{data.morePosts.length > 0 && (
-							<MoreStories posts={data.morePosts} />
+							<RecentNews
+								title="Altri articoli"
+								posts={data.morePosts}
+							/>
 						)}
 					</>
 				)}

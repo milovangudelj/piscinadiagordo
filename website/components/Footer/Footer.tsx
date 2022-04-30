@@ -67,22 +67,46 @@ const linkSocial = [
 	{
 		_id: "lsn_1",
 		href: "https://www.facebook.com/piscinacomprensorialeagordina",
-		icon: <SocialIcon social="facebook" className="h-5 w-5" />,
+		icon: (
+			<SocialIcon
+				social="facebook"
+				className="h-5 w-5 transition hover:text-[#1877F2]"
+			/>
+		),
+		socialName: "Facebook",
 	},
 	{
 		_id: "lsn_2",
 		href: "https://wa.me/393792792351/?text=Salve%2C%20avrei%20bisogno%20di%20un%27informazione%20riguardo%20a%20",
-		icon: <SocialIcon social="whatsapp" className="h-5 w-5" />,
+		icon: (
+			<SocialIcon
+				social="whatsapp"
+				className="h-5 w-5 transition hover:text-[#25D366]"
+			/>
+		),
+		socialName: "Whatsapp",
 	},
 	{
 		_id: "lsn_3",
 		href: "https://m.me/piscinacomprensorialeagordina",
-		icon: <SocialIcon social="messenger" className="h-5 w-5" />,
+		icon: (
+			<SocialIcon
+				social="messenger"
+				className="h-5 w-5 transition hover:text-[#00B2FF]"
+			/>
+		),
+		socialName: "Messenger",
 	},
 	{
 		_id: "lsn_4",
 		href: "https://www.instagram.com/piscina_agordo/",
-		icon: <SocialIcon social="instagram" className="h-5 w-5" />,
+		icon: (
+			<SocialIcon
+				social="instagram"
+				className="h-5 w-5 transition hover:text-[#E4405F]"
+			/>
+		),
+		socialName: "Instagram",
 	},
 ];
 
@@ -101,7 +125,11 @@ export const Footer = () => {
 					<FooterGroup title="News" list="ol">
 						{posts.map((post) => (
 							<li key={post._id}>
-								<Link href={`/post/${post.slug}`}>{post.title}</Link>
+								<Link href={`/post/${post.slug}`}>
+									<a className="transition hover:text-dark-he">
+										{post.title}
+									</a>
+								</Link>
 							</li>
 						))}
 					</FooterGroup>
@@ -109,7 +137,9 @@ export const Footer = () => {
 						{linkPiscina.map((link) => (
 							<li key={link._id}>
 								<Link href={link.href} passHref>
-									<a>{link.title}</a>
+									<a className="transition hover:text-dark-he">
+										{link.title}
+									</a>
 								</Link>
 							</li>
 						))}
@@ -118,7 +148,9 @@ export const Footer = () => {
 						{linkSocieta.map((link) => (
 							<li key={link._id}>
 								<Link href={link.href} passHref>
-									<a>{link.title}</a>
+									<a className="transition hover:text-dark-he">
+										{link.title}
+									</a>
 								</Link>
 							</li>
 						))}
@@ -130,6 +162,7 @@ export const Footer = () => {
 									rel="noreferrer noopener"
 									target="_blank"
 									href={link.href}
+									title={link.socialName}
 								>
 									{link.icon}
 								</a>

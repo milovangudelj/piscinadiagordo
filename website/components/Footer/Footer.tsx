@@ -1,8 +1,7 @@
-import { ChatIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 
 // Components
-import { Container, Logo } from "../";
+import { Container, Logo, SocialIcon } from "../";
 import { FooterGroup } from "./FooterGroup";
 
 const posts = [
@@ -68,22 +67,22 @@ const linkSocial = [
 	{
 		_id: "lsn_1",
 		href: "https://www.facebook.com/piscinacomprensorialeagordina",
-		icon: <ChatIcon className="h-5 w-5 fill-current" />,
+		icon: <SocialIcon social="facebook" className="h-5 w-5" />,
 	},
 	{
 		_id: "lsn_2",
 		href: "https://wa.me/393792792351/?text=Salve%2C%20avrei%20bisogno%20di%20un%27informazione%20riguardo%20a%20",
-		icon: <ChatIcon className="h-5 w-5 fill-current" />,
+		icon: <SocialIcon social="whatsapp" className="h-5 w-5" />,
 	},
 	{
 		_id: "lsn_3",
 		href: "https://m.me/piscinacomprensorialeagordina",
-		icon: <ChatIcon className="h-5 w-5 fill-current" />,
+		icon: <SocialIcon social="messenger" className="h-5 w-5" />,
 	},
 	{
 		_id: "lsn_4",
 		href: "https://www.instagram.com/piscina_agordo/",
-		icon: <ChatIcon className="h-5 w-5 fill-current" />,
+		icon: <SocialIcon social="instagram" className="h-5 w-5" />,
 	},
 ];
 

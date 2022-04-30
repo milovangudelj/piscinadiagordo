@@ -12,6 +12,9 @@ module.exports = {
 				sans: ["Karla", ...defaultTheme.fontFamily.sans],
 				montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
 			},
+			letterSpacing: {
+				button: "1.13px",
+			},
 			fontSize: {
 				overline: ["9.22px", { lineHeight: "1.3" }],
 				caption: ["11.52px", { lineHeight: "1.3" }],
@@ -98,5 +101,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };

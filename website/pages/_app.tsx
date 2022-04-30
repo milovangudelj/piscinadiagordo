@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
-		<div className="scrollbar-hidden">
+		<div className="scrollbar-hidden antialiased">
 			<Component {...pageProps} />
 		</div>
 	);

@@ -93,3 +93,15 @@ export const queryCollaboratori = `
   }
 }
 `;
+
+export const queryCorsi = `
+{
+  "corsi": *[_type == "course"] | order(order asc) {
+    _id,
+    title,
+    description,
+    cover,
+    frequenza[]->{_id, name}
+  }
+}
+`;

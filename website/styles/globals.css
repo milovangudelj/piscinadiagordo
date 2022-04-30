@@ -25,6 +25,9 @@
 	h5 {
 		@apply font-montserrat text-h5 font-bold;
 	}
+	p {
+		@apply text-base;
+	}
 }
 
 @tailwind components;

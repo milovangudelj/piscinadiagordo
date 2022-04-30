@@ -9,14 +9,14 @@ import {
 	MarketingBlock,
 	MarketingGroup,
 	SectionSeparator,
-} from "../components";
+} from "../../components";
 
 // Assets
-import internoPiscina from "../public/assets/images/interno-piscina.webp";
-import imagePriv from "../public/assets/images/corsi-privati.webp";
-import imageInterno from "../public/assets/images/interno-piscina-2.webp";
-import imageAcquafitness from "../public/assets/images/acquafitness.webp";
-import imageFisio from "../public/assets/images/idrokinesiterapia.webp";
+import internoPiscina from "../../public/assets/images/interno-piscina.webp";
+import imagePriv from "../../public/assets/images/corsi-privati.webp";
+import imageInterno from "../../public/assets/images/interno-piscina-2.webp";
+import imageAcquafitness from "../../public/assets/images/acquafitness.webp";
+import imageFisio from "../../public/assets/images/idrokinesiterapia.webp";
 
 const Piscina = () => {
 	return (

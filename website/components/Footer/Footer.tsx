@@ -67,7 +67,7 @@ const linkSocial = [
 	{
 		_id: "lsn_1",
 		href: "https://www.facebook.com/piscinacomprensorialeagordina",
-		icon: (
+		icon: () => (
 			<SocialIcon
 				social="facebook"
 				className="h-5 w-5 transition hover:text-[#1877F2]"
@@ -78,7 +78,7 @@ const linkSocial = [
 	{
 		_id: "lsn_2",
 		href: "https://wa.me/393792792351/?text=Salve%2C%20avrei%20bisogno%20di%20un%27informazione%20riguardo%20a%20",
-		icon: (
+		icon: () => (
 			<SocialIcon
 				social="whatsapp"
 				className="h-5 w-5 transition hover:text-[#25D366]"
@@ -89,7 +89,7 @@ const linkSocial = [
 	{
 		_id: "lsn_3",
 		href: "https://m.me/piscinacomprensorialeagordina",
-		icon: (
+		icon: () => (
 			<SocialIcon
 				social="messenger"
 				className="h-5 w-5 transition hover:text-[#00B2FF]"
@@ -100,7 +100,7 @@ const linkSocial = [
 	{
 		_id: "lsn_4",
 		href: "https://www.instagram.com/piscina_agordo/",
-		icon: (
+		icon: () => (
 			<SocialIcon
 				social="instagram"
 				className="h-5 w-5 transition hover:text-[#E4405F]"
@@ -164,7 +164,7 @@ export const Footer = () => {
 									href={link.href}
 									title={link.socialName}
 								>
-									{link.icon}
+									{link.icon()}
 								</a>
 							</li>
 						))}

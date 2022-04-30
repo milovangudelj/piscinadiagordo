@@ -15,3 +15,16 @@ export type Post = {
 	coverImage: any;
 	slug: string;
 };
+
+export type Frequenza = {
+	_id: string;
+	name: string;
+}
+
+export type Corso = {
+	_id: string;
+	title: string;
+	description: any;
+	cover:any;
+	frequenza: Frequenza[];
+}

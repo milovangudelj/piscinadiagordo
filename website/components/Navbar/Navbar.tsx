@@ -107,7 +107,19 @@ export const Navbar = () => {
 													passHref
 													key={item.text}
 												>
-													<a className="inline-block py-2 px-4 transition hover:text-dark-me">
+													<a
+														className={cn(
+															`inline-block py-2 px-4 transition`,
+															{
+																"hover:text-dark-me":
+																	item.href !== pathname,
+															},
+															{
+																"text-primary-500":
+																	item.href === pathname,
+															}
+														)}
+													>
 														{item.text}
 													</a>
 												</Link>

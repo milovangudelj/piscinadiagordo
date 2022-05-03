@@ -1,47 +1,33 @@
-import { PortableText } from "@portabletext/react";
 import { GetStaticProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { PortableText } from "@portabletext/react";
+
+// Components
 import { Button, Container, Layout, SectionSeparator } from "../../components";
+
+// Lib
 import { queryCorsi } from "../../lib/queries";
 import { urlForImage } from "../../lib/sanity";
 import { getClient } from "../../lib/sanity.server";
+
+// Types
 import { Corso } from "../../lib/types";
 
-// const corsi = [
-// 	{
-// 		_id: "c_01",
-// 		name: "Master",
-// 		frequency: [{ _id: "f_01", text: "lun/gio" }],
-// 		description:
-// 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus nibh lobortis et aenean auctor fames tempus donec orci. Id odio laoreet consectetur lobortis.",
-// 	},
-// 	{
-// 		_id: "c_02",
-// 		name: "Gestanti",
-// 		frequency: [
-// 			{ _id: "f_01", text: "mer" },
-// 			{ _id: "f_02", text: "sab" },
-// 		],
-// 		description:
-// 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus nibh lobortis et aenean auctor fames tempus donec orci. Id odio laoreet consectetur lobortis.",
-// 	},
-// ];
-
 export const getStaticProps: GetStaticProps = async () => {
-	const {corsi} = await getClient().fetch(queryCorsi);
-	
+	const { corsi } = await getClient().fetch(queryCorsi);
+
 	return {
 		props: {
-			corsi
-		}
-	}
-}
+			corsi,
+		},
+	};
+};
 
-const Corsi = ({corsi}:{corsi:Corso[]}) => {
+const Corsi = ({ corsi }: { corsi: Corso[] }) => {
 	return (
 		<Layout>
-			<Container className="my-8">
+			<Container className="my-12">
 				<div className="space-y-4">
 					<h1>Corsi</h1>
 					<p>
@@ -56,7 +42,7 @@ const Corsi = ({corsi}:{corsi:Corso[]}) => {
 				</div>
 			</Container>
 			<SectionSeparator className="py-6" />
-			<Container className="my-8">
+			<Container className="my-12">
 				<ul className="space-y-12">
 					{corsi.map((corso) => (
 						<li key={corso._id} className="flex items-center gap-12">
@@ -69,7 +55,7 @@ const Corsi = ({corsi}:{corsi:Corso[]}) => {
 									<ul className="flex space-x-1">
 										{corso.frequenza.map((el) => (
 											<li key={el._id}>
-												<span className="rounded-full bg-primary-500 px-2 py-1 text-overline font-bold uppercase tracking-button text-light-he">
+												<span className="rounded-full bg-primary-500 px-2 py-0.5 text-overline font-bold uppercase tracking-button text-light-he">
 													{el.name}
 												</span>
 											</li>
@@ -77,10 +63,16 @@ const Corsi = ({corsi}:{corsi:Corso[]}) => {
 									</ul>
 								</div>
 								<div className="mt-4 max-w-[50ch]">
-								<PortableText value={corso.description}/></div>
+									<PortableText value={corso.description} />
+								</div>
 							</div>
 							<div className="relative aspect-video h-[300px] overflow-hidden rounded-lg bg-gray-300">
-								<Image src={urlForImage(corso.cover).quality(100).url()} layout="fill" objectFit="cover" alt={`Immagine del corso ${corso.title}`}/>
+								<Image
+									src={urlForImage(corso.cover).quality(100).url()}
+									layout="fill"
+									objectFit="cover"
+									alt={`Immagine del corso ${corso.title}`}
+								/>
 							</div>
 						</li>
 					))}

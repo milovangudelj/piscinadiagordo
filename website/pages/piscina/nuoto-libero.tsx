@@ -22,10 +22,10 @@ const NuotoLibero = () => {
 				<p>
 					La nostra piscina è fornita di scivoli, tappetini e giochi vari
 					disponibili per i nostri utenti per momenti di divertimento fra
-					amici o in famiglia. Il permesso dell'uso di questi è subordinato
-					alla decisione dell'assistente di vasca, che valuterà la
-					disponibilità e la sicurezza degli altri nuotatori già presenti
-					in vasca.
+					amici o in famiglia. Il permesso dell&apos;uso di questi è
+					subordinato alla decisione dell&apos;assistente di vasca, che
+					valuterà la disponibilità e la sicurezza degli altri nuotatori
+					già presenti in vasca.
 				</p>
 				<p className="text-subtitle font-bold">
 					Vuoi prenotarti per il nuoto libero?

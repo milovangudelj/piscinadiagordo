@@ -47,8 +47,8 @@ const Fisioterapia = () => {
 							terapeutici e riabilitativi.
 						</p>
 						<p>
-							E' utile nel recupero post traumatico e chirurgico, in caso
-							di dolori articolari e in casi di lesioni o malattie
+							E&apos; utile nel recupero post traumatico e chirurgico, in
+							caso di dolori articolari e in casi di lesioni o malattie
 							neurologiche.
 						</p>
 						<p>
@@ -71,13 +71,17 @@ const Fisioterapia = () => {
 				<ul className="mt-12 space-y-12">
 					<li className="flex-1">
 						<figure className="flex items-start gap-8">
-							<img
-								src="https://s3-alpha-sig.figma.com/img/88f6/c5b9/dc27875415d0dc5dc1c7b8ce49cd9405?Expires=1652659200&Signature=Gq7Zzj2~GKEnK08DTEj6ySPUASkzULbWyZK008ViYjuaB853K1UJR7-x51HQHBwuqqFLQT8ZORihoaWIzs~EDJFRu4r1wOIQ9ZGj~zKX2I0DaUUaM~Zqy9d5o8CrnNo6-HkwA1UzUg-ugAzDjuYmoVshPs-BSpHPaj4E9xnK4686eG4gq-QcOTqSwr2DmXEGwVSx~CGxe1kJdDKLDAmHWKqbWTqzyY2kRq04xlV5RGmVxLnSfVPJqXXPCzuoyzfnqeNfkrAqSt8k5WuToFXZPnFp7pARsF~I9AJzhgHmYjIAxhuGzmVbmkHewQ1pNB33XMOV6oUVIxoCB6MgNs4A9w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-								alt="Roberto Agnolet"
-								title="Roberto Agnolet"
-								className="aspect-[3/4] w-[180px] rounded-lg object-cover"
-							/>
-							<div className="flex flex-col-reverse gap-4">
+							<div className="relative aspect-[3/4] w-[180px] overflow-hidden rounded-lg">
+								<Image
+									src={imageRobertoA}
+									alt="Roberto Agnolet"
+									title="Roberto Agnolet"
+									layout="fill"
+									objectFit="cover"
+									quality={100}
+								/>
+							</div>
+							<div className="flex flex-1 flex-col-reverse gap-4">
 								<blockquote className="text-dark-me">
 									<p>
 										Sono Fisioterapista e dottore Magistrale in

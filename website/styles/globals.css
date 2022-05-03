@@ -75,6 +75,16 @@
 	.clickable.selected {
 		@apply cursor-default border-cyan-500 text-cyan-500;
 	}
+
+	.kerning {
+		font-kerning: auto;
+	}
+	.kerning-normal {
+		font-kerning: normal;
+	}
+	.kerning-none {
+		font-kerning: none;
+	}
 }
 
 ::-webkit-scrollbar {

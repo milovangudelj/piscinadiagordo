@@ -31,7 +31,7 @@ export const getStaticProps = async () => {
 	};
 };
 
-const Index = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
+const Home = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
 	return (
 		<>
 			<Layout>
@@ -81,4 +81,4 @@ const Index = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
 	);
 };
 
-export default Index;
+export default Home;

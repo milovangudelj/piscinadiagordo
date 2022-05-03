@@ -11,7 +11,7 @@ import heroImage from "../../public/assets/images/nuota-con-noi.webp";
 export const HeroSection = () => {
 	return (
 		<div className="relative flex h-[620px] items-center justify-center">
-			<div className="absolute inset-0">
+			<div className="absolute inset-0 overflow-hidden">
 				<div className="pointer-events-none relative h-full w-[150%]">
 					<Image
 						src={heroImage}

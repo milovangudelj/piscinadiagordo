@@ -1,8 +1,8 @@
 // Components
 import {
+	Activities,
 	AttivitaPalazzetto,
 	Container,
-	GruppoAttivita,
 	Header,
 	Layout,
 	SectionSeparator,
@@ -35,38 +35,44 @@ const Palazzetto = () => {
 				Covid.
 			</Header>
 			<SectionSeparator className="py-6" />
-			<GruppoAttivita>
-				<AttivitaPalazzetto
-					title="Aerobica latina"
-					image={imgAerobica}
-					imageAlt="Foto di un corso di aerobica latina"
-				>
-					<p>
-						Tutti i giovedì dalle 20 alle 21, un&apos;ora di fitness a
-						ritmo di musica. Fatti travolgere dal dinamismo delle danze
-						latine.
-					</p>
-					<p>
-						Info e iscrizioni presso la segreteria della piscina al numero
-						0437 62406
-					</p>
-				</AttivitaPalazzetto>
-				<AttivitaPalazzetto
-					title="Ginnastica presciistica"
-					image={imgPresciistica}
-					imageAlt="Foto del volantino del corso"
-				>
-					<p>
-						Tutti i martedì dalle 19 alle 20, con un nostro allenatore
-						preparato e formato. Attività valida dal 22 settembre al 15
-						dicembre, cosa stai aspettando?
-					</p>
-					<p>
-						Info e iscrizioni presso la segreteria della piscina al numero
-						0437 62406
-					</p>
-				</AttivitaPalazzetto>
-			</GruppoAttivita>
+			<Activities>
+				<Activities.Header title="Le nostre attività">
+					Il nostro Team super dinamico organizza varie attività sportive
+					di gruppo per adulti e non solo. Scopri con noi quali.
+				</Activities.Header>
+				<Activities.Group>
+					<AttivitaPalazzetto
+						title="Aerobica latina"
+						image={imgAerobica}
+						imageAlt="Foto di un corso di aerobica latina"
+					>
+						<p>
+							Tutti i giovedì dalle 20 alle 21, un&apos;ora di fitness a
+							ritmo di musica. Fatti travolgere dal dinamismo delle danze
+							latine.
+						</p>
+						<p>
+							Info e iscrizioni presso la segreteria della piscina al
+							numero 0437 62406
+						</p>
+					</AttivitaPalazzetto>
+					<AttivitaPalazzetto
+						title="Ginnastica presciistica"
+						image={imgPresciistica}
+						imageAlt="Foto del volantino del corso"
+					>
+						<p>
+							Tutti i martedì dalle 19 alle 20, con un nostro allenatore
+							preparato e formato. Attività valida dal 22 settembre al 15
+							dicembre, cosa stai aspettando?
+						</p>
+						<p>
+							Info e iscrizioni presso la segreteria della piscina al
+							numero 0437 62406
+						</p>
+					</AttivitaPalazzetto>
+				</Activities.Group>
+			</Activities>
 			<SectionSeparator className="py-6" />
 			<Container className="my-12">
 				<h2>Noleggio a privati</h2>

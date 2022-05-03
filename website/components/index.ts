@@ -25,6 +25,7 @@ export * from "./RecentNews";
 export * from "./TeamMembersList";
 export * from "./CollaboratorsList";
 export * from "./AttivitaPalazzetto";
-export * from "./GruppoAttivita";
+export * from "./Activities";
 export * from "./Paginator";
 export * from "./SocialIcon";
+export * from "./AttivitaFisio";

@@ -104,8 +104,8 @@ const NuotoLibero = () => {
 					<OpeningHsTable days={orari} className="w-full" />
 				</div>
 				<span className="inline-block text-base text-dark-me">
-					* C'è la possibilità di avere la ciclette e/o il tapis-roulant in
-					acqua.
+					* C&apos;è la possibilità di avere la ciclette e/o il
+					tapis-roulant in acqua.
 				</span>
 			</Container>
 			<SectionSeparator className="py-6" />

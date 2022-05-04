@@ -68,7 +68,7 @@ const NuotoLibero = () => {
 					attenzione il regolamento e rispettarne le norme. Per quanto
 					riguarda le nuove norme anti-Covid, si consiglia di leggere il
 					regolamento e attenersi ad alcune semplici regole per assicurare
-					la sicurezza propria e del resto dell&apos;utenza. Vi ringraziamo
+					il benessere proprio e del resto dell&apos;utenza. Vi ringraziamo
 					per la comprensione e confidiamo nella vostra collaborazione.
 				</Message>
 			</Container>

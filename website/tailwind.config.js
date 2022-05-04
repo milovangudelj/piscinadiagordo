@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
 	content: [
@@ -101,5 +102,13 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("@tailwindcss/typography")],
+	plugins: [
+		require("@tailwindcss/typography"),
+		plugin(function ({ addVariant }) {
+			addVariant(
+				"supports-bfilter",
+				"@supports (backdrop-filter: blur(5px))"
+			);
+		}),
+	],
 };

@@ -11,8 +11,8 @@ import heroImage from "../../public/assets/images/nuota-con-noi.webp";
 export const HeroSection = () => {
 	return (
 		<div className="relative flex h-[620px] items-center justify-center">
-			<div className="absolute inset-0 overflow-hidden">
-				<div className="pointer-events-none relative h-full w-[150%]">
+			<div className="pointer-events-none absolute inset-0 overflow-hidden">
+				<div className="relative h-full w-[150%]">
 					<Image
 						src={heroImage}
 						placeholder="blur"
@@ -23,7 +23,7 @@ export const HeroSection = () => {
 						alt="Foto del piano vasca della piscina"
 					/>
 				</div>
-				<span className="absolute inset-0 right-1/2 block transform-gpu bg-white/50 backdrop-blur-xl"></span>
+				<span className="absolute inset-0 right-1/2 block transform-gpu bg-white/90 supports-bfilter:bg-white/50 supports-bfilter:backdrop-blur-xl"></span>
 			</div>
 			<Container className="relative h-max">
 				<h1>Nuota con noi</h1>

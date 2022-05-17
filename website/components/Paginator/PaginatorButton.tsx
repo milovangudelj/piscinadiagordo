@@ -23,7 +23,7 @@ export const PaginatorButton = ({
 	return (
 		<button
 			className={cn(
-				`flex h-10 w-10 items-center justify-center rounded-lg text-button font-bold`,
+				`flex h-10 w-10 items-center justify-center rounded-lg text-button-sm font-medium`,
 				{ clickable: !disabled },
 				{ unclickable: disabled },
 				{ selected: selected },

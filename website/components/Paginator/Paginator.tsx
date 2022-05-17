@@ -28,7 +28,7 @@ export const Paginator = ({
 
 	return (
 		<div className="relative flex h-max w-max rounded-lg p-2 shadow-md">
-			<span className="absolute right-full self-center pr-4 text-button font-bold text-dark-me">
+			<span className="absolute right-full self-center pr-4 text-base-sm text-dark-me">
 				Pagina:
 			</span>
 			<button

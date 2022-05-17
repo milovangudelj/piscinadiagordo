@@ -10,7 +10,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Karla", ...defaultTheme.fontFamily.sans],
+				karla: ["Karla", ...defaultTheme.fontFamily.sans],
 				montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
 			},
 			letterSpacing: {
@@ -18,15 +18,26 @@ module.exports = {
 			},
 			fontSize: {
 				overline: ["9.22px", { lineHeight: "1.3" }],
-				caption: ["11.52px", { lineHeight: "1.3" }],
-				button: ["16px", { lineHeight: "1.6" }],
-				base: ["18px", { lineHeight: "1.75" }],
-				subtitle: ["18px", { lineHeight: "1.3" }],
-				h5: ["22.5px", { lineHeight: "1.3" }],
-				h4: ["28.13px", { lineHeight: "1.3" }],
-				h3: ["35.16px", { lineHeight: "1.3" }],
-				h2: ["43.95px", { lineHeight: "1.3" }],
 				h1: ["54.94px", { lineHeight: "1.3" }],
+				"h1-mobile": ["43.95px", { lineHeight: "1.3" }],
+				h2: ["43.95px", { lineHeight: "1.3" }],
+				"h2-mobile": ["35.16px", { lineHeight: "1.3" }],
+				h3: ["35.16px", { lineHeight: "1.3" }],
+				"h3-mobile": ["28.13px", { lineHeight: "1.3" }],
+				h4: ["28.13px", { lineHeight: "1.3" }],
+				"h4-mobile": ["22.5px", { lineHeight: "1.3" }],
+				h5: ["22.5px", { lineHeight: "1.3" }],
+				"h5-mobile": ["20px", { lineHeight: "1.3" }],
+				subtitle: ["20px", { lineHeight: "1.6" }],
+				"subtitle-mobile": ["18px", { lineHeight: "1.6" }],
+				base: ["18px", { lineHeight: "1.8" }],
+				"base-sm": ["16px", { lineHeight: "1.8" }],
+				"base-xs": ["14px", { lineHeight: "1.8" }],
+				button: ["18px", { lineHeight: "24px" }],
+				"button-sm": ["16px", { lineHeight: "20px" }],
+				"button-xs": ["14px", { lineHeight: "16px" }],
+				nav: ["16px", { lineHeight: "1.6" }],
+				caption: ["11.52px", { lineHeight: "1.3" }],
 			},
 			colors: {
 				primary: {

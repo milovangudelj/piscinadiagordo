@@ -1,32 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 @tailwind base;
 
 @layer base {
 	body {
-		@apply text-dark-he;
+		@apply text-dark-he dark:text-light-he text-base font-normal font-karla;
 	}
 	h1 {
-		@apply font-montserrat text-h1 font-semibold;
+		@apply font-montserrat text-h1-mobile lg:text-h1 font-semibold;
 	}
 	h2 {
-		@apply font-montserrat text-h2 font-bold;
+		@apply font-montserrat text-h2-mobile lg:text-h2 font-semibold;
 	}
-
 	h3 {
-		@apply font-montserrat text-h3 font-bold;
+		@apply font-montserrat text-h3-mobile lg:text-h3 font-bold;
 	}
-
 	h4 {
-		@apply font-montserrat text-h4 font-bold;
+		@apply font-montserrat text-h4-mobile lg:text-h4 font-bold;
 	}
-
 	h5 {
-		@apply font-montserrat text-h5 font-bold;
+		@apply font-montserrat text-h5-mobile lg:text-h5 font-bold;
 	}
 	p {
 		@apply text-base;
+	}
+	button {
+		@apply font-medium
 	}
 }
 

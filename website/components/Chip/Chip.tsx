@@ -1,5 +1,11 @@
 import classNames from "classnames";
-import { MouseEventHandler, ReactNode, useEffect, useState } from "react";
+import {
+	MouseEventHandler,
+	ReactNode,
+	useCallback,
+	useEffect,
+	useState,
+} from "react";
 
 type ChipColor = {
 	primary: string;
@@ -118,7 +124,7 @@ export const Chip = ({
 	onClick,
 	children,
 }: ChipProps) => {
-	const makeStyles = (): string => {
+	const makeStyles = useCallback((): string => {
 		return classNames(
 			classes.base(onClick !== undefined && !disabled),
 			classes.variant[variant],
@@ -128,13 +134,13 @@ export const Chip = ({
 			classes.sizes[size].padding,
 			classes.sizes[size].text
 		);
-	};
+	}, [color, size, variant, disabled, onClick]);
 
 	const [styles, setStyles] = useState(makeStyles);
 
 	useEffect(() => {
 		setStyles(makeStyles);
-	}, [color, size, variant, makeStyles]);
+	}, [makeStyles]);
 
 	return (
 		<span onClick={disabled ? undefined : onClick} className={styles}>

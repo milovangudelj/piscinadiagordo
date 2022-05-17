@@ -73,7 +73,7 @@ export const Navbar = () => {
 							<Logo />
 						</a>
 					</Link>
-					<nav className="ml-4 font-montserrat text-button font-medium">
+					<nav className="ml-4 font-montserrat text-nav font-medium">
 						<ul className="flex items-center">
 							{links.map((link) => (
 								<div className="group relative" key={link.text}>

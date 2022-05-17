@@ -28,7 +28,6 @@ export * from "./AttivitaPalazzetto";
 export * from "./Activities";
 export * from "./Paginator";
 export * from "./SocialIcon";
-export * from "./AttivitaFisio";
 export * from "./Message";
 export * from "./Table";
 export * from "./Chip";

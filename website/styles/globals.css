@@ -35,7 +35,7 @@
 
 @layer components {
 	.btn {
-		@apply relative inline-flex h-max w-max min-w-[max(4rem,max-content)] cursor-pointer items-center justify-center rounded-[4px] py-2 px-4 text-button font-bold text-light-he transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+		@apply relative inline-flex h-max w-max min-w-[max(4rem,max-content)] cursor-pointer items-center justify-center rounded-[4px] py-2 px-4 text-button font-medium text-light-he transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
 	}
 
 	.btn-primary {

@@ -33,7 +33,11 @@ export const PricingTable = ({
 					),
 				},
 				{
-					content: <Chip type="success">{price.value}</Chip>,
+					content: (
+						<Chip color="success" variant="outlined">
+							{price.value}
+						</Chip>
+					),
 				},
 			])}
 			className={classNames("table-auto", className)}

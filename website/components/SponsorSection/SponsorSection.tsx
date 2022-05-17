@@ -10,7 +10,7 @@ export const SponsorSection = ({ sponsors }: { sponsors: any[] }) => {
 	return (
 		<div className="py-12">
 			<Container>
-				<span className="mb-6 inline-block font-montserrat text-subtitle font-medium">
+				<span className="mb-6 inline-block text-subtitle-mobile font-bold text-dark-me lg:text-subtitle">
 					I nostri partner
 				</span>
 				<ol className="flex gap-8">

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import {
 	Activities,
-	AttivitaFisio,
 	Container,
 	Header,
 	Layout,
@@ -35,11 +34,13 @@ const Fisioterapia = () => {
 					di gruppo per adulti e non solo. Scopri con noi quali.
 				</Activities.Header>
 				<Activities.Group>
-					<AttivitaFisio
+					<Activities.Card
 						title="Idrokinesiterapia"
+						titleTag="h3"
 						image={imageFisio}
 						imageAlt="Foto di un esercizio di fisioterapia"
 						imagePosition="80%"
+						frequenza={["Da concordare"]}
 					>
 						<p>
 							L&apos;Idrokinesiterapia è una terapia basata su tecniche
@@ -62,7 +63,7 @@ const Fisioterapia = () => {
 							viene effettuata una valutazione a secco per determinare le
 							necessità del singolo paziente.
 						</p>
-					</AttivitaFisio>
+					</Activities.Card>
 				</Activities.Group>
 			</Activities>
 			<SectionSeparator className="py-6" />

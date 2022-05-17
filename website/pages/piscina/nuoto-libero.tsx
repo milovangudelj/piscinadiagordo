@@ -19,13 +19,18 @@ import imageNuotoL from "../../public/assets/images/nuoto-libero.webp";
 import imageSolarium from "../../public/assets/images/solarium.webp";
 
 const orari = [
-	{ day: 0, label: "Lunedì", attrezzi: true, ore: ["09:30 - 21:20"] },
-	{ day: 1, label: "Martedì", ore: ["09:30 - 21:20"] },
-	{ day: 2, label: "Mercoledì", attrezzi: true, ore: ["09:30 - 21:20"] },
-	{ day: 3, label: "Giovedì", ore: ["09:30 - 15:30", "19:00 - 21:00"] },
-	{ day: 4, label: "Venerdì", ore: ["09:30 - 21:20"] },
-	{ day: 5, label: "Sabato", attrezzi: true, ore: ["09:30 - 21:20"] },
-	{ day: 6, label: "Domenica", attrezzi: true, ore: ["09:30 - 21:20"] },
+	{ day: 0, label: "Lunedì", attrezzi: true, ore: ["09:30 - 21:00"] },
+	{ day: 1, label: "Martedì", ore: ["19:30 - 21:00"] },
+	{
+		day: 2,
+		label: "Mercoledì",
+		attrezzi: true,
+		ore: ["09:30 - 15:30", "19:00 - 21:00"],
+	},
+	{ day: 3, label: "Giovedì", ore: ["14:00 - 21:00"] },
+	{ day: 4, label: "Venerdì", ore: ["19:30 - 21:00"] },
+	{ day: 5, label: "Sabato", attrezzi: true, ore: ["09:30 - 19:00"] },
+	{ day: 6, label: "Domenica", attrezzi: true, ore: ["15:00 - 19:00"] },
 ];
 
 const ingressi = [

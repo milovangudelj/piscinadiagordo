@@ -161,7 +161,7 @@ const Regolamento = () => {
 	return (
 		<Layout>
 			<Container className="my-12">
-				<h1 className="mb-4">Norme d'uso della Piscina di Agordo</h1>
+				<h1 className="mb-4">Norme d&apos;uso della Piscina di Agordo</h1>
 				<p className="mb-12">
 					Per poter accedere all astruttura è necessarioattenersi ad alcune
 					semplici norme di comportamento che fanno si che

@@ -1,7 +1,10 @@
+import { Coins } from "phosphor-react";
+
 export default {
 	name: "sponsor",
 	title: "Sponsor",
 	type: "document",
+	icon: Coins,
 	fields: [
 		{
 			name: "name",

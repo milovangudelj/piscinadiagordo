@@ -1,7 +1,10 @@
+import { PersonSimpleRun } from "phosphor-react";
+
 export default {
 	name: "course",
-	title: "Corso",
+	title: "Corsi",
 	type: "document",
+	icon: PersonSimpleRun,
 	fields: [
 		{
 			name: "acronym",

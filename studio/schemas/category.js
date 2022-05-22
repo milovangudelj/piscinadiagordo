@@ -1,7 +1,10 @@
+import { CirclesThree } from "phosphor-react";
+
 export default {
 	name: "category",
-	title: "Categoria",
+	title: "Categorie",
 	type: "document",
+	icon: CirclesThree,
 	fields: [
 		{
 			name: "title",

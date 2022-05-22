@@ -1,7 +1,10 @@
+import { Person } from "phosphor-react";
+
 export default {
 	name: "person",
-	title: "Persona",
+	title: "Persone",
 	type: "document",
+	icon: Person,
 	fields: [
 		{
 			name: "name",

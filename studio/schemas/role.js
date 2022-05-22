@@ -1,7 +1,10 @@
+import { CrownSimple } from "phosphor-react";
+
 export default {
 	name: "role",
-	title: "Ruolo",
+	title: "Ruoli",
 	type: "document",
+	icon: CrownSimple,
 	fields: [
 		{
 			name: "name",

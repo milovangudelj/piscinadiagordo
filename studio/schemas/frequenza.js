@@ -1,7 +1,10 @@
+import { Calendar } from "phosphor-react";
+
 export default {
 	name: "frequenza",
-	title: "Frequenza",
+	title: "Frequenze",
 	type: "document",
+	icon: Calendar,
 	fields: [
 		{
 			name: "name",

@@ -1,30 +1,58 @@
 {
-  "root": true,
-  "project": {
-    "name": "piscinadiagordo"
-  },
-  "api": {
-    "projectId": "txf3egcy",
-    "dataset": "production"
-  },
-  "plugins": [
-    "@sanity/base",
-    "@sanity/default-layout",
-    "@sanity/default-login",
-    "@sanity/desk-tool",
-    "table"
-  ],
-  "env": {
-    "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
-    }
-  },
-  "parts": [
-    {
-      "name": "part:@sanity/base/schema",
-      "path": "./schemas/schema"
-    }
-  ]
+	"root": true,
+	"project": {
+		"name": "piscinadiagordo"
+	},
+	"api": {
+		"projectId": "txf3egcy",
+		"dataset": "production"
+	},
+	"plugins": [
+		"@sanity/base",
+		"@sanity/default-layout",
+		"@sanity/default-login",
+		"@sanity/desk-tool",
+		"table",
+		"media",
+		"note-field"
+	],
+	"env": {
+		"development": {
+			"plugins": ["@sanity/vision"]
+		}
+	},
+	"parts": [
+		{
+			"name": "part:@sanity/base/schema",
+			"path": "./schemas/schema"
+		},
+		{
+			"name": "part:@sanity/desk-tool/structure",
+			"path": "./deskStructure.js"
+		},
+		{
+			"implements": "part:@sanity/base/new-document-structure",
+			"path": "./docStructure.js"
+		},
+		{
+			"implements": "part:@sanity/base/brand-logo",
+			"path": "./branding/logo.js"
+		},
+		{
+			"implements": "part:@sanity/base/theme/variables/override-style",
+			"path": "./branding/variableOverrides.css"
+		},
+		{
+			"implements": "part:@sanity/form-builder/input/image/asset-sources",
+			"path": "./parts/assetSources.js"
+		},
+		{
+			"implements": "part:@sanity/form-builder/input/file/asset-sources",
+			"path": "./parts/assetSources.js"
+		},
+		{
+			"implements": "part:@sanity/base/document-actions/resolver",
+			"path": "./parts/resolve-actions.js"
+		}
+	]
 }

@@ -7,18 +7,23 @@
 		// Update 'VARIANT' to pick a Node version: 18, 16, 14.
 		// Append -bullseye or -buster to pin to an OS version.
 		// Use -bullseye variants on local on arm64/Apple Silicon.
-		"args": { 
+		"args": {
 			"VARIANT": "16-bullseye"
 		}
 	},
+	"workspaceMount": "source=${localWorkspaceFolder}/website,target=/workspace,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
-
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"csstools.postcss",
+		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss",
+		"dakshmiglani.hex-to-rgba"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

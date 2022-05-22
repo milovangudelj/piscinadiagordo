@@ -11,7 +11,7 @@
 			"VARIANT": "16-bullseye"
 		}
 	},
-	"workspaceFolder": "/workspaces/studio",
+	"workspaceFolder": "/workspaces/piscinadiagordo/studio",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},

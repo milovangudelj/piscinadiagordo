@@ -12,7 +12,7 @@
 		}
 	},
 	"workspaceMount": "source=${localWorkspaceFolder}/studio,target=/workspace/studio,type=bind,consistency=cached",
-	"workspaceFolder": "/workspace",
+	"workspaceFolder": "/workspace/studio",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},

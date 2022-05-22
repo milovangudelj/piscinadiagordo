@@ -11,7 +11,8 @@
 			"VARIANT": "16-bullseye"
 		}
 	},
-	"workspaceMount": "source=/workspaces/piscinadiagordo,target=/workspace,type=bind,consistency=cached",
+	// Not supported for Codespaces as of 05/2022
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
 	"workspaceFolder": "/workspace/studio",
 
 	// Set *default* container specific settings.json values on container create.

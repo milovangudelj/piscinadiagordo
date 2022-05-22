@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.233.0/containers/typescript-node
 {
-	"name": "Node.js",
+	"name": "Node.js & TypeScript",
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to pick a Node version: 18, 16, 14.
@@ -11,7 +11,8 @@
 			"VARIANT": "16-bullseye"
 		}
 	},
-	"workspaceFolder": "/workspaces/piscinadiagordo/studio",
+	"workspaceMount": "source=${localWorkspaceFolder}/../..,target=/workspace,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace/website",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
@@ -19,12 +20,14 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
+		"csstools.postcss",
 		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss",
 		"dakshmiglani.hex-to-rgba"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [3333],
+	"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "yarn install",

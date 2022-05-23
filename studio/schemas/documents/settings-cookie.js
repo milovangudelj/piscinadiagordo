@@ -7,23 +7,23 @@ export default {
 			name: "cookiePolicyNote",
 			type: "note",
 			options: {
-				headline: "Important",
+				headline: "Importante",
 				message:
-					'This displays an "implied consent" cookie notice to users to help comply with GDPR laws. It is strongly encouraged to include a link to your cookie usage and policies.',
+					'Questo mostra una notifica di "consenso implicito" agli utenti per essere in regola con le normative europee sulla priacy (GDPR). Si consiglia di inserire un link alla pagina sull\'uso dei cookie o a quella sulla politica di privacy.',
 				tone: "caution",
 			},
 		},
 		{
-			title: "Enable Cookie Consent?",
+			title: "Abilitare il consenso ai cookie?",
 			name: "enabled",
 			type: "boolean",
 		},
 		{
-			title: "Message",
+			title: "Messaggio",
 			name: "message",
 			type: "text",
 			rows: 2,
-			description: "Your cookie consent message",
+			description: "Il messaggio da mostrare nel popup",
 			hidden: ({ parent }) => !parent.enabled,
 		},
 		{
@@ -31,7 +31,8 @@ export default {
 			name: "link",
 			type: "reference",
 			to: [{ type: "page" }],
-			description: 'Show a link to "Learn More" about your cookie policy',
+			description:
+				'Mostra un link "Per saperne di più" sulla politica dei cookie',
 			hidden: ({ parent }) => !parent.enabled,
 		},
 	],

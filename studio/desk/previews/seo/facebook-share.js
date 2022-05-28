@@ -51,48 +51,48 @@ class FacebookShare extends React.PureComponent {
     const shareGraphic = seo?.shareGraphic || defaultSEO?.shareGraphic
 
     return (
-      <div className={styles.seoItem}>
-        <h3 className={styles.seoItemTitle}>Facebook share</h3>
-        <div className={styles.seoItemContent}>
-          {shareTitle ? (
-            <div className={styles.seoItemCard}>
-              <div className={styles.facebookWrapper} style={{ width }}>
-                <div className={styles.facebookImageContainer}>
-                  {shareGraphic ? (
-                    <img
-                      className={styles.facebookCardImage}
-                      src={urlFor(shareGraphic.asset)
-                        .width(1200)
-                        .height(630)
-                        .url()}
-                    />
-                  ) : (
-                    <span className={styles.imagePlaceholder} />
-                  )}
-                </div>
-                <div className={styles.facebookCardContent}>
-                  <div className={styles.facebookCardUrl}>
-                    {websiteUrlWithoutProtocol}
-                  </div>
-                  <div className={styles.facebookCardTitle}>
-                    <a href={url} target="_blank">
-                      {shareTitle}
-                    </a>
-                  </div>
-                  {shareDesc && (
-                    <div className={styles.facebookCardDescription}>
-                      {shareDesc}
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          ) : (
-            <p>Please add a title and fill out your SEO fields first.</p>
-          )}
-        </div>
-      </div>
-    )
+			<div className={styles.seoItem}>
+				<h3 className={styles.seoItemTitle}>Anteprima Facebook</h3>
+				<div className={styles.seoItemContent}>
+					{shareTitle ? (
+						<div className={styles.seoItemCard}>
+							<div className={styles.facebookWrapper} style={{ width }}>
+								<div className={styles.facebookImageContainer}>
+									{shareGraphic ? (
+										<img
+											className={styles.facebookCardImage}
+											src={urlFor(shareGraphic.asset)
+												.width(1200)
+												.height(630)
+												.url()}
+										/>
+									) : (
+										<span className={styles.imagePlaceholder} />
+									)}
+								</div>
+								<div className={styles.facebookCardContent}>
+									<div className={styles.facebookCardUrl}>
+										{websiteUrlWithoutProtocol}
+									</div>
+									<div className={styles.facebookCardTitle}>
+										<a href={url} target="_blank">
+											{shareTitle}
+										</a>
+									</div>
+									{shareDesc && (
+										<div className={styles.facebookCardDescription}>
+											{shareDesc}
+										</div>
+									)}
+								</div>
+							</div>
+						</div>
+					) : (
+						<p>Please add a title and fill out your SEO fields first.</p>
+					)}
+				</div>
+			</div>
+		);
   }
 }
 

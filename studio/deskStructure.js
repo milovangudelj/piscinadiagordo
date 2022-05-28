@@ -1,9 +1,13 @@
 import S from "@sanity/desk-tool/structure-builder";
-import { Files, Folder, Funnel, PencilSimple } from "phosphor-react";
 import React from "react";
 
+// Menus
 import { settingsMenu } from "./desk/settings";
 import { pagesMenu } from "./desk/pages";
+import { postsMenu } from "./desk/posts";
+
+// Doc types
+import { hiddenDocs } from "./docTypes";
 
 const JsonPreview = ({ document }) => (
 	<>
@@ -21,33 +25,7 @@ export const getDefaultDocumentNode = ({ documentId, schemaType }) => {
 	}
 };
 
-const hiddenDocTypes = (listItem) =>
-	![
-		"post",
-		"page",
-		"section",
-		"product",
-		"productVariant",
-		"collection",
-		"filter",
-		"solidColor",
-
-		"generalSettings",
-		"cookieSettings",
-		"noticeSettings",
-		"headerSettings",
-		"footerSettings",
-		"shopSettings",
-		"seoSettings",
-		"siteNavigation",
-		"homePage",
-		"errorPage",
-
-		"menu",
-		"siteSettings",
-		"redirect",
-		"media.tag", // for media plugin
-	].includes(listItem.getId());
+const hiddenDocTypes = (listItem) => !hiddenDocs.includes(listItem.getId());
 
 export default () =>
 	S.list()
@@ -57,61 +35,7 @@ export default () =>
 			S.divider(),
 			pagesMenu,
 			S.divider(),
-			S.listItem()
-				.title("Post")
-				.icon(PencilSimple)
-				.child(
-					S.list()
-						.title("Post")
-						.items([
-							S.listItem()
-								.title("Tutti")
-								.icon(Files)
-								.child(
-									S.documentList()
-										.title("Tutti i post")
-										.filter('_type == "post"')
-								),
-							S.listItem()
-								.title("Filtrati")
-								.icon(Funnel)
-								.child(
-									S.list()
-										.title("Post filtrati")
-										.items([
-											S.listItem()
-												.title("Per Categoria")
-												.icon(Folder)
-												.child(
-													S.documentTypeList("category")
-														.title("Per Categoria")
-														.child((categoryId) =>
-															S.documentList()
-																.filter(
-																	'_type == "post" && $categoryId in categories[]._ref'
-																)
-																.params({ categoryId })
-														)
-												),
-											S.listItem()
-												.title("Per Autore")
-												.icon(Folder)
-												.child(
-													S.documentTypeList("author")
-														.title("Per Autore")
-														.child((authorId) =>
-															S.documentList()
-																.title("Posts")
-																.filter(
-																	'_type == "post" && $authorId == author._ref'
-																)
-																.params({ authorId })
-														)
-												),
-										])
-								),
-						])
-				),
+			postsMenu,
 			S.divider(),
 
 			// Filter out docs already defined above

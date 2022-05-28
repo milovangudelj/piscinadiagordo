@@ -27,24 +27,24 @@ class SeoPreviews extends React.PureComponent {
 
   loadData = () => {
     sanityClient
-      .fetch(
-        `
+			.fetch(
+				`
         *[_type == "seoSettings"][0]{
           metaTitle,
           metaDesc,
           shareTitle,
           shareDesc,
           shareGraphic,
-          "siteTitle": *[_type == "generalSettings"][0].siteTitle,
+          "siteTitle": *[_type == "generalSettings"][0].title,
           "siteURL": *[_type == "generalSettings"][0].siteURL
         }
       `
-      )
-      .then(seo => {
-        this.setState({
-          defaultSEO: seo || {}
-        })
-      })
+			)
+			.then((seo) => {
+				this.setState({
+					defaultSEO: seo || {},
+				});
+			});
   }
 
   render() {

@@ -1,5 +1,4 @@
-import React from 'react'
-import { Browser } from 'phosphor-react'
+import { Browser, DiamondsFour, Newspaper } from "phosphor-react";
 
 export default {
 	title: "Page",
@@ -7,13 +6,13 @@ export default {
 	type: "document",
 	icon: Browser,
 	groups: [
-		{ title: "Content", name: "content", default: true },
-		{ title: "Settings", name: "settings" },
+		{ title: "Contenuto", name: "content", default: true },
+		{ title: "Impostazioni", name: "settings" },
 	],
 	fields: [
 		{
 			name: "title",
-			title: "Title",
+			title: "Titolo",
 			type: "string",
 			validation: (Rule) => Rule.required(),
 			group: "settings",
@@ -22,7 +21,7 @@ export default {
 			title: "URL Slug",
 			name: "slug",
 			type: "slug",
-			description: "(required)",
+			description: "(necessario)",
 			options: {
 				source: "title",
 				maxLength: 96,
@@ -31,16 +30,7 @@ export default {
 			group: "settings",
 		},
 		{
-			title: "Overlay header with transparency?",
-			name: "hasTransparentHeader",
-			type: "boolean",
-			description:
-				"When activated the header will overlay the first content module with a transparent background and white text until scrolling is engaged.",
-			initialValue: false,
-			group: "settings",
-		},
-		{
-			title: "Page Content",
+			title: "Contenuto della pagina",
 			name: "modules",
 			type: "array",
 			of: [
@@ -49,15 +39,22 @@ export default {
 				{ type: "marquee" },
 				{ type: "dividerPhoto" },
 				{
-					title: "Reusable Section",
+					title: "Sezione",
 					type: "reference",
-					to: [{ type: "section" }],
+					icon: DiamondsFour,
+					to: [
+						{ type: "section" },
+						{ type: "heroSection" },
+						{ type: "newsSection" },
+						{ type: "sponsorSection" },
+						{ type: "cardSection" },
+					],
 				},
 			],
 			group: "content",
 		},
 		{
-			title: "SEO / Share Settings",
+			title: "SEO / Condivisione",
 			name: "seo",
 			type: "seo",
 			group: "settings",
@@ -72,7 +69,7 @@ export default {
 			const path = `/${slug.current}`;
 			return {
 				title,
-				subtitle: slug.current ? path : "(missing slug)",
+				subtitle: slug.current ? path : "(slug mancante)",
 			};
 		},
 	},

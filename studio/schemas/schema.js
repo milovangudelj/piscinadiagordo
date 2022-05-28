@@ -36,6 +36,10 @@ import navLink from "./objects/nav-link";
 import complexPortableText from "./objects/portable-complex";
 import simplePortableText from "./objects/portable-simple";
 
+// Objects
+
+import objects from "./objects";
+
 // We import object and document schemas
 import blockContent from "./blockContent";
 import category from "./category";
@@ -46,11 +50,17 @@ import frequenza from "./frequenza";
 import sponsor from "./sponsor";
 import person from "./person";
 import role from "./role";
+
 import section from "./documents/section";
+
 import horizontalRule from "./objects/horizontal-rule";
 import freeform from "./objects/freeform";
 import accordions from "./objects/accordions";
 import accordion from "./objects/accordion";
+
+// Sections
+
+import sections from "./sections";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -102,6 +112,12 @@ export default createSchema({
 		freeform,
 		accordions,
 		accordion,
+
+		// Objects
+		...objects,
+
+		// Sections
+		...sections,
 
 		// The following are document types which will appear
 		// in the studio.

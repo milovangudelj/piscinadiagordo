@@ -1,8 +1,13 @@
+import S from "@sanity/desk-tool/structure-builder";
+
 import { Rows } from "phosphor-react";
 
+const docType = "cardSection";
+const docTitle = "Gruppo card";
+
 const cardSection = {
-	name: "cardSection",
-	title: "Gruppo card",
+	name: docType,
+	title: docTitle,
 	icon: Rows,
 	type: "document",
 	fields: [
@@ -23,3 +28,8 @@ const cardSection = {
 	],
 };
 export default cardSection;
+
+export const cardSectionSB = S.listItem()
+	.title(docTitle)
+	.icon(Rows)
+	.child(S.documentTypeList(docType).showIcons(true));

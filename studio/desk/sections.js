@@ -1,15 +1,9 @@
 import S from "@sanity/desk-tool/structure-builder";
 
-import { DiamondsFour } from "phosphor-react";
+import { DiamondsFour, Rows } from "phosphor-react";
 
 import { sectionsSB } from "../schemas/sections";
-const {
-	heroSectionSB,
-	headerSectionSB,
-	newsSectionSB,
-	sponsorSectionSB,
-	cardSectionSB,
-} = sectionsSB;
+const { heroSectionSB, newsSectionSB, sponsorSectionSB } = sectionsSB;
 
 export const reusableSections = S.listItem()
 	.title("Sezioni riutilizzabili")
@@ -29,13 +23,21 @@ export const reusableSections = S.listItem()
 						S.list()
 							.title("Generiche")
 							.items([
-								cardSectionSB,
-								headerSectionSB,
+								S.listItem()
+									.title("Gruppo card")
+									.icon(Rows)
+									.child(
+										S.documentTypeList("cardSection")
+											.schemaType("cardSection")
+											.showIcons(true)
+									),
 								S.listItem()
 									.title("Sezioni")
 									.icon(DiamondsFour)
 									.child(
-										S.documentTypeList("section").showIcons(true)
+										S.documentTypeList("section")
+											.schemaType("section")
+											.showIcons(true)
 									),
 							])
 					),

@@ -12,6 +12,8 @@ export const singletonDocs = [
 	"heroSection",
 	"newsSection",
 	"sponsorSection",
+	"teamSection",
+	"collaboratorsSection",
 ];
 
 export const hiddenDocs = [
@@ -25,6 +27,7 @@ export const hiddenDocs = [
 	"solidColor",
 	"card",
 	"cardSection",
+	"headerSection",
 
 	"menu",
 	"siteSettings",

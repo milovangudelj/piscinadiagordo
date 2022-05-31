@@ -6,15 +6,17 @@ import { Alert, Footer, Meta, Navbar } from "../";
 export const Layout = ({
 	children,
 	main = "auto",
+	navItems = [],
 }: {
 	children: ReactNode;
 	main?: "full" | "screen" | "auto";
+	navItems?: any[];
 }) => {
 	return (
 		<>
 			<Meta />
 			<div className="min-h-screen">
-				<Navbar />
+				<Navbar navItems={navItems} />
 				<main
 					className={cn(
 						{ "h-full": main === "full" },

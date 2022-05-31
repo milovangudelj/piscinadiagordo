@@ -15,7 +15,7 @@ import {
 } from "../../components";
 
 // Lib
-import { postQuery, postSlugsQuery } from "../../lib/queries";
+import { postQuery, postSlugsQuery } from "../../data/queries";
 import { urlForImage } from "../../lib/sanity";
 import {
 	getClient,

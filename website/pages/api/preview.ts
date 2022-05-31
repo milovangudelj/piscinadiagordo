@@ -1,4 +1,4 @@
-import { postBySlugQuery } from "../../lib/queries";
+import { postBySlugQuery } from "../../data/queries";
 import { previewClient } from "../../lib/sanity.server";
 
 export default async function preview(req: any, res: any) {

@@ -2,15 +2,17 @@ import S from "@sanity/desk-tool/structure-builder";
 
 import { UsersFour } from "phosphor-react";
 
-const docType = "collaboratorsSection";
-const docTitle = "Collaboratori";
-const docIcon = UsersFour;
+export const collaboratorsInfo = {
+	type: "collaboratorsSection",
+	title: "Collaboratori",
+	icon: UsersFour,
+};
 
 const collaboratorsSection = {
-	name: docType,
-	title: docTitle,
+	name: collaboratorsInfo.type,
+	title: collaboratorsInfo.title,
 	type: "document",
-	icon: docIcon,
+	icon: collaboratorsInfo.icon,
 	fields: [
 		{
 			name: "title",
@@ -25,6 +27,10 @@ const collaboratorsSection = {
 export default collaboratorsSection;
 
 export const collaboratorsSectionSB = S.listItem()
-	.title(docTitle)
-	.icon(docIcon)
-	.child(S.document().schemaType(docType).documentId(docType));
+	.title(collaboratorsInfo.title)
+	.icon(collaboratorsInfo.icon)
+	.child(
+		S.document()
+			.schemaType(collaboratorsInfo.type)
+			.documentId(collaboratorsInfo.type)
+	);

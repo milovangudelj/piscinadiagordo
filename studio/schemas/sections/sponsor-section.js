@@ -2,14 +2,17 @@ import S from "@sanity/desk-tool/structure-builder";
 
 import { Money } from "phosphor-react";
 
-const docType = "sponsorSection";
-const docTitle = "Sponsor / partner";
+export const sponsorInfo = {
+	type: "sponsorSection",
+	title: "Sponsor / partner",
+	icon: Money,
+};
 
 const sponsorSection = {
-	name: docType,
-	title: docTitle,
+	name: sponsorInfo.type,
+	title: sponsorInfo.title,
 	type: "document",
-	icon: Money,
+	icon: sponsorInfo.icon,
 	fields: [
 		{
 			name: "title",
@@ -25,6 +28,8 @@ const sponsorSection = {
 export default sponsorSection;
 
 export const sponsorSectionSB = S.listItem()
-	.title(docTitle)
-	.icon(Money)
-	.child(S.document().schemaType(docType).documentId(docType));
+	.title(sponsorInfo.title)
+	.icon(sponsorInfo.icon)
+	.child(
+		S.document().schemaType(sponsorInfo.type).documentId(sponsorInfo.type)
+	);

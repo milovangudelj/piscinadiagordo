@@ -21,7 +21,6 @@ export const hiddenDocs = [
 
 	"post",
 	"page",
-	"section",
 	"collection",
 	"filter",
 	"solidColor",

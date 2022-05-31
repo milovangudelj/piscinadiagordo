@@ -1,9 +1,15 @@
 import { Rows } from "phosphor-react";
 
-const cardSection = {
-	name: "cardSection",
+export const cardInfo = {
+	type: "cardSection",
 	title: "Gruppo card",
 	icon: Rows,
+};
+
+const cardSection = {
+	name: cardInfo.type,
+	title: cardInfo.title,
+	icon: cardInfo.icon,
 	type: "document",
 	fields: [
 		{

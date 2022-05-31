@@ -14,7 +14,7 @@ const {
 
 export const reusableSections = S.listItem()
 	.title("Sezioni riutilizzabili")
-	.schemaType("section")
+	.icon(DiamondsFour)
 	.child(
 		S.list()
 			.title("Sezioni")
@@ -41,14 +41,6 @@ export const reusableSections = S.listItem()
 											.showIcons(true)
 									),
 								headerSectionSB(),
-								S.listItem()
-									.title("Sezioni")
-									.icon(DiamondsFour)
-									.child(
-										S.documentTypeList("section")
-											.schemaType("section")
-											.showIcons(true)
-									),
 							])
 					),
 			])

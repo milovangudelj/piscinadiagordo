@@ -51,8 +51,6 @@ import sponsor from "./sponsor";
 import person from "./person";
 import role from "./role";
 
-import section from "./documents/section";
-
 import horizontalRule from "./objects/horizontal-rule";
 import freeform from "./objects/freeform";
 import accordions from "./objects/accordions";
@@ -72,7 +70,6 @@ export default createSchema({
 		/* ----------------- */
 		/* 1: Document types */
 		page,
-		section,
 
 		// Fixed Pages
 		homePage,

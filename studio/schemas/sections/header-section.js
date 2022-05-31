@@ -4,14 +4,17 @@ import { NewspaperClipping } from "phosphor-react";
 
 import { simpleImage } from "../objects";
 
-const docType = "headerSection";
-const docTitle = "Intestazione";
+export const headerInfo = {
+	type: "headerSection",
+	title: "Intestazione",
+	icon: NewspaperClipping,
+};
 
 const headerSection = {
-	name: docType,
-	title: docTitle,
+	name: headerInfo.type,
+	title: headerInfo.title,
 	type: "document",
-	icon: NewspaperClipping,
+	icon: headerInfo.icon,
 	fields: [
 		{
 			name: "title",
@@ -35,6 +38,10 @@ export default headerSection;
 
 export const headerSectionSB = () =>
 	S.listItem()
-		.title(docTitle)
-		.icon(NewspaperClipping)
-		.child(S.documentTypeList(docType).schemaType(docType).showIcons(true));
+		.title(headerInfo.title)
+		.icon(headerInfo.icon)
+		.child(
+			S.documentTypeList(headerInfo.type)
+				.schemaType(headerInfo.type)
+				.showIcons(true)
+		);

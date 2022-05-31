@@ -1,12 +1,16 @@
-import heroSection, { heroSectionSB } from "./hero-section";
-import sponsorSection, { sponsorSectionSB } from "./sponsor-section";
-import teamSection, { teamSectionSB } from "./team-section";
+import heroSection, { heroInfo, heroSectionSB } from "./hero-section";
+import sponsorSection, {
+	sponsorInfo,
+	sponsorSectionSB,
+} from "./sponsor-section";
+import teamSection, { teamInfo, teamSectionSB } from "./team-section";
 import collaboratorsSection, {
+	collaboratorsInfo,
 	collaboratorsSectionSB,
 } from "./collaborators-section";
-import newsSection, { newsSectionSB } from "./news-section";
-import cardSection, { cardSectionSB } from "./card-section";
-import headerSection, { headerSectionSB } from "./header-section";
+import newsSection, { newsInfo, newsSectionSB } from "./news-section";
+import cardSection, { cardInfo, cardSectionSB } from "./card-section";
+import headerSection, { headerInfo, headerSectionSB } from "./header-section";
 
 export const sectionsSB = {
 	heroSectionSB,
@@ -15,6 +19,16 @@ export const sectionsSB = {
 	collaboratorsSectionSB,
 	newsSectionSB,
 	headerSectionSB,
+};
+
+export const sectionsInfo = {
+	heroInfo,
+	sponsorInfo,
+	teamInfo,
+	collaboratorsInfo,
+	newsInfo,
+	headerInfo,
+	cardInfo,
 };
 
 export default [

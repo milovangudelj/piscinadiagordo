@@ -3,11 +3,17 @@ import S from "@sanity/desk-tool/structure-builder";
 import { NewspaperClipping } from "phosphor-react";
 import { cta, simpleImage } from "../objects";
 
-const heroSection = {
-	name: "heroSection",
+export const heroInfo = {
+	type: "heroSection",
 	title: "Hero",
-	type: "document",
 	icon: NewspaperClipping,
+};
+
+const heroSection = {
+	name: heroInfo.type,
+	title: heroInfo.title,
+	type: "document",
+	icon: heroInfo.icon,
 	fields: [
 		{
 			name: "title",
@@ -32,6 +38,6 @@ const heroSection = {
 export default heroSection;
 
 export const heroSectionSB = S.listItem()
-	.title("Hero")
-	.icon(NewspaperClipping)
-	.child(S.document().schemaType("heroSection").documentId("heroSection"));
+	.title(heroInfo.title)
+	.icon(heroInfo.icon)
+	.child(S.document().schemaType(heroInfo.type).documentId(heroInfo.type));

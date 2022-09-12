@@ -10,7 +10,7 @@
 		"test": "jest --watch"
 	},
 	"dependencies": {
-		"@heroicons/react": "1.0.6",
+		"@heroicons/react": "2.0.10",
 		"@portabletext/react": "1.0.6",
 		"@sanity/client": "3.3.0",
 		"@sanity/image-url": "1.0.1",

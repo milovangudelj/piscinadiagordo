@@ -9962,10 +9962,10 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-media@1.4.8:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-1.4.8.tgz#fa97ea2b00ddebbe3767c749e8b0849c727a68b7"
-  integrity sha512-kTEkq4YH8GVVbt2nnyqApkHtUcEbQfA2/i1fI4YYo2feFY6Fwkl4KY31EzJqiui7B8olN0D4Ql0PwvUXSY4++A==
+sanity-plugin-media@1.4.11:
+  version "1.4.11"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-1.4.11.tgz#fbf07cefc0fa1f2e579887596ee595bf2ebcf044"
+  integrity sha512-a1zxXCHzZw1sR9/4JKg5MAX4okO+5S08LiKVv0i+zYR/ADrk7ua7vWM0+GGUseFQsLZ3e9jfeWulGutNHLd9Sg==
   dependencies:
     "@hookform/resolvers" "2.0.0-beta.3"
     "@reduxjs/toolkit" "^1.8.1"
@@ -9986,6 +9986,7 @@ sanity-plugin-media@1.4.8:
     react-virtuoso "^2.11.0"
     redux "^4.0.5"
     redux-observable "^1.2.0"
+    rxjs "^6.5.3"
     theme-ui "0.3.5"
     yup "^0.32.11"
 

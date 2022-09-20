@@ -10,7 +10,7 @@
 		"test": "jest --watch"
 	},
 	"dependencies": {
-		"@heroicons/react": "2.0.10",
+		"@heroicons/react": "2.0.11",
 		"@portabletext/react": "1.0.6",
 		"@sanity/client": "3.3.0",
 		"@sanity/image-url": "1.0.1",
@@ -27,10 +27,10 @@
 	"devDependencies": {
 		"@svgr/webpack": "6.2.1",
 		"@tailwindcss/typography": "0.5.7",
-		"@testing-library/jest-dom": "5.16.4",
+		"@testing-library/jest-dom": "5.16.5",
 		"@testing-library/react": "13.1.1",
 		"@types/node": "17.0.23",
-		"@types/react": "18.0.3",
+		"@types/react": "18.0.20",
 		"@types/react-dom": "18.0.6",
 		"@types/react-textfit": "1.1.0",
 		"autoprefixer": "10.4.4",

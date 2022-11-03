@@ -4919,10 +4919,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-1.0.4.tgz#c67d567bc7f700e34cb820e4789ef216216545ee"
-  integrity sha512-0AqkZyjkcIEajaGzM63b7m8kfIiNVGEssNgjEnyI1smhn9T2IQ6GP0dsAU7kDKAW5MaEWP2TCbykTGH3LkF6Yw==
+next-sanity@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-1.0.5.tgz#9ad7b0621e77d48ad0ee6b6b431c1c0d720e78ff"
+  integrity sha512-T6sa2oJ0RugxgAVLQG3oFSpRv3oPHOG+7xqjY/34OyloMy0XCIBFXszEWxG11k611+5YhmNFroU9Hfkvwc7bEA==
   dependencies:
     "@sanity/client" "^3.4.1"
     "@sanity/groq-store" "^1.0.3"

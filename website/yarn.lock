@@ -1776,10 +1776,10 @@
     event-source-polyfill "1.0.25"
     eventsource "^2.0.2"
 
-"@sanity/groq-store@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@sanity/groq-store/-/groq-store-1.0.3.tgz#8065e486b552aa0133704c6ed535a07e15dfca17"
-  integrity sha512-IUaMzaWYdYYcCAI4zrkWurm/n6AXsJP1hq7EPDmQcCg+n42aawp07lzWmOko9v9LUuUATJSDFhpmZktn9Zacew==
+"@sanity/groq-store@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/groq-store/-/groq-store-1.1.0.tgz#9ca80550c0ce9742141c1ff57d28286748184982"
+  integrity sha512-D63l/5CvKe4SXbLEWj3+eV7WvQMj1udQA7SjO8WWnrowegS1bPN2T2dcoIexCJYlVSbWEmfFNaBkM3bdFcyEbA==
   dependencies:
     "@sanity/types" "^2.35.0"
     eventsource "^2.0.2"
@@ -4924,13 +4924,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-1.0.9.tgz#8ae6a63c77035fc7afa7567eb7794c1ff801106f"
-  integrity sha512-Iga8oF8+/sIpk3MJ5DFSDWq5ItOmsOUz0ytNksfp9g1k6aEOtLvT2eQ/vZ1WIxsnZj1tRv8LhAwPewxfM41Krw==
+next-sanity@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-1.1.0.tgz#74fb470a7bdd33b471637eda09b791c969f79bad"
+  integrity sha512-E8N+aiNcbaPk2f0eRS8xscgy0huPUBiZJdAw5sCL/brtjSlrJl+1wOCcp+N5m4YwI5A2DRFvt5gpWdUgwjWCSw==
   dependencies:
     "@sanity/client" "^3.4.1"
-    "@sanity/groq-store" "^1.0.3"
+    "@sanity/groq-store" "^1.1.0"
     groq "^2.33.2"
 
 next@13.0.3:

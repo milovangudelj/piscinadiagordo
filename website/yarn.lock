@@ -1808,10 +1808,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.1.tgz#960d649b2f4396da0adb31cf94503c929495cea0"
   integrity sha512-AdKQ3zMk7WdoNwoJPrAvQhW+kUtBldBX0nHtnGy+rwmgsCQ0rAXasrgH43Fhmsp/yB6piiq+F2d5qEuBFsdQVg==
 
-"@sanity/preview-kit@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-1.2.8.tgz#f70f1b1116333376e0bc7ae5250eed91a9d8f2fc"
-  integrity sha512-aV3eIG8CT957qla38PvCrWfykLePmFo6UG2GtqrO33WtXS3g+M04w/VK9lIne8yuHVwT/guoEVPgCEjR4nGryg==
+"@sanity/preview-kit@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-1.2.9.tgz#ceacdffad4bf347222dcc49510af8fc643606bc8"
+  integrity sha512-KoSHHowGXM38Dg1UQRVhvsUk9oKaunyOVQjNfoSzsHZzcYLh/Fj8bsJ8AePqHeO5rFFv7N8BN/Vcaz0uMgHWJw==
   dependencies:
     "@sanity/groq-store" "^1.1.4"
     "@types/event-source-polyfill" "^1.0.0"
@@ -5004,13 +5004,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-3.0.4.tgz#efe011120f31792ca99a7b536bb1520ccb5fac7d"
-  integrity sha512-XJfLyKPI1UsqdxBiAdDbG38dovKjM3wXWLLTDLZejzGR/4boUizlOyLYlwRE61wjY36oixeufFi4PkTz0eSFsw==
+next-sanity@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-3.1.0.tgz#aa8721c9646d02817601b7630e5675ddc7a08093"
+  integrity sha512-NSpJspSdnsOVFmqHegDrXoYUN9gLEh8RV83rv8x8Lnd/+vgkQiaH+J//euct22xXePttEIMS7XSjmM7/JdssLA==
   dependencies:
     "@sanity/client" "^3.4.1"
-    "@sanity/preview-kit" "^1.2.8"
+    "@sanity/preview-kit" "^1.2.9"
     "@sanity/webhook" "^2.0.0"
     groq "^2.33.2"
 

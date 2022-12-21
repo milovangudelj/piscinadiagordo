@@ -2379,6 +2379,15 @@
     debounce "1.0.0"
     md5-o-matic "^0.1.1"
 
+"@rexxars/react-split-pane@^0.1.93":
+  version "0.1.93"
+  resolved "https://registry.yarnpkg.com/@rexxars/react-split-pane/-/react-split-pane-0.1.93.tgz#d9e00eb5d91cfb49f3e8ca30f6c8d450bf85d6ff"
+  integrity sha512-Pok8zATwd5ZpWnccJeSA/JM2MPmi3D04duYtrbMNRgzeAU2ANtq3r4w7ldbjpGyfJqggqn0wDNjRqaevXqSxQg==
+  dependencies:
+    prop-types "^15.7.2"
+    react-lifecycles-compat "^3.0.4"
+    react-style-proptype "^3.2.2"
+
 "@rushstack/eslint-patch@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
@@ -2475,10 +2484,10 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.0.6.tgz#b5eafeef5852178ac6a8dfd93d5194aa1e5b9236"
-  integrity sha512-E4t185XgATiPSR/vay6jtRxQytUwRZIcv0+6qTouN4XQq1YvR7PxFRJhz6wE8V4+ofEByFWSGqsrcY+OV+R6Jg==
+"@sanity/cli@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.1.0.tgz#eb45293a352d6ac74ee2b95de4c42f7736fe83b4"
+  integrity sha512-wEt1ibANtflso/7VcuyICXcEFgVUH6VFruKhehrpfC2TrmCUdAnZpnK8Zp1CyBJ8wKU+wXQDqfjg9h9d+4NxKw==
   dependencies:
     "@babel/traverse" "^7.19.0"
     esbuild "^0.14.43"
@@ -3154,10 +3163,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.0.6.tgz#9491ac1a01d88fc1fbb6b04d2ee0bfbf0804ce88"
-  integrity sha512-FuEjP4inbPhVvp3VccxcbWA49wto7i3oDq/L1HYWSMH3YHRB5zcfABkjLx/Tp2eSoQA72mA4XTDD9+ZUXR1iPQ==
+"@sanity/vision@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.1.0.tgz#b4cd11f59d0060f26eb46eba2e907b8ce2695546"
+  integrity sha512-PQXZnQQ9F9H5iRDlI1jL0850UlB7OVdhwRUJb4rZA5Bbwes4DCkVux39yI24QmUla/R50gS2r/ZuBTiLAZUUQQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3168,6 +3177,7 @@
     "@juggle/resize-observer" "^3.3.1"
     "@lezer/highlight" "^1.0.0"
     "@rexxars/react-json-inspector" "^8.0.1"
+    "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^2.1.20"
     "@sanity/icons" "^2.1.0"
     "@sanity/ui" "^1.0.0"
@@ -3176,7 +3186,6 @@
     is-hotkey "^0.1.6"
     json5 "^1.0.1"
     lodash "^4.17.21"
-    react-split-pane "^0.1.84"
 
 "@sanity/webpack-dev-middleware@^2.0.6":
   version "2.0.6"

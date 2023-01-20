@@ -1802,10 +1802,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit@^1.2":
-  version "1.2.23"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-1.2.23.tgz#571ff6c6609fb75e96d74a6c8cd5eb7f796d4e2f"
-  integrity sha512-WhJHh+iD9TCrfv4KzaVheMCyuMnrCqsq/ZI/GwJwrLV3f5euYkFlMpIMlQqSVqP00YAgCZJ2jEgOgZ9FmgOV5g==
+"@sanity/preview-kit@^1.3":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-1.3.1.tgz#c7c9b1fd0d9d62c34b6b8a5c67f18b6e40404b72"
+  integrity sha512-lnBDHLXJA1xqj1ymhY7OVDrRTCGWZ0+0jOArL9toF/yBZmh1l4d3+JwQTw6GpWLsG5lNGkINYPw5UI9M/pysTA==
   dependencies:
     "@sanity/groq-store" "^2.0.4"
     "@types/event-source-polyfill" "^1.0.0"
@@ -4993,13 +4993,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.1.0.tgz#46b59b4fee216e46d64f344af2573ffd0eb28ef8"
-  integrity sha512-jxUtvTDROcxbCrmHtURowvlvRtWcOi513NDbobCayXQtDdcn5Xcnum0pqPPa+uc8z1bp2Q931Vxkt5LRyHJoEA==
+next-sanity@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.1.1.tgz#19f49003d17123185ba34a8e9d88e03930717c34"
+  integrity sha512-v3xAL5MAD09Co70uGOTIHg1/WsGdZTyZ989MnZnrvZNLcjKJtfZZZYEYmk8HX7B6VgYd1Tsc4e84+QOGzlbtig==
   dependencies:
     "@sanity/client" "^4"
-    "@sanity/preview-kit" "^1.2"
+    "@sanity/preview-kit" "^1.3"
     "@sanity/webhook" "^2"
     groq "^3"
 

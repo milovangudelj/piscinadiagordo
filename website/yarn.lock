@@ -3868,10 +3868,10 @@ groq-js@beta:
   resolved "https://registry.yarnpkg.com/groq-js/-/groq-js-1.2.0-beta.1.tgz#5f742bb3fe420b9f19335baeb9579388f9eeec32"
   integrity sha512-uDqNjHNiFUX7Z3JZMcul37dZsnJ1LYZtG5ScKSHTFSd7FzPJ2AiNZs5+XkhGgzmLSJFp/e44xwblJmtcELBmQA==
 
-groq@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.2.5.tgz#5f522e80100ecf6e955ffb788fbc8fd2d72b21e0"
-  integrity sha512-Ne5SNChtficXCoDmp68HNGOZqN94k5cschYZh6sCcbkgbfzUJBqPThsZ1Nad60QSVSnsDhS6/bXpbchGmD7/1Q==
+groq@3.2.6:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.2.6.tgz#7645c5fdc02c724b5a7bf75972d0c735e71972fa"
+  integrity sha512-FW/Xdyrvdj069Dn0EAeh++ElrOTsqHO3Yjqwhf/o/wfBu2G5zLkmu+0lFt8/nCmkwVhFWOkDSyGkW9rim4HL+w==
 
 groq@^3:
   version "3.2.0"

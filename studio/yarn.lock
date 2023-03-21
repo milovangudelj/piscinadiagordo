@@ -2625,10 +2625,10 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.7.0.tgz#4b22d53cefbc1f173629aa833dc874295c2a4b4b"
-  integrity sha512-C+rRy3l2ggjfCxvVXz8BvUIM0MT9Obv9z903DeEPrGSETFEwuMpVXhh3rTXg6/69hN47rfIvOlLn7B7TzDCrrA==
+"@sanity/cli@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.7.1.tgz#e1359f6553a2e7309f0495d461ea72a64947b8ae"
+  integrity sha512-aS2/DF+1AnNSp8aKRVenOYe5JEb0DXTMs25FDouwvZgOkhal9xtplu5vmqXB8kwEhif6aSVh1GwhpGtAj0LhFg==
   dependencies:
     "@babel/traverse" "^7.19.0"
     chalk "^4.1.2"
@@ -3248,7 +3248,7 @@
     framer-motion "^7.5.3"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^1.0.14", "@sanity/ui@^1.2.0":
+"@sanity/ui@^1.0.14", "@sanity/ui@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.3.0.tgz#e17d48c3f5dd9aab4d2f480692d5d4c1615009f1"
   integrity sha512-70ciBIxBW2Fp7nsCBK9Ahqv9djLjErl//G40zSR+Gqqeu+W80dlZ5HY/h2yRlKtFVTwuFEH86eUIe5q1PCSzDw==
@@ -3300,10 +3300,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.7.0.tgz#6a3765938b081cb2dc30d3a91fcdb51d93828042"
-  integrity sha512-WjPi8LqU0Rbl01Ld+q+KZltbgPCb6RyuvhwlPgkGy4PWNvTJJ7AiTiKoMwwmjkj1MHDS/vUnSnuDiPE7TIGjGg==
+"@sanity/vision@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.7.1.tgz#1ae201dbc39a92493f532ae220d4cd1e5a12b0f9"
+  integrity sha512-D9yrQuKhSuAXogHNd1NrGTJrJIAVk4cAkzSC3lFUxvJSrwSzJMeeSeVyV0sohfUwHVAR4EJi23m0IE19m4Xowg==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3317,7 +3317,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^2.1.20"
     "@sanity/icons" "^2.1.0"
-    "@sanity/ui" "^1.2.0"
+    "@sanity/ui" "^1.3.0"
     "@uiw/react-codemirror" "^4.11.4"
     hashlru "^2.3.0"
     is-hotkey "^0.1.6"

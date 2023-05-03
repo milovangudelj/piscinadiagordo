@@ -5214,10 +5214,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.2.0.tgz#1d6cfcaef024801da359e5da659f6eedc7efd2fa"
-  integrity sha512-4GNEgXXDWPlvXqdJaAfKBR8BNvwQqUCynJ9GCgL6tVGcfZvcAImyZkzLTXj75PTZDPDcc7OfKHXg+XbmbUp7hA==
+next-sanity@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.2.1.tgz#9351d75a784f6e5d156786f24a2c00ac1607d162"
+  integrity sha512-rhyyutqFQgUPn6U7NE59yP2WjFazzXZDv5pHsVZcmezSM5FGlLPoszUZqTUADNSEmWKUkANigDJPEuuFXW2VbQ==
   dependencies:
     "@sanity/client" "5"
     "@sanity/preview-kit" "1.4.0"

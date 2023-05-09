@@ -15,7 +15,7 @@
     "sanity"
   ],
   "dependencies": {
-    "@heroicons/react": "2.0.17",
+    "@heroicons/react": "2.0.18",
     "@sanity/base": "2.36.1",
     "@sanity/core": "2.36.1",
     "@sanity/default-layout": "2.36.1",

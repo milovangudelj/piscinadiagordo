@@ -4006,10 +4006,10 @@ groq@3:
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.7.1.tgz#645c19c977a917993a1037d2aa6e02ce49617a4a"
   integrity sha512-lmmn76K9gHyF2P1szvxvNc+TQVOQaUeXaky5NN7iBsxB2kjlsR6MHvjwboR43P35SmhSpiO1P9kPkean1Em28w==
 
-groq@3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.11.0.tgz#a06ba1f1f7e7fe79bb68a0885ccd852415335ddf"
-  integrity sha512-e+MftFhoFifDmXVbKlOG0EUs3phmHhqIzbJPINfXCOLWOpFvU+pNo85bXlJ2RB7FaPoXLw01T2VBomkEikaPmg==
+groq@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.11.1.tgz#974db2f87e1bd3726fd6d262d98ccc35f26c4d9f"
+  integrity sha512-g4UG/8+XFbZyrP54yJpM9Mhg7AP/lrgRdu44RrpXask9d3qF2LYMG38cWEyZxn1by6Hcl7ylbTJQzwg85+7QGw==
 
 groq@^3.0.0:
   version "3.10.0"

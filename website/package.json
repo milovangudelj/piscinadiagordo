@@ -11,7 +11,7 @@
 	},
 	"dependencies": {
 		"@heroicons/react": "2.0.18",
-		"@portabletext/react": "3.0.1",
+		"@portabletext/react": "3.0.2",
 		"@sanity/client": "6.1.2",
 		"@sanity/image-url": "1.0.2",
 		"@sanity/webhook": "2.0.0",

@@ -1867,10 +1867,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
-"@sanity/client@6.1.3":
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.1.3.tgz#94b87b1de78b041fb85cc489fefc03304c353e3b"
-  integrity sha512-asO/AvN+/D1Ljd6UNPWlo/toeO6SmZdsxyl+fJdLfI9by4svp/K3hD4Qy2DXXmwOfGYqGSH7etv2lnRhu+C5YA==
+"@sanity/client@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.1.4.tgz#cdaa43974724375a30e6cf31a43548566d11fd2e"
+  integrity sha512-4kmzbexANM6eHQevgtaqFbzQLXtK1oXsSr7ED2ztp8LQbt4aryruEvQavbiQ91m4Dfi78uLhBQ2fV5lPEPVNFw==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     get-it "^8.1.0"

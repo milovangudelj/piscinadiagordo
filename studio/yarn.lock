@@ -12387,15 +12387,16 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-media@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-2.0.6.tgz#9641f009011963d7c41f8366e90fbc287ab73228"
-  integrity sha512-gHIz6zmw05EK6zuZBP8vVeMXlLCnIqnKO9SHDrepJWcdzYaqJZ1GJHtNgcKSja8hGuXXGI3jelLNmENj/n0BhA==
+sanity-plugin-media@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-2.1.0.tgz#c28494aaa7a9dd02b053e965c7c2f65ec1473b42"
+  integrity sha512-f/jikNzoDAiNnDUdNXzVFwJt9v5iRv0PvNHMfLyozSIrJH1aPPV1tYChDxQqKoHq/RxjGYnIvzmfhs1lpqYoqA==
   dependencies:
     "@hookform/resolvers" "2.9.11"
     "@reduxjs/toolkit" "^1.9.0"
     "@sanity/incompatible-plugin" "^1.0.4"
     "@sanity/ui" "^1.7.0"
+    "@sanity/uuid" "^3.0.1"
     "@tanem/react-nprogress" "^5.0.0"
     copy-to-clipboard "^3.3.1"
     date-fns "^2.27.0"

@@ -3181,14 +3181,14 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.14.1":
-  version "3.14.1"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.14.1.tgz#f96796f88cfaa20480f83d0db2b3912a295ccc9e"
-  integrity sha512-2qAJaY7Ddh5eOuWdi6nDPCFm+Ye1UYtimTUkyoDJbCMTbZUx7Geh0tgwPijIeT73/0n1eVQ6ZOLm0bpihpk/pw==
+"@sanity/cli@3.14.2":
+  version "3.14.2"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.14.2.tgz#9da9e42f15bf996463e674f4405ac77f8575e2f7"
+  integrity sha512-emWwCn73yFHpY+9Gm+k1ILwZ4Gt6rfhKaUwWZqrCM8+6KrI/dE6UhzCRNppVxTRxrxfjqIEgxP7SQAecsUjCbA==
   dependencies:
     "@babel/traverse" "^7.19.0"
     "@vercel/frameworks" "1.4.2"
-    "@vercel/fs-detectors" "3.9.2"
+    "@vercel/fs-detectors" "3.9.3"
     chalk "^4.1.2"
     esbuild "^0.16.5"
     esbuild-register "^3.4.1"
@@ -3876,10 +3876,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.14.1":
-  version "3.14.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.14.1.tgz#e15dba50ef6a792ee1f03a3063820ac347d13b66"
-  integrity sha512-i0sbqo2bhxK44fZH7kWcCKHVVnFT39RqeFLfUMiRwStqP3I7U8qUZBOcNkr5HMpDtx6ghRNS/n5pcO/QiVeCcA==
+"@sanity/vision@3.14.2":
+  version "3.14.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.14.2.tgz#d126128ba3598e88f888ff73ecc8d1888c9cf039"
+  integrity sha512-N6iJO6vSCnXqIFJ9Ui77DZRRQ/UznAOMozLjdSGxj1aHxKP39HJwuNsEy2eUrMnTiloqQ2MEBfs+zrbVRL9r+w==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -4220,10 +4220,10 @@
     "@iarna/toml" "2.2.3"
     js-yaml "3.13.1"
 
-"@vercel/fs-detectors@3.9.2":
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/@vercel/fs-detectors/-/fs-detectors-3.9.2.tgz#859a2138c8a48c89068fcdeeb3fa022b69d050f0"
-  integrity sha512-fApNP4um51mB2DRe4DKmLlPpFiNrlShBNZdxf4sNx0hmempQ3g7BBirqKD66VWEFHRTmO3gctzuhNpBXVTD/+w==
+"@vercel/fs-detectors@3.9.3":
+  version "3.9.3"
+  resolved "https://registry.yarnpkg.com/@vercel/fs-detectors/-/fs-detectors-3.9.3.tgz#1ed69904dc1eca1f56ab9b7800d5c7a8c265b3d3"
+  integrity sha512-R6hM4Thh2dZI1oWjxTLuvLpvjUIBPTveHHUVNlcAn9JqOUXL4BYPIit6r376e/ufXnA47oNPN7C1gf4Mk5hfzA==
   dependencies:
     "@vercel/error-utils" "1.0.10"
     "@vercel/frameworks" "1.4.2"

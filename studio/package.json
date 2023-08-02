@@ -32,7 +32,7 @@
     "sanity-plugin-media": "2.2.2",
     "sanity-plugin-note-field": "2.0.2",
     "sanity-plugin-table": "2.3.0",
-    "styled-components": "6.0.5"
+    "styled-components": "6.0.6"
   },
   "devDependencies": {
     "@sanity/cli": "3.14.4",

@@ -1899,17 +1899,17 @@
     event-source-polyfill "1.0.31"
     eventsource "2.0.2"
 
-"@sanity/groq-store@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@sanity/groq-store/-/groq-store-2.3.3.tgz#63fd0845975d18dc3663e3867bd8aa50933bff99"
-  integrity sha512-HzyTc1hF47bA948rhUqj0K21nhxRx3sQI6lQUPTkCU1JqTN9XpPv/qLB/zJNrkRW7AXpdkZ5Rd9sR3CaqtMM9w==
+"@sanity/groq-store@2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@sanity/groq-store/-/groq-store-2.3.4.tgz#12adb5d99421c3d1851dd6f34e7c1b06104281e1"
+  integrity sha512-7W3ROK858YuAjyoPp9+OfHj00BkJX172b6LyV9peL8DcbMIG0G621Tv+oULLaizkA4y2D+b1sx+AYHWtdtIrew==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@sanity/types" "^3.14.5"
     fast-deep-equal "3.1.3"
     groq "^3.14.5"
     groq-js "1.1.10"
-    mendoza "2.1.1"
+    mendoza "2.1.2"
     simple-get "4.0.1"
     split2 "4.2.0"
     throttle-debounce "5.0.0"
@@ -1919,18 +1919,18 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-2.4.2.tgz#bd64dc5ca68eb8d750c6c1ea42fa614b1d6352af"
-  integrity sha512-im0oSbH/Lqh8Ybd3EcfYkBKRVbk2O3p/XvzCtda3BIsiJq0ArYkiEjHmp2HdQYNPqwZqnaTvuv04VFqERxlShg==
+"@sanity/preview-kit@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-2.4.3.tgz#74d31df333b51f85f5b1a02c62d2e08bde5fb3a7"
+  integrity sha512-Frq9fyzb9IVX7qHrMJtCgBb7w0zeeBPqXpNTW2uHiYmIrGwH/7v7bRP6IauyQUViLBkKNtNDXW11AhHgutqCtQ==
   dependencies:
     "@sanity/eventsource" "5.0.0"
-    "@sanity/groq-store" "2.3.3"
+    "@sanity/groq-store" "2.3.4"
     "@vercel/stega" "0.1.0"
     lodash.get "4.4.2"
     lodash.isplainobject "4.0.6"
     lru-cache "10.0.0"
-    mendoza "2.1.1"
+    mendoza "2.1.2"
     react-fast-compare "3.2.2"
     use-sync-external-store "1.2.0"
 
@@ -5076,10 +5076,10 @@ mdn-data@2.0.30:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
   integrity sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==
 
-mendoza@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/mendoza/-/mendoza-2.1.1.tgz#19ad4efc3f424439d895e1f1841818a4e268af55"
-  integrity sha512-8f3Se8HDfobXCsdESXZBSSYcVzIRi+cMIEmz/SR4bjgFEjHJaXzrsBYr+vyrFGEtK5xTpCcU+DiwxWJV6hCuhQ==
+mendoza@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/mendoza/-/mendoza-2.1.2.tgz#b2c15b418d422e6e2f9e39af05e5285b1257614d"
+  integrity sha512-Z2orUYO/RR7hJ2WdMtE1+u7X3/FiZrUpZqdctjxjxAfRODHfSvHKH+5tdEq/dXCf3W3CXSqWM46Ye7ww+KMrtQ==
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -5177,12 +5177,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@5.1.4:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.1.4.tgz#3c16c2d6b1f00f15eade51d21bd1b8a6e04b36b8"
-  integrity sha512-pxM1sFnMgSCkQUCLaDG8iDCkQr1wCiBe6SXAKgMxiUGMxmtasfkl5ynWjfYL17cjnLx1AMtBFWZHr/QX9o2osQ==
+next-sanity@5.1.5:
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.1.5.tgz#9634da5f1af1b12de8eefe50a9dd6d4111392214"
+  integrity sha512-ucXqTJ0PmLB3/gVIbdVwGDEKPb7TJimfKG1Dcy1p32y5Sg9X5LBrQyzGD3QXEYoxn31pWHbnUmcC4VCC3q/ADw==
   dependencies:
-    "@sanity/preview-kit" "2.4.2"
+    "@sanity/preview-kit" "2.4.3"
     "@sanity/webhook" "2.0.0"
     groq "^3.0.0"
 

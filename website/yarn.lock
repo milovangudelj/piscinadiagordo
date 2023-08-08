@@ -4041,15 +4041,20 @@ groq-js@1.1.11:
   resolved "https://registry.yarnpkg.com/groq-js/-/groq-js-1.1.11.tgz#14e45099921997646f7bea785793a96dbf7955d8"
   integrity sha512-LLYg7+nuOOcbQD7FKJjZj442W4ws+j/yggJV474VS6kmeIpBxfNGNMnBsfGSaJ/iDIhknjL4OcDgJ60FL+UJXA==
 
-groq@3.14.5, groq@^3.14.5:
-  version "3.14.5"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.14.5.tgz#a240244cd1e28f45a486628844c2ec878d49c83e"
-  integrity sha512-1kpBA0FPgNL72G+Qj4PwyTjpNfOqO6FPzIANc8aDxdesUtg6JVMGYXF6zsvR/9nIMfuT8+TEoyyKT9V7ls8e+g==
+groq@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.15.0.tgz#9d2a03790c03e7c45451e06d5968e07fd7dcf896"
+  integrity sha512-OjdYDrAHZC6Ku7LOgXUuh8DjcITJ7piz6WsuzrHUCiZEg3nEHWy2n3lU/INglVrIVp5o6QqqUh3fVlrBjp6X7A==
 
 groq@^3.0.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.10.0.tgz#e39cd21907e1b08e4d93a5782bf3eb15e8e474e4"
   integrity sha512-e0svTundFQ9N1dI/kytsZKa3gcWSCZ/6+iVEYGLs49TGsYrc3rCGuxNR+AZA23pS6bpRuxGCnXf1+vU4vIIMQg==
+
+groq@^3.14.5:
+  version "3.14.5"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.14.5.tgz#a240244cd1e28f45a486628844c2ec878d49c83e"
+  integrity sha512-1kpBA0FPgNL72G+Qj4PwyTjpNfOqO6FPzIANc8aDxdesUtg6JVMGYXF6zsvR/9nIMfuT8+TEoyyKT9V7ls8e+g==
 
 has-bigints@^1.0.1:
   version "1.0.1"

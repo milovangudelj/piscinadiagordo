@@ -5208,10 +5208,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@5.2.3:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.2.3.tgz#54f1e0bb3f7460ce506461ac31c448fb0cad5d61"
-  integrity sha512-X11oFX8Ut5o07yaWZEpZYIjCcTOcudiX74ZzRoGValhBLhM0luehO1ts6tGu6zqthXIGFUe562n/d7SWAjub9A==
+next-sanity@5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.2.4.tgz#e95ea3070f07cc39856a5eb26853f3fe46cbe921"
+  integrity sha512-4mIWVRg3VqI2Hx9sJOfbO/IttjRH5KDBdNpzDBoGizhF4C6iagrLTeGelg2MFu8gUSgfxKjwG7zkDWkvOgfY5w==
   dependencies:
     "@sanity/preview-kit" "2.4.9"
     "@sanity/webhook" "2.0.0"

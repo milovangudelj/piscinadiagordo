@@ -1880,13 +1880,13 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
-"@sanity/client@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.4.tgz#48526e40e546cb6275cd49851007b5bccdbed5af"
-  integrity sha512-A+BZY68/6fOf+UZqx5cjMcBMTmpsdL3HHa1P6phtnnzYjzV3xP3WQ+NVi0U6PgahnEH5aSW6y882QUsBS8jYpQ==
+"@sanity/client@6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.5.tgz#3d21041a9b950b9a9d8b8f036fe96ca3001ad282"
+  integrity sha512-IL+fzoZ2ZJKke07fFzq8Y6/NbWHvcQqSc4FLSO2O4xyCdZl6H/hyvOODvWRP01NFS63IJS2GHLjufD9II8pLYQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
-    get-it "^8.4.1"
+    get-it "^8.4.2"
     rxjs "^7.0.0"
 
 "@sanity/client@^6.1.5":
@@ -3882,10 +3882,10 @@ get-it@^8.3.0:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
-get-it@^8.4.1:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.1.tgz#59def03274cd2ba3317ad4c8cab8a0ecea197505"
-  integrity sha512-B81/lof6jHW2/YyvH4gzKclBMdHNl2B4hRpuIiwVYtZjUiV5mBAQa2GTX6EPTuNhPxw8K5c14cJAFUa78b4A/g==
+get-it@^8.4.2:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.2.tgz#dd247bd855aa7f8583a586fe0b81bc324995e943"
+  integrity sha512-xseDj1loKLcPYKhdlP2k7ZYDE03jTrHgRNt0AURtALOu+8pREmBn+UxZ4JbsxpQ8AvupgmpYuuTa3cS1mtuy2w==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

@@ -3188,10 +3188,10 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.15.0":
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.15.0.tgz#9716f2bb5945e55b90a333ee7c12fa7b12ccbdac"
-  integrity sha512-uSUtr3YZoA1y/LnAF4I1I7csj1RFrNnt2iW9Fq3w14SSNcSCSzi7DtncRcCF5AsvBsMl6w5/bIDmtit5+6R66Q==
+"@sanity/cli@3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.15.1.tgz#818c1d923770e15a211027d9b739e4b10e4c5057"
+  integrity sha512-I+XKDB+wG1S2iczRUQI2gCqLPmwtJnZoD8EPFufxLiDFad+ki61hGsjtCICkmiS+EYrv+tTH6krYflif3qds3g==
   dependencies:
     "@babel/traverse" "^7.19.0"
     "@vercel/frameworks" "1.5.0"
@@ -3199,7 +3199,7 @@
     chalk "^4.1.2"
     esbuild "^0.18.0"
     esbuild-register "^3.4.1"
-    get-it "^8.0.9"
+    get-it "^8.4.2"
     golden-fleece "^1.0.9"
     pkg-dir "^5.0.0"
 
@@ -3884,10 +3884,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.15.0":
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.15.0.tgz#b4e0fee6dc786f6b5a7040e826442635c32c95f8"
-  integrity sha512-YwUyrU98vZGJY7hUtFCUfoOX7MznELvI8SOXKSA40B/8CUUOB7m+Arw8PNsdkJ9C7/U96VzvDxmkrsOZzsosJg==
+"@sanity/vision@3.15.1":
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.15.1.tgz#8e083fc5e8e758a091ac7a6ec021aef430b1fab5"
+  integrity sha512-rHPbsHGdwplRsfx00TaQ6MKWV2nekupFQUi3dU1ywGvtnYaXPq5LHJLMb0ARePwnvtPgZcx8j4jreD1nHEA7QA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -7646,10 +7646,10 @@ get-it@^6.1.1:
     tunnel-agent "^0.6.0"
     url-parse "^1.1.9"
 
-get-it@^8.0.9:
-  version "8.0.9"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.0.9.tgz#e48c1c826e6c72074907efb08094215d92ad470c"
-  integrity sha512-Nm54soj8MEXTmkzAR0iWGP/TCAfsueOOWzBTvTB9ch0ubUE/5FbV7tAptbmsYzpk9QzA6zhcadqTCwP3prRfHw==
+get-it@^8.4.2:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.2.tgz#dd247bd855aa7f8583a586fe0b81bc324995e943"
+  integrity sha512-xseDj1loKLcPYKhdlP2k7ZYDE03jTrHgRNt0AURtALOu+8pREmBn+UxZ4JbsxpQ8AvupgmpYuuTa3cS1mtuy2w==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

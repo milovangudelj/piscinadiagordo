@@ -14,7 +14,7 @@
 		"@portabletext/react": "3.0.4",
 		"@sanity/client": "6.4.8",
 		"@sanity/image-url": "1.0.2",
-		"@sanity/webhook": "2.0.0",
+		"@sanity/webhook": "3.0.0",
 		"classnames": "2.3.2",
 		"date-fns": "2.30.0",
 		"groq": "3.15.1",

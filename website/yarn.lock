@@ -1959,6 +1959,14 @@
     base64url "^3.0.1"
     tslib "^2.3.1"
 
+"@sanity/webhook@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-3.0.0.tgz#054127e0087df10579b7944c0c3d4a5a93a3156f"
+  integrity sha512-F3mYXbDYOrZ4SB/Hnczi4bctNapVI8y3otRGe6W8LhAS9usxCrQMYGmR1PoHwn++Q6qw6V5cRHAu+edA/vUYLA==
+  dependencies:
+    base64url "^3.0.1"
+    tslib "^2.6.1"
+
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
@@ -6405,6 +6413,11 @@ tslib@^2.3.1, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tslib@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
+  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

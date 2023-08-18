@@ -1951,14 +1951,6 @@
     "@sanity/client" "^6.1.5"
     "@types/react" "^18.0.25"
 
-"@sanity/webhook@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-2.0.0.tgz#22e5916fd6ea616625b4105a68f2858408de8eee"
-  integrity sha512-KusHeWVy6yW3hcgVHbGx6qVv//bUj3CD9Nr0EOw086+mo/ESrUV21HjOCrNQ+AYqXvJ9H5qhqmMiuc8H5dXUGA==
-  dependencies:
-    base64url "^3.0.1"
-    tslib "^2.3.1"
-
 "@sanity/webhook@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-3.0.0.tgz#054127e0087df10579b7944c0c3d4a5a93a3156f"
@@ -2249,10 +2241,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.31.tgz#a5bb84ecfa27eec5e1c802c6bbf8139bdb163a5d"
   integrity sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==
 
-"@types/node@18.17.5":
-  version "18.17.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.5.tgz#c58b12bca8c2a437b38c15270615627e96dd0bc5"
-  integrity sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==
+"@types/node@18.17.6":
+  version "18.17.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.6.tgz#0296e9a30b22d2a8fcaa48d3c45afe51474ca55b"
+  integrity sha512-fGmT/P7z7ecA6bv/ia5DlaWCH4YeZvAQMNpUhrJjtAhOhZfoxS1VLUgU2pdk63efSjQaOJWdXMuAJsws+8I6dg==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -6409,7 +6401,7 @@ tslib@^2.1.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
 
-tslib@^2.3.1, tslib@^2.4.0:
+tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==

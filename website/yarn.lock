@@ -1928,10 +1928,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit@3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-3.1.3.tgz#5c00a90807c4d364a62e83232a6cc8ac3562f78c"
-  integrity sha512-v8zqm4uxE42RXmYySrULfscvdIFPjLwIrBbhRb+qumZNdGkTZph3y0Zo9rdW9MnOEYwew0pz6BUq+n7y/NoRwA==
+"@sanity/preview-kit@3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-3.1.4.tgz#d443d8a7765b56ec7dc93da4545a827b36520fd0"
+  integrity sha512-9iUr1ITPHbJLqLW2Gl3jQaAczKA5eTy2KvHqWVThlN6ryJkMGOGRcspPAiXDl+dfi11bV8RvEANXAap6B9RK/A==
   dependencies:
     "@sanity/eventsource" "5.0.0"
     "@sanity/groq-store" "4.0.4"
@@ -1958,6 +1958,13 @@
   dependencies:
     base64url "^3.0.1"
     tslib "^2.6.1"
+
+"@sanity/webhook@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-3.0.1.tgz#ed70a185940ec5775770cfb43503ecaee328e49e"
+  integrity sha512-2eTDg/+TR8lSX2OH6wH7M8UUwZUsD/i8Raw9mFH9myt2mkPY3ns77cU6K1QL2ZhwIIDJT5tttTELURF7RjlzVg==
+  dependencies:
+    base64url "^3.0.1"
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
@@ -5162,13 +5169,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.3.tgz#f247b6c647b35e56125ceaf2b89a749951de337f"
-  integrity sha512-tenjLXdXxJq9DvHOkzNYNwvbc91qKaZ0viiW56wmdbqSd6YEDpFo26xM+G8ZD1Ab+Am2QMSYy7GgEKP5cpSRzQ==
+next-sanity@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.4.tgz#e01af288fbed5c5a9bea131e41f736cc32d1a5ca"
+  integrity sha512-B0ekCOfrCAZ77J9f6PW8DJcZCcT6p4mnDg9MGqLtJuUaerEhYG31MSdXw8GzuYyzTMJu9a5bLGYMV8nUYnV5iA==
   dependencies:
-    "@sanity/preview-kit" "3.1.3"
-    "@sanity/webhook" "3.0.0"
+    "@sanity/preview-kit" "3.1.4"
+    "@sanity/webhook" "3.0.1"
     groq "^3.0.0"
 
 next@13.4.19:

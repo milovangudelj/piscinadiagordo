@@ -1855,10 +1855,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@portabletext/react@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.0.4.tgz#cd1316c782b227fad206fd3147e1c9d60aa933a8"
-  integrity sha512-M15IXRgoOgWiu3WxwdCZPpi/0sdP2KrMcRKCZFHI4D2nkhXO1A8Avs6Djc+uPg5ayfnCxewLl/FnXA0hFgccBw==
+"@portabletext/react@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.0.5.tgz#0f8cb66a7353ea0dd05bff5015c1396446d8fbb8"
+  integrity sha512-fYorpmA7i96fwj1t13Gu8k//94/8JB26vw72O6kwNcojqJjg/MouWro4mreZ1yCdBJScIfrd4p2k0XabPS5qcQ==
   dependencies:
     "@portabletext/toolkit" "^2.0.4"
     "@portabletext/types" "^2.0.5"

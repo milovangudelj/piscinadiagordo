@@ -1880,7 +1880,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
-"@sanity/client@6.4.11":
+"@sanity/client@6.4.11", "@sanity/client@^6.4.11":
   version "6.4.11"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.11.tgz#a3c6bf17eabf7356216ff98095fcf8baff082c25"
   integrity sha512-A8s5odg9b8ioamKDdfrfsp5rHsE8J+BOpknw6eRtIHF5BBkNGAYdS78NdS1m3R+llHotdpyS/X2+la4YgzU5/w==
@@ -5184,11 +5184,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@5.4.6:
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.6.tgz#3d9cf8802c7a48662cfb43841745ab89b7a37917"
-  integrity sha512-VgbLxYfgzLETNXKuvShhtaYKlz7DDb5QlFvvjf0eF82lIevI1c0jGHgPRhOTRuv0csvy9FVFCyMlxoc+BkAVmQ==
+next-sanity@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.5.0.tgz#df408f0b113b6d748d1560e9223c06d54f4d0454"
+  integrity sha512-iqGQ1ab8GtOlNT3+Lb/NmdflYvlp3wkRO0JPNCBM1eCHDXM2+V0nXhOdL5SqIPwmObgPkssx40Epjdskk8PIfA==
   dependencies:
+    "@sanity/client" "^6.4.11"
     "@sanity/preview-kit" "3.1.6"
     "@sanity/webhook" "3.0.1"
     groq "^3.0.0"

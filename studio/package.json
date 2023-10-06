@@ -24,7 +24,7 @@
     "@sanity/eslint-config-studio": "3.0.1",
     "@sanity/vision": "3.17.0",
     "classnames": "2.3.2",
-    "eslint": "8.50.0",
+    "eslint": "8.51.0",
     "phosphor-react": "1.4.1",
     "prop-types": "15.8.1",
     "react": "18.2.0",

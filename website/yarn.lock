@@ -1872,7 +1872,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.5.0":
+"@sanity/client@6.5.0", "@sanity/client@^6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.5.0.tgz#0d353623dc82c9ac40f33079f8b25aeddc0a1f52"
   integrity sha512-Lvrqm0L0mSc/KixLEYjFl44LTCCUn/BaGQYh1rXO9mVo78sXfySG7Qja3ek8bJHZ6zqhyvwg+Ejb8xMZ3FsopQ==
@@ -1888,15 +1888,6 @@
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     get-it "^8.3.0"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.4.12":
-  version "6.4.12"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.12.tgz#34a1a543669157eba533e64b60359984ef9c6d33"
-  integrity sha512-TuseXC5z0CORO7wKMmhNTiKy/8vjWsN7/PTMy53MUBshlMYE2xPad2QFw1zr+n/7qvNNc/CQ6Y2wVnaXU9PHVg==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    get-it "^8.4.3"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@5.0.0", "@sanity/eventsource@^5.0.0":
@@ -5484,12 +5475,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@5.5.5:
-  version "5.5.5"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.5.5.tgz#cedc15ace5d0aa2449119e277cc1f9f96d097ac6"
-  integrity sha512-ISthy/K4y50CgLmwnF8MSdKlZF4wHfTuq+GJemn1oRyUlBUNwT03nVaPgG+KF29Vx2jxrFM7CSA+1Zg0bheoKg==
+next-sanity@5.5.7:
+  version "5.5.7"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.5.7.tgz#d68dbcc873b916bb3eec7cadf0dd0b907a71416c"
+  integrity sha512-HR+06xnsyfbUiF3gn/jeCQcroAI4vCNoDruvqGSMtNgHPRkGomIvAKfs2dFl1FmITcEtG6XgvCPqdj1PVxHyfw==
   dependencies:
-    "@sanity/client" "^6.4.12"
+    "@sanity/client" "^6.5.0"
     "@sanity/preview-kit" "3.1.6"
     "@sanity/webhook" "3.0.1"
     groq "^3.0.0"

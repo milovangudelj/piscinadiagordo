@@ -2860,16 +2860,16 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.18.1":
-  version "3.18.1"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.18.1.tgz#57dfc32969ce66cb39953897796064b74908d81b"
-  integrity sha512-HO+gUj8Bi2t6lPdACej1uXkIp4F295qt5MkChaHQzZHze1NezLLV7qmN8E465W4iGqpPvmpwBUKaD7Z1Qy7N9Q==
+"@sanity/cli@3.19.0":
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.19.0.tgz#0f9c27384d57bde927bd0d865bc6a325f0205927"
+  integrity sha512-E+SedbulzaatMgpIu1ugqW8tjVTl4lSp1bkdXO57R7dn2hlrXq6oNJGye5Yz8kp6dzBz4KLsmRgFu301aDyHWQ==
   dependencies:
     "@babel/traverse" "^7.19.0"
     chalk "^4.1.2"
     esbuild "^0.19.0"
     esbuild-register "^3.4.1"
-    get-it "^8.4.3"
+    get-it "^8.4.4"
     golden-fleece "^1.0.9"
     pkg-dir "^5.0.0"
 
@@ -3206,10 +3206,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.3.1.tgz#38e0e85095a2ae41c7e9836aa4e4dbf1905ac68f"
   integrity sha512-DyUdjjWFIokrMewnK24Vvxpv2lKx5LrzUM3eEk0ZVwhS8+hWkFFN1Z7jhcwQnQ5NweejhzsZkT4JHUdffCAQaw==
 
-"@sanity/icons@^2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.4.1.tgz#34ce2c5b58f53c7369ff926b651ea57c4e3c0a8c"
-  integrity sha512-/yxcIT0k1RxStI/pP/oHM44fHI6Oxiygf0jPcdV06Ce0xfFo+51UEqJSfE8hQ3fh+uFkat8ZZObZjq5v1ceJzw==
+"@sanity/icons@^2.4.1", "@sanity/icons@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.6.0.tgz#48e0aa2bcc39c018911cdf7a3d66647b6f87675f"
+  integrity sha512-l4yBs2z2nEsgtasPuBQ5muowxJBXNfw0bqty2uG1tFsEyCYSPHGUROQSLLvIseYC3Onees+r5E9ijMadJQNc/Q==
 
 "@sanity/image-url@^1.0.1":
   version "1.0.1"
@@ -3502,16 +3502,16 @@
     framer-motion "^10.12.16"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^1.7.2":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.7.3.tgz#e603cf6d68ca26e1345a76ee0f328532d794edd2"
-  integrity sha512-C+EBh7Vp0XMKE6k7sAGylc5R9RsZkKu4FnZ2SotVe5CPUTFAqTIqEn2WoaAKVMtkafxplCXd7RQsWr5nJOjqSg==
+"@sanity/ui@^1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.8.3.tgz#e527c2e9df0951f546c05cf015770be2b7e1927f"
+  integrity sha512-LOYVLkpnGrWlCRTjluFn2wf7y4BzYhFBzdnBmNT0uRWH3pXN24xXH49e0HfbJ3tzRLOKwLo35IexvBKQwPgYZg==
   dependencies:
     "@floating-ui/react-dom" "2.0.0"
     "@sanity/color" "^2.2.5"
-    "@sanity/icons" "^2.3.1"
+    "@sanity/icons" "^2.4.1"
     csstype "^3.1.2"
-    framer-motion "^10.12.16"
+    framer-motion "^10.16.2"
     react-refractor "^2.1.7"
 
 "@sanity/util@2.36.2":
@@ -3554,10 +3554,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.18.1":
-  version "3.18.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.18.1.tgz#bca0afa5ddb4c4b5c856cba1e3187c7f73808e03"
-  integrity sha512-R/2R7AH16/cEaaRPd2zSRh3I2XCjWtIutZsNpwaaPNHULhCBSgavGqwVbZ892G//BSliwTK3mOP1qLnlP92O6Q==
+"@sanity/vision@3.19.0":
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.19.0.tgz#57a604369a39b09b251fc381379500c99ea9af42"
+  integrity sha512-oPbwISyGH5AEk4K+DMKXQL9TK3h86A3tCp9K/JoIQNgwAeW0UJ2Aimf/06nS2RLAFo56tjZ6C0SoYOcVAdxhgQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3570,8 +3570,8 @@
     "@rexxars/react-json-inspector" "^8.0.1"
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^2.1.20"
-    "@sanity/icons" "^2.4.0"
-    "@sanity/ui" "^1.7.2"
+    "@sanity/icons" "^2.6.0"
+    "@sanity/ui" "^1.8.3"
     "@uiw/react-codemirror" "^4.11.4"
     hashlru "^2.3.0"
     is-hotkey "^0.1.6"
@@ -7176,6 +7176,15 @@ framer-motion@^10.12.16:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
+framer-motion@^10.16.2:
+  version "10.16.4"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.4.tgz#30279ef5499b8d85db3a298ee25c83429933e9f8"
+  integrity sha512-p9V9nGomS3m6/CALXqv6nFGMuFOxbWsmaOrdmhyQimMIlLl3LC7h7l86wge/Js/8cRu5ktutS/zlzgR7eBOtFA==
+  dependencies:
+    tslib "^2.4.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
+
 framer-motion@^5.3.3:
   version "5.6.0"
   resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-5.6.0.tgz#8203b5bc4e172265d43dfe67c3c41346c67a3940"
@@ -7393,10 +7402,10 @@ get-it@^6.1.1:
     tunnel-agent "^0.6.0"
     url-parse "^1.1.9"
 
-get-it@^8.4.3:
-  version "8.4.3"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.3.tgz#f5d05fb95644c5414afa6f5dfd3a927820472f7f"
-  integrity sha512-H9YbPCN3QCbxtojv42fvmrkIYe434qKg1nKpMMtBqwL8U3XprnHMgDbQwMJIxSIFOPpajQPf0BxhjsHoFI0cEQ==
+get-it@^8.4.4:
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.4.tgz#8c1c4b16f6f2da4120c00fffa66c5afe2d454e23"
+  integrity sha512-Pu3pnJfnYuLEhwJgMlFqk19ugvtazzTxh7rg8wATaBL4c5Fy4ahM5B+bGdluiNSNYYK89F5vSa+N3sTa/qqtlg==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

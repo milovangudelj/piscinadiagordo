@@ -1872,7 +1872,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.8.6", "@sanity/client@^6.8.6":
+"@sanity/client@6.8.6":
   version "6.8.6"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.8.6.tgz#e5bc98c525f50ef8c2ecf1f41c1ea8441b9ac9a6"
   integrity sha512-Va4KZ4mRnyIbV+61VIJ+Op/amNAwWTo/ET3egtnEqPuXYLg60VWffNoAtAjuaZ5qM9BpTOCGJZjTKCHq+/5CEw==
@@ -1889,6 +1889,16 @@
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     get-it "^8.3.0"
+    rxjs "^7.0.0"
+
+"@sanity/client@^6.9.0":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.9.1.tgz#b95d68e313118e0bbdb6260f7a8c8463cd02bba3"
+  integrity sha512-k104Mp3n7uhmY/6DZ5oVxeX1pL3ixv3htodsqW3f2aEQnBXBcRYFQ9OL12p2jpSeOSicOve2joX2sBx0fJBdww==
+  dependencies:
+    "@sanity/eventsource" "^5.0.0"
+    "@vercel/stega" "0.1.0"
+    get-it "^8.4.4"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@5.0.1":
@@ -5507,12 +5517,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-6.1.0.tgz#57ebd67d006483f7213aa3c927726a565b5df612"
-  integrity sha512-N3ERBju7/zsFiApyJ8t9YP2M7AZUKDSnTFKVo2gBzmD/V6flvE+gVcjUOM+IK8syTdHqkX7RLZKXFdo2eyvLGQ==
+next-sanity@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-6.1.1.tgz#3b5a2a68eabe21cdfc2a7f8a93532b6c7158ebbb"
+  integrity sha512-94HWl4dkuLZsHvcKma8E2kz6N+yN2GxbVtQO8TgakVLGy1asDCcEvrUWef8AqAd4gi0wg3Kxpvd36hyFEh7z7g==
   dependencies:
-    "@sanity/client" "^6.8.6"
+    "@sanity/client" "^6.9.0"
     "@sanity/preview-kit" "4.0.1"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"

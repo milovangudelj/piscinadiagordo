@@ -2867,10 +2867,10 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.21.0.tgz#a261493997e29ca89822dc0d7c19135f3de90e24"
-  integrity sha512-KFtQHfTfhWu4LjvopWOm2SXFe2X4DMFfh6jGWsPKrp8NBvSRx2/QOLYxO8PquafSAgVoF1tvrt3Zdd2O5GyeCw==
+"@sanity/cli@3.21.1":
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.21.1.tgz#a38f697abfee03c374570b5b62d81a696fc46eb6"
+  integrity sha512-FpgaA3mFfem9evRxecpwNDbGlnPt1KjcmsG6ZwOR7PVSrGJ+9kc5pOGGdxQROcJmJayhA64hz1fUtidXBH3rQA==
   dependencies:
     "@babel/traverse" "^7.23.5"
     chalk "^4.1.2"
@@ -3561,10 +3561,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.21.0.tgz#8b8defe910a25ba2023ad63d184dd2c23718df83"
-  integrity sha512-+gSWcxvwNBI62h5CD5M7Buo5t/ha3g0axNRfvznkjdcL1KxSCBu4pND8qVkpMoC3D3CAI3o7O/oxiSgMz71heQ==
+"@sanity/vision@3.21.1":
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.21.1.tgz#dd64bada1893ad0f5aa02a2d73cb210d6a16203e"
+  integrity sha512-xqIyB3NL3+gMnipg2oLdOYyJxXn+kq2M40ZFsbTLpmMl0L6ME4I8+polrUGGhOFMTDVB8+0zP7vXEJMppk43BQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"

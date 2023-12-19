@@ -4165,10 +4165,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-groq@3.21.3:
-  version "3.21.3"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.21.3.tgz#7167d063f61d658fbcc0b6b999847a69be41e227"
-  integrity sha512-VzhP4jBQNLrS6aJU/jpEGex5eywcfz2ssIgC+mmn2FuF3uwvCh5qP+rqK2o3Z2I/RYvoMKk5UXfcmAAmC7jAZg==
+groq@3.22.1:
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.22.1.tgz#e8c2211724065fa6f023460391db0681c27fd7a4"
+  integrity sha512-iSH0Ls2lBulLSXpPsQGQxwDEAJN7+S9lD6aCWVBXnq5ktjtEz9rOFkUwbp/zGylmyuqoHrr2IEL1EyQktF7QMw==
 
 groq@^3.19:
   version "3.19.1"

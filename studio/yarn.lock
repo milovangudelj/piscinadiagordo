@@ -2894,13 +2894,13 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.23.1":
-  version "3.23.1"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.23.1.tgz#389542ba56980342b735c960ee01f81296d8a65f"
-  integrity sha512-i4tL97g8E2DGM6AT7oJmHnLq8nJ6axqKI8YtnMqQQxZaC6x+Gg098Q2pp26rfbanqLlv4hXuABOFhduuyOV+Bg==
+"@sanity/cli@3.23.2":
+  version "3.23.2"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.23.2.tgz#acb19cafc63abfc7e8303a92b7b686e8ac62e7c3"
+  integrity sha512-PG4RplqVOrDvZ+/Eo+EF1X273A63aTOmSM/qT3EPUZJfKhCHli8neivrqwb5X/zKypVBMV0vbNuhdnIeqT9HgA==
   dependencies:
     "@babel/traverse" "^7.23.5"
-    "@sanity/telemetry" "^0.7.3"
+    "@sanity/telemetry" "^0.7.5"
     chalk "^4.1.2"
     esbuild "^0.19.8"
     esbuild-register "^3.4.1"
@@ -3467,10 +3467,10 @@
     lodash "^4.17.15"
     memoize-one "^3.1.1"
 
-"@sanity/telemetry@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@sanity/telemetry/-/telemetry-0.7.3.tgz#05715dbf3cd7313b6eeeba23faa2bba8b5c8c381"
-  integrity sha512-gzHQJPQ9PjKOS/T/SLqrbSgTGwb2ZTrbBZBH0Yx25P5cP2C9kBGCoHRIJvQU0axBFSBRajVQDKtIUSrZ59XBSw==
+"@sanity/telemetry@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@sanity/telemetry/-/telemetry-0.7.5.tgz#e9c39d35a55892ec230654f33d008f75aa2a398a"
+  integrity sha512-lY1Lmt2zl9YIIXO2bAFGXR542ovpn8jmLmIos1mQU4D+ItbZsPBxt9g72bJCsUZ7yodMf2K4t4Tp7BTv0as9sg==
   dependencies:
     lodash "^4.17.21"
     react "^18.2.0"
@@ -3601,10 +3601,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.23.1":
-  version "3.23.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.23.1.tgz#2cb2b893eba208875afe1f324ac028afce03d7b2"
-  integrity sha512-RN2fQp7Oq8UiXqR/g0vwdfKuwqoEJdSpDKEhHzDq4/YxmfUO6881cqJTJ5vEXlLuDFU0HHBBq4o18c4dSwE8MQ==
+"@sanity/vision@3.23.2":
+  version "3.23.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.23.2.tgz#a3036ca15ea1da215d22b7cf18f067ec09db40a8"
+  integrity sha512-xKp7zY5JjwrdMzJiCwLsGqxfZYYUoFYCxNBFIZrY5nxCzzZHua4oK19GixoSsxouuUlmamiHJUtyYRnH0Zd45g==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"

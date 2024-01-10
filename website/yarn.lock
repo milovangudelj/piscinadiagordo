@@ -1865,17 +1865,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.10.0":
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.10.0.tgz#9f4161074afd1af1a01b6295be1032b62aaab0e7"
-  integrity sha512-TavtxGB6NWjro2BTGXSkzXNMKFZbS2il1ItV3IdRvO0luLqS31eIz37+5X4CmCC8hGFe6fDoCjnH/iJ81vKM7g==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.4"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.11.0":
+"@sanity/client@6.11.0", "@sanity/client@^6.11.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.0.tgz#0f034259e4f90446c4dbadbb5a246c31007557ae"
   integrity sha512-95UoUO4VL9QfwT3Mwx5ZxImXbSG232VyVuPdiJ+jeTIFdFuMKzh0Db19y1+CwL28Dc2n7mKSD/ALAP28PXbCAQ==

@@ -1865,20 +1865,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.11.1":
+"@sanity/client@6.11.1", "@sanity/client@^6.11.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.1.tgz#3c36109434775d1588b171e4840e6750415da6d1"
   integrity sha512-em4jWdXl/yZQsXRslTqF+0kj5sFM9l9tVz7pE/vPLN0aYlX+jxovzX4PBXLC1/gdJVtpT4GQRHcTBcnNSOtPNA==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.4"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.0.tgz#0f034259e4f90446c4dbadbb5a246c31007557ae"
-  integrity sha512-95UoUO4VL9QfwT3Mwx5ZxImXbSG232VyVuPdiJ+jeTIFdFuMKzh0Db19y1+CwL28Dc2n7mKSD/ALAP28PXbCAQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1905,10 +1895,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.0.tgz#153ae7be33bf62946ff3013ed96832c8e3bd2dee"
   integrity sha512-n5gwT79ZdoGuMMMU5qDSHRsqMl6XEW0gvaXQYR5kgx6tY9HCr8Mpd0iJ8NHr0sD+/aBU7Rw4/l4i6mB3Z+bS4Q==
 
-"@sanity/preview-kit@5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.10.tgz#81f975e8bb72c300fa330d337e7c41ed0b253520"
-  integrity sha512-wOpZ5jcO9uYaBeiMEcJEdrDoSL+gmikNzFho33pqa+0nRmPR6hzx+ARPNPnI939Cpjd5lx6hJ4MB8cn0YrrWyw==
+"@sanity/preview-kit@5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.11.tgz#9c17bc9a9b67c58fa57839aba962f671d061b3bc"
+  integrity sha512-xfLcrRDu5Smb9vTIn/2QXBDTQ0VIIy905CoqIADYHf40rrqJMx/Q2Iqs3lRSYeAFpUWcaE5nYfihmUzCG4npVg==
   dependencies:
     "@sanity/preview-kit-compat" "1.4.0"
     "@vercel/stega" "0.1.0"
@@ -5422,13 +5412,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@7.0.8:
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.8.tgz#32136c04a248b3daa856e900df4d57185aae50c6"
-  integrity sha512-L3vwkbwWVgW3iHq9XqiCu5BAucTX2sF5Lz0W8uFmIhq2O/a4eq/o3IxApx/AJq6tx3yWn//YSvXTzdyktQqWVA==
+next-sanity@7.0.9:
+  version "7.0.9"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.9.tgz#491acb2d4f85520c90a865bf57f7e5ea0e2a6597"
+  integrity sha512-vqjEMm42bKy6NFTVN8W2iMYhWcd6sG6yttJC2WnuFANGyzqqlPi04BNAeYNSZP1taSIkB8ckMnsjHHk0mU52pg==
   dependencies:
-    "@sanity/client" "^6.11.0"
-    "@sanity/preview-kit" "5.0.10"
+    "@sanity/client" "^6.11.1"
+    "@sanity/preview-kit" "5.0.11"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 

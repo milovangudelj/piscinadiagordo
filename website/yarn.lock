@@ -5412,10 +5412,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@7.0.9:
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.9.tgz#491acb2d4f85520c90a865bf57f7e5ea0e2a6597"
-  integrity sha512-vqjEMm42bKy6NFTVN8W2iMYhWcd6sG6yttJC2WnuFANGyzqqlPi04BNAeYNSZP1taSIkB8ckMnsjHHk0mU52pg==
+next-sanity@7.0.10:
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.10.tgz#a1c5bc75cd1a02833fe114eb8c8d1b76c554b3cf"
+  integrity sha512-2X7uq2mYYbzV+S2SuZWvhpzw1gMqpBawXzXG1edQ2m8K3h4vUy2H8glm4zEw8YDiO4OiNJXvPF2AwGab4wAyvQ==
   dependencies:
     "@sanity/client" "^6.11.1"
     "@sanity/preview-kit" "5.0.11"

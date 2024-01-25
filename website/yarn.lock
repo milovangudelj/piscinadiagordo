@@ -1882,17 +1882,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.11.3":
-  version "6.11.3"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.3.tgz#dcdaef09edacdc368d716cd1bfcf0e38e598800d"
-  integrity sha512-areQ7bTcwxbswQntlOk3A+QMQa+FL4aOQ2npjp+tZjUmu3DZkLzInbOAqSpwQpd1hMbJYXmLp1m7XCmbEajApg==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.6"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.11.2":
+"@sanity/client@6.11.3", "@sanity/client@^6.11.2":
   version "6.11.3"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.3.tgz#dcdaef09edacdc368d716cd1bfcf0e38e598800d"
   integrity sha512-areQ7bTcwxbswQntlOk3A+QMQa+FL4aOQ2npjp+tZjUmu3DZkLzInbOAqSpwQpd1hMbJYXmLp1m7XCmbEajApg==
@@ -1938,6 +1928,11 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.0.tgz#0f4e66d0c2c0b84a5bb0a9b12e6ac57adc974502"
   integrity sha512-IRjtj17tHSmxHWZvgRnLZbWj8J8G4jqOWOYC25eV4EcfVn1yZCs0x+km6+PSiJgOphSX6Nm1+X6UJOT+GnWIFw==
+
+"@sanity/webhook@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.1.tgz#6e9e1845f276992fec8f728fc44b42ff8a0a9f47"
+  integrity sha512-hswDXWD6Ru2qz0oMlEOathKspEyoc/jNFgAGvQVWQ4sbQDjVveMkLimQO+4FNWwi1AMYdcEmj+XmCzrPKIuvWA==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
@@ -4053,22 +4048,6 @@ get-intrinsic@^1.1.3, get-intrinsic@^1.2.0, get-intrinsic@^1.2.1:
     has "^1.0.3"
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
-
-get-it@^8.4.5:
-  version "8.4.5"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.5.tgz#f60ef6724d80a1c522905e12c6ed9fdd540f03e2"
-  integrity sha512-hOoAwSfJXy86QJPEsZFDtBsFBagyTAlYwLJkKZJN5q7ppXRQjq0Wies4d14icDSpVs7QVm4Wtt0XQzjxXlUdgg==
-  dependencies:
-    debug "^4.3.4"
-    decompress-response "^7.0.0"
-    follow-redirects "^1.15.4"
-    into-stream "^6.0.0"
-    is-plain-object "^5.0.0"
-    is-retry-allowed "^2.2.0"
-    is-stream "^2.0.1"
-    parse-headers "^2.0.5"
-    progress-stream "^2.0.0"
-    tunnel-agent "^0.6.0"
 
 get-it@^8.4.6:
   version "8.4.6"

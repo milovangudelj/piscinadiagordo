@@ -1882,7 +1882,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.11.3", "@sanity/client@^6.11.2":
+"@sanity/client@6.11.3", "@sanity/client@^6.11.3":
   version "6.11.3"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.3.tgz#dcdaef09edacdc368d716cd1bfcf0e38e598800d"
   integrity sha512-areQ7bTcwxbswQntlOk3A+QMQa+FL4aOQ2npjp+tZjUmu3DZkLzInbOAqSpwQpd1hMbJYXmLp1m7XCmbEajApg==
@@ -1912,10 +1912,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.2.tgz#358c2e647d7d6eecb28c76bd32696219cfc6335c"
   integrity sha512-5K35KJuvpzIwnyA5bj8GTRE8lT/lYmHLEUzDKdBlcJWWJXFyhAMWrvheqYFEaeRk/IPzQ1HGcy2+TZBFFCu5Rw==
 
-"@sanity/preview-kit@5.0.12":
-  version "5.0.12"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.12.tgz#4fa1eb2f56a24fc487ee82550bab6297677a16fa"
-  integrity sha512-5Kg3n+wB1Cd1U3raHDn5E6GXHilIB2J7AK2Y2FRkCNlVC/5bjrcHJCR35zrNf3Mj0v3AcbYprqEFy9JkLMa94g==
+"@sanity/preview-kit@5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.13.tgz#b3a201b42f436f31d03be7d315aafbd8977e2852"
+  integrity sha512-71xpIBPE6VlkIj68Wc1L5op/1E53dgFMA900End6xNALgqswXIggdvypjAQn2dFTuZ2XoH13O9q8VP1nvA+u8Q==
   dependencies:
     "@sanity/preview-kit-compat" "1.4.2"
     "@vercel/stega" "0.1.0"
@@ -5474,13 +5474,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@7.0.13:
-  version "7.0.13"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.13.tgz#a8c0dd73d80be17ffa36941452e79e6111340b98"
-  integrity sha512-MABrWcaIawIOe034evvFLfJawk6EKcl51pSI8oHdzwF6GPVbu3twxmMMR0XaePifmTKbTE3sNXHXPBmSamTyaw==
+next-sanity@7.0.14:
+  version "7.0.14"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.14.tgz#51d26e56c4b3961b5e10f344500dba4241d13b22"
+  integrity sha512-0KbKnq4sX36gxX3RemP99FjSSWuKvNnpIQ4VpymPhfZUwqqGzmYzJniCVy2f/hQCQ2lRuQArpcv5LuYhjwDRfg==
   dependencies:
-    "@sanity/client" "^6.11.2"
-    "@sanity/preview-kit" "5.0.12"
+    "@sanity/client" "^6.11.3"
+    "@sanity/preview-kit" "5.0.13"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 

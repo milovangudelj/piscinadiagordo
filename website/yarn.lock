@@ -1882,20 +1882,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.12.3":
+"@sanity/client@6.12.3", "@sanity/client@^6.12.3":
   version "6.12.3"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.12.3.tgz#240d50c55b3ed4e0f3a24a055c852d0aea992c89"
   integrity sha512-oA9LkDZOpVN8nciGb6/h+1r4ElH0IUTC3bHyBdVsxB5namdWBJKZzuVjJiWQlsK8up7U1xsATB4hyimSgUCSjA==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.6"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.12.1":
-  version "6.12.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.12.1.tgz#312dd566c07fa3fe0253d0af5b1364294e398534"
-  integrity sha512-vVjiASYaYQB7VyA7lDG3uHt0OZOaGT8U8aoSDocYiEtK+RWbyp5h16zLZQCL9j3K9Tgr4sx1iMgQkfpTL8GquQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1922,10 +1912,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.3.tgz#b10eb3a1726f1806eed3002427c63c4bbb2146c0"
   integrity sha512-98WwFKzSVnCbpzI7ThCf1mrB1In4aK7WqorF2Jich5a6n28dY5p3QfelVx1LQkYtgkN/QcoOQ7No7tvXm2pKxg==
 
-"@sanity/preview-kit@5.0.17":
-  version "5.0.17"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.17.tgz#488771151ab0b6359a52e63e9ed2462284ea8f05"
-  integrity sha512-A9Lb1idH/cJ/5C9kIOHQye0gxXG6SBXHdXeU4GT/vcPnARZ8hZLTW3OXt713UtrIB06cT9CaV7mp6n25TxYmzA==
+"@sanity/preview-kit@5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.18.tgz#ef7314c619643d34b3d00879dfc4ee7527cd76ea"
+  integrity sha512-8iuQSWIgOsJQCgtvZiY42fQZB2lqyHOZyuKhuyo0pi4Rf1fhHRmmc9wtKcdStxfvtcE3u1PwofqmdmYghyqWGA==
   dependencies:
     "@sanity/preview-kit-compat" "1.4.3"
     "@vercel/stega" "0.1.0"
@@ -1933,6 +1923,11 @@
     mendoza "3.0.4"
     react-fast-compare "3.2.2"
     use-sync-external-store "1.2.0"
+
+"@sanity/webhook@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.0.tgz#0f4e66d0c2c0b84a5bb0a9b12e6ac57adc974502"
+  integrity sha512-IRjtj17tHSmxHWZvgRnLZbWj8J8G4jqOWOYC25eV4EcfVn1yZCs0x+km6+PSiJgOphSX6Nm1+X6UJOT+GnWIFw==
 
 "@sanity/webhook@4.0.1":
   version "4.0.1"
@@ -5484,14 +5479,14 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@7.0.15:
-  version "7.0.15"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.15.tgz#49ec51e9172f7eba8c419855583a7698aff43627"
-  integrity sha512-ywgVlLcE7HwMIVfW3qnL+j3xQMJvXHSGkAGxcXBL6dP2hC5ChTnmClbjBhd3GHucf3tUd/FLy1hH4SLTlujkwQ==
+next-sanity@7.0.16:
+  version "7.0.16"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.16.tgz#71a66ab47bd2e35faa4c910ce15b3aa6dddd595f"
+  integrity sha512-1pClS/qJOL+xLGQlhu6bHXBMkJOtaDGBEUuc9vOwFqcajLmaDcLLqy+BuUkY2GWKik89dNrP1JjTDUgsmmW/Wg==
   dependencies:
-    "@sanity/client" "^6.12.1"
-    "@sanity/preview-kit" "5.0.17"
-    "@sanity/webhook" "4.0.1"
+    "@sanity/client" "^6.12.3"
+    "@sanity/preview-kit" "5.0.18"
+    "@sanity/webhook" "4.0.0"
     groq "^3.19"
 
 next@14.1.0:

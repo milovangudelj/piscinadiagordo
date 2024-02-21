@@ -1882,14 +1882,14 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.14.1":
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.14.1.tgz#3d94b3cc9e7aeb9a933e129a719679bbbd28d8b5"
-  integrity sha512-PTtQZVopLvmq3xZDE+sU5tNutBR6mQSKGunvrTXnnecw4rR7mQYRl2ZmPHfpgamG2fcfXIydyw5khWzNc5k+Xw==
+"@sanity/client@6.14.2":
+  version "6.14.2"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.14.2.tgz#b69c15f1b660e40b0a929a52fa4eceaaabcf0b85"
+  integrity sha512-n5SamauuV9CaC9lM8cRQ+33oOcJixbSHMuxg7HJ34P3nNiJw+t0dSpV8WDfC1UW3t/fVLxt7XfO6vIvNPJv1oQ==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
-    get-it "^8.4.7"
+    get-it "^8.4.9"
     rxjs "^7.0.0"
 
 "@sanity/client@^6.12.4":
@@ -4091,7 +4091,7 @@ get-it@^8.4.6:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
-get-it@^8.4.7:
+get-it@^8.4.9:
   version "8.4.9"
   resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.9.tgz#4acbbc877671ae92e98bf2c9c7b3d7944ce598e1"
   integrity sha512-C6AC03pqD5QAHKrS1kivcMs3w7n8RyH8G1GUX1VoEUnzUnTE+FjgV5g38ghJBml4sHcUVQuWCj9vg9GnugKrBw==

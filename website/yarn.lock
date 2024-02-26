@@ -1951,10 +1951,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.0.tgz#0f4e66d0c2c0b84a5bb0a9b12e6ac57adc974502"
   integrity sha512-IRjtj17tHSmxHWZvgRnLZbWj8J8G4jqOWOYC25eV4EcfVn1yZCs0x+km6+PSiJgOphSX6Nm1+X6UJOT+GnWIFw==
 
-"@sanity/webhook@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.1.tgz#6e9e1845f276992fec8f728fc44b42ff8a0a9f47"
-  integrity sha512-hswDXWD6Ru2qz0oMlEOathKspEyoc/jNFgAGvQVWQ4sbQDjVveMkLimQO+4FNWwi1AMYdcEmj+XmCzrPKIuvWA==
+"@sanity/webhook@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.2.tgz#f298c245923873ea08482279c855033dac45ee43"
+  integrity sha512-lJEr6mPl//k1oT1Y4UXE206N8ca5bWx2qJTbJn2c1K/3ef4LBexu2syoOtA09qqPPQ1Eu7gOcuUFjNllEK7fkg==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"

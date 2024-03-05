@@ -2894,14 +2894,14 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.30.1":
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.30.1.tgz#88769c15d002cf69af4ba51f05b81539779fd0a7"
-  integrity sha512-9j+HhV1bYel5A7uO8Dk8cbNziJHm0gHAUDo1kiJ+hVlXPaDqZXc6OnYL37jnyHA6V6DJzsugWDY5BnrjXwCrNw==
+"@sanity/cli@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.31.0.tgz#a507229afb6c967051c8a2f2d3dfee59c5b058ca"
+  integrity sha512-hyWuODId3BZplv+kypPByelQ91F5+EqmUEBBQ2HO0NE6EBonDFhlpqc48CE5GMqtFx2KK5Tc1ahcglKaj4yyiw==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/telemetry" "^0.7.6"
-    "@sanity/util" "3.30.1"
+    "@sanity/util" "3.31.0"
     chalk "^4.1.2"
     decompress "^4.2.0"
     esbuild "^0.19.8"
@@ -3528,10 +3528,10 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.30.1":
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.30.1.tgz#004e61bfc663ce7477a6d84d406dbb591b9b2956"
-  integrity sha512-JrFYZQJShRpmDrhLfoUGU+szhCV1brU/ufS+HZWkfRZB/QeClLkvOwwhi90LQdm+3BD3G/3QvdqzLnfbi9BZiQ==
+"@sanity/types@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.31.0.tgz#8836728d6f964d99b9826bfe847f339a69da1234"
+  integrity sha512-6DC/1yEwEplvjOq5wgsQDvDEUCKNbiCyvRNE1AJN1uXti+yroQEzBLqSeo4PeFeqbSydQmXpAQOhNwdfW8lhAQ==
   dependencies:
     "@sanity/client" "^6.15.0"
     "@types/react" "^18.0.25"
@@ -3610,14 +3610,14 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.30.1":
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.30.1.tgz#7f261e4c5fa965c0fbb307c6413c0f8b65f55ef0"
-  integrity sha512-GLld25WE9+mbXM+hAhLyTbuMuxBRUCAf2i8HqMFSThHj9IVZI3BTRnDvtbLXrkfbSXok71NdrbcUb/M60Bj8tQ==
+"@sanity/util@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.31.0.tgz#bbc827117534010a1fb568b6706c4b889c0371f0"
+  integrity sha512-Nx7tbf576M+tovIKeUFdY3wmaVYusA2xUdy/7b1T4tFsI597JdBVkdoPYVjSDuwTBC3IrhnqIsv0tCpXeRB/yA==
   dependencies:
     "@sanity/client" "^6.15.0"
-    "@sanity/types" "3.30.1"
-    get-random-values-esm "1.0.0"
+    "@sanity/types" "3.31.0"
+    get-random-values-esm "1.0.2"
     moment "^2.29.4"
     rxjs "^7.8.1"
 
@@ -3639,10 +3639,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.30.1":
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.30.1.tgz#d9f05f948c6f5a3a28ac2feb52ebec1d2b85027e"
-  integrity sha512-wRKRjxEFLkXM+YRS7QovuN0iTpDKTBTxZ8tsTBSDM9O8Yy/cBNdOFSkMORgoJG7EJzPDrMnByogtmKzyN15p5Q==
+"@sanity/vision@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.31.0.tgz#be3c479725f689770b464c473d8fef95268dc73c"
+  integrity sha512-cWBrE6PFpGZsMRG9BJtIngLXWOF/N7lim9Tev0TY7fRsZLczlWb62AY3MAmxHb1XIFM2Dd0xmVA7Jh3Gqf1uEw==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -7608,7 +7608,14 @@ get-it@^8.4.10:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
-get-random-values-esm@1.0.0, get-random-values-esm@^1.0.0:
+get-random-values-esm@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/get-random-values-esm/-/get-random-values-esm-1.0.2.tgz#7e1358ef8c5e92b6118928899d0b364d61d02e5f"
+  integrity sha512-HMSDTgj1HPFAuZG0FqxzHbYt5JeEGDUeT9r1RLXhS6RZQS8rLRjokgjZ0Pd28CN0lhXlRwfH6eviZqZEJ2kIoA==
+  dependencies:
+    get-random-values "^1.2.2"
+
+get-random-values-esm@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/get-random-values-esm/-/get-random-values-esm-1.0.0.tgz#debf8878072ab34adfe5aa34c115e56e2bcfccd1"
   integrity sha512-BVgZ1PZwR5NKDpHpUcPmWcAQpoIOPXaFy6Vni3UdPbOlxO7eknhxsfytxwss16f75EABfnAC+XZjzTurNlPY/g==

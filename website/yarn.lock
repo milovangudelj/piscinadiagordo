@@ -1882,20 +1882,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.15.2":
+"@sanity/client@6.15.2", "@sanity/client@^6.15.2":
   version "6.15.2"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.2.tgz#5c9d73c5f9fe4603905695abb55e275260576d5d"
   integrity sha512-A0Z46/MAByCQisqUJbvL873b1y0MYCX3glhRrMSns6f/tT5GTcEg6FpL+Mlx8LOLFKUzSLdwbY8N4jt+rFWIlA==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.10"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.15.1":
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.1.tgz#2a5b0b7faab817d2177baf0368fc06c644fd790f"
-  integrity sha512-WA85uX8FX7PbWyDyQiTsRn75OLt1GNtQPTzlHyNymAfItDgVmbP7Cwk5aH2B+7gMSkAK7wuK9Ea2YyHl7Kl2WA==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1949,10 +1939,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.6.0.tgz#7c33aacae25ac5e35d632666ce0f16f1a105cb82"
-  integrity sha512-6WGrbmwfcyVOuuz5VP2gYCtRNaL458R98G+Hd+1FjXVwZ7b/hPwU97/JQ2Qc0lmjCplPMZzHERGcPXBWyrl9SQ==
+"@sanity/visual-editing@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.7.0.tgz#5fa5d9f456711165b74122b27d59bb4cc2906109"
+  integrity sha512-jQm5hKZs9+Bu/8nXDSMl3IQkyIJnu87Xjk4Ca/FHtnfJ2D3JY3TJgcHnUlaBJPKi45lwmqq1VcstcACvtLT5lw==
   dependencies:
     "@sanity/preview-url-secret" "^1.6.4"
     "@vercel/stega" "0.1.0"
@@ -1960,7 +1950,7 @@
     react-dom "^18.2.0"
     react-is "18.2.0"
     scroll-into-view-if-needed "^3.1.0"
-    valibot "0.29.0"
+    valibot "0.30.0"
 
 "@sanity/webhook@4.0.2":
   version "4.0.2"
@@ -5527,14 +5517,14 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@8.1.5:
-  version "8.1.5"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-8.1.5.tgz#a345d7e868da0e091816d58c8c7bfbc481a3a79a"
-  integrity sha512-i+UdqgzisZY706NMeODoYP8U6kHKDtdI3oxiPLLxWZMVAvIyq+dLhE6DH5P0dm/DuiIYgbp7ubRqhG6jqQ/a5g==
+next-sanity@8.1.6:
+  version "8.1.6"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-8.1.6.tgz#91a001142c1074cade0fb1c85b77305d1ba379a2"
+  integrity sha512-S4phAhSyWyJ5Lhy3KdCqHbK3opqAJ5jYvsx0uDK5r6NBooYq4mYfAbjlunu/kvSvrBOFd4EibCFlICuO79W/DA==
   dependencies:
-    "@sanity/client" "^6.15.1"
+    "@sanity/client" "^6.15.2"
     "@sanity/preview-kit" "5.0.29"
-    "@sanity/visual-editing" "1.6.0"
+    "@sanity/visual-editing" "1.7.0"
     "@sanity/webhook" "4.0.2-bc"
     groq "^3.19"
 
@@ -7069,10 +7059,10 @@ v8-to-istanbul@^9.0.1:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
 
-valibot@0.29.0:
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/valibot/-/valibot-0.29.0.tgz#16c8e1924e522c5feace728aac2d9ab0da626000"
-  integrity sha512-JhZn08lwZPhAamOCfBwBkv/btQt4KeQhekULPH8crH053zUCLSOGEF2zKExu3bFf245tsj6J1dY0ysd/jUiMIQ==
+valibot@0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/valibot/-/valibot-0.30.0.tgz#6b90386a04d2c281cdc5dc6ad33bd3d2d7ea13b5"
+  integrity sha512-5POBdbSkM+3nvJ6ZlyQHsggisfRtyT4tVTo1EIIShs6qCdXJnyWU5TJ68vr8iTg5zpOLjXLRiBqNx+9zwZz/rA==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

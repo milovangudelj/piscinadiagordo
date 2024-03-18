@@ -1857,7 +1857,15 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@portabletext/react@3.0.12", "@portabletext/react@^3.0.12":
+"@portabletext/react@3.0.13":
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.0.13.tgz#21ef9a316327d91df62e4d5efe2e168e10dee459"
+  integrity sha512-TOSk1uwtkJC+VMK1dY5bHPnvNr/SXaqbWpEQoBC8oMhI55qnZg5pL9VBuw6BI2XEMsH5Il2tQngRQrtEeRklog==
+  dependencies:
+    "@portabletext/toolkit" "^2.0.12"
+    "@portabletext/types" "^2.0.10"
+
+"@portabletext/react@^3.0.12":
   version "3.0.12"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.0.12.tgz#dc905792f475a1088e2af90c6de759b474c89b74"
   integrity sha512-XyvM9rad7JK9gVt+fg4eK/5LuqmoGSkSabqlEMiuoQ1sRd7dJrNiYAegmjNFuxHIQraDlz3fCrh5FbQP1hryIQ==
@@ -1871,6 +1879,18 @@
   integrity sha512-4xdn1jZUZzihTvtJJbtZDsuaHNw9aaf/WZqKriP9306SlSuLFYC8Lw1MzW+Xmh3ZSurIjs+L0M+lTflB2NfYSA==
   dependencies:
     "@portabletext/types" "^2.0.9"
+
+"@portabletext/toolkit@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-2.0.12.tgz#c161db8c0e0db275092ba24a74c09e734c7566c1"
+  integrity sha512-uSA8bDAuRht3uuFRXxVmDD3OkoqNYhT/R0JaCuoiaxr5WwEbFW/Rgngai/QInH9VxlDvfOpVCyt+DIIAm2W/uA==
+  dependencies:
+    "@portabletext/types" "^2.0.10"
+
+"@portabletext/types@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@portabletext/types/-/types-2.0.10.tgz#fc670c85f534b69b6eb6b0df6903cb4e1524e98a"
+  integrity sha512-pyyT3w8bV2v0LjOiSMHMEqzUhUO9FD54xU4tdLDt9WKBShrvP9NTQO5BO4bUljp1l5I5yyai0Y/OTKI8VAE9BQ==
 
 "@portabletext/types@^2.0.9":
   version "2.0.9"

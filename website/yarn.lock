@@ -1972,15 +1972,15 @@
     scroll-into-view-if-needed "^3.1.0"
     valibot "0.30.0"
 
-"@sanity/webhook@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.2.tgz#f298c245923873ea08482279c855033dac45ee43"
-  integrity sha512-lJEr6mPl//k1oT1Y4UXE206N8ca5bWx2qJTbJn2c1K/3ef4LBexu2syoOtA09qqPPQ1Eu7gOcuUFjNllEK7fkg==
-
 "@sanity/webhook@4.0.2-bc":
   version "4.0.2-bc"
   resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.2-bc.tgz#225dbbde71390e1d3661eb1f2cd011035a4214c3"
   integrity sha512-I/Qq+ppPMkdZ2lQ3iHJ1HylBkEy+imn5qCOWEJefdVIyWdYPpNmTAH09exU6K6M1HRMM7Au4oOdijx3kruZEWA==
+
+"@sanity/webhook@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-4.0.3.tgz#8a10ced75daf56221ad1626082ff5162ad9d2eeb"
+  integrity sha512-YN09zQYyDFj/4aZ5wYHztqaFPB0sm7K3oc6kJXpbdsLk+sXaTe0V2K/uLa6EgAsxyTG7+3jsT3y5ey2p5YkWkw==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"

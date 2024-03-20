@@ -1882,14 +1882,14 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.15.6":
-  version "6.15.6"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.6.tgz#cad3732e576e7661e264a8299844b10055d34d22"
-  integrity sha512-pnKmi5kjuyw4fMz9JXzQq7ivAR8A52Thkkzmaue125uz6olPBvVGQmQ8tk1xOuKu3eX73nKZpFuCw4eqkG9/iA==
+"@sanity/client@6.15.7":
+  version "6.15.7"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.7.tgz#0a1d6908b716f3eae2446251f410f8d47b084c22"
+  integrity sha512-WplOC9jSsqAUcIRm0Agpo38fQRLcYA0SA8yclmsr6lG84Q3uE27ZtyBPvd5+Hx5zzM8mRgdkhZ7yXR/EVGQkhA==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
-    get-it "^8.4.14"
+    get-it "^8.4.15"
     rxjs "^7.0.0"
 
 "@sanity/client@^6.15.5":
@@ -4113,10 +4113,10 @@ get-it@^8.4.13:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
-get-it@^8.4.14:
-  version "8.4.14"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.14.tgz#71e995b69ebbf48fd0ac18fadc5390384df66f9d"
-  integrity sha512-dhiRE7Xk8/mg/RhKr9u01KY3nQzVPZfN3shKkEWj1TsuACkZtEeVAuQ5tF5np0qIcSayWowKOcQ5dxCnZBM+hg==
+get-it@^8.4.15:
+  version "8.4.15"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.15.tgz#24b0a05a5e371713338b18376deb25c0c93b7a7f"
+  integrity sha512-UcFJxHQcEgZdP6ZoUUP/95HlLKPaysrL82UO81qEUre/WO8vxhIws9u7divaotsErAF6RsZfGcZc6WCRvadYHw==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

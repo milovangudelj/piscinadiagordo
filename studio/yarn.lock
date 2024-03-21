@@ -2899,19 +2899,19 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.35.1":
-  version "3.35.1"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.35.1.tgz#bac4a9bff7fbb8a705457d5b505ab32f836796d2"
-  integrity sha512-MiE+vwDTOXNok5ADDY3tD88ibMSPKrXLYj8nslnOj68qY+EaUV9BOoi4Igr+mPj2B2b4GXNZ1vDHo2/MQ2RDQQ==
+"@sanity/cli@3.35.2":
+  version "3.35.2"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.35.2.tgz#f0942bd04ee34028c47b1417ecfffd0e166e0640"
+  integrity sha512-7Cw7xh7uL7xUJGWzUCpVdKbbIgtrFz6rWUwNoEmKsjSNZKEuaBdpd/9CxIiBU02FyKiQ1iXmNOy79kIW0Xz7YA==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/telemetry" "^0.7.6"
-    "@sanity/util" "3.35.1"
+    "@sanity/util" "3.35.2"
     chalk "^4.1.2"
     decompress "^4.2.0"
     esbuild "^0.20.0"
     esbuild-register "^3.4.1"
-    get-it "^8.4.14"
+    get-it "^8.4.16"
     golden-fleece "^1.0.9"
     node-machine-id "^1.1.12"
     pkg-dir "^5.0.0"
@@ -3538,10 +3538,10 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.35.1":
-  version "3.35.1"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.35.1.tgz#a51b1f1aabe025bc203476899a661765161748ee"
-  integrity sha512-OtB5XuaTsk8+XFuYj9Y5oh8hjJwTYMiYG/ZTTGNgm2WcHghS014MvKzz4O9lWziqgWhS/WkH9ZFJmtADc7x/3Q==
+"@sanity/types@3.35.2":
+  version "3.35.2"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.35.2.tgz#b1c0e908ae5328e36e3334c829762f45e51b46c1"
+  integrity sha512-Kl5T+dwMkLJ+cmGsG5YVQEkL3UkaQ9E560g2dFmalmM/vQjL5fzPMRjKiZuqH+9jYeKP2d0MBiHbSOWi8JqNUg==
   dependencies:
     "@sanity/client" "^6.15.6"
     "@types/react" "^18.0.25"
@@ -3620,13 +3620,13 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.35.1":
-  version "3.35.1"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.35.1.tgz#7d1a71acaac8d57caa0157b31d4b85f7e0859fa3"
-  integrity sha512-/FiK+7i0S1dzNPPbdOVC7gtBP/TMFZLZ2iGRDnsTPN6tgWxwImyE4ZGW5rXsQJNCEsVmaI4pwF0xycDovVr1mw==
+"@sanity/util@3.35.2":
+  version "3.35.2"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.35.2.tgz#2c6bc70ce4f51638dbaa64804ec9a8625c1526c8"
+  integrity sha512-229F0wZixkbhixrg9DPZhwoTw81cDF9vI+wyszSexWAmjEJQ6Cl6Y6H5ACtXb8435g87VvWPLHmsZzkLE8iU9g==
   dependencies:
     "@sanity/client" "^6.15.6"
-    "@sanity/types" "3.35.1"
+    "@sanity/types" "3.35.2"
     get-random-values-esm "1.0.2"
     moment "^2.29.4"
     rxjs "^7.8.1"
@@ -3649,10 +3649,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.35.1":
-  version "3.35.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.35.1.tgz#0fb3516acf45a77c6ea4f91501f4aa1d5c821b22"
-  integrity sha512-LsGYxEOeC3hXI0rUAY8/G2gG3/o7oDaDAu/kbpv0Bnz6M/azml8t0a7YaVl7U4JRSSly9+syte/W855BqArgeg==
+"@sanity/vision@3.35.2":
+  version "3.35.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.35.2.tgz#0392f6fd9d4023f404e4f71e07e156c051063730"
+  integrity sha512-uyJWUxuMl9NupVt7bQ+lWOrar9InB+cx68x071kitMIM2/6wUraJmrHpQbBWTOnW7/MzoGauSIGubSNlEOBjjA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -7617,6 +7617,22 @@ get-it@^8.4.14:
   version "8.4.14"
   resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.14.tgz#71e995b69ebbf48fd0ac18fadc5390384df66f9d"
   integrity sha512-dhiRE7Xk8/mg/RhKr9u01KY3nQzVPZfN3shKkEWj1TsuACkZtEeVAuQ5tF5np0qIcSayWowKOcQ5dxCnZBM+hg==
+  dependencies:
+    debug "^4.3.4"
+    decompress-response "^7.0.0"
+    follow-redirects "^1.15.6"
+    into-stream "^6.0.0"
+    is-plain-object "^5.0.0"
+    is-retry-allowed "^2.2.0"
+    is-stream "^2.0.1"
+    parse-headers "^2.0.5"
+    progress-stream "^2.0.0"
+    tunnel-agent "^0.6.0"
+
+get-it@^8.4.16:
+  version "8.4.16"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.16.tgz#9ab58181cd9b16054675661e1b654e1b1130bad0"
+  integrity sha512-NrdV3P0bI4Zh/R0GXIsY3da5mJUd1lT8hGcfwb3KU9E/ewnJ1e8YAWQycAtj3mxrjesBf8ZBq3TDKqyM8AJkJg==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

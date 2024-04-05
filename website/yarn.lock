@@ -1909,7 +1909,17 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.15.9", "@sanity/client@^6.15.9":
+"@sanity/client@6.15.10":
+  version "6.15.10"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.10.tgz#c3f94967c44b9b42e67d286131d38f342fe95207"
+  integrity sha512-yQgeVDErGCLiKOnOT99DjViwBFER9iKd8DcVHA8Y0fE4h4TGSb2SIzSsNtYZzFgaqvXnC5lbZhT0R3ZisaXSjw==
+  dependencies:
+    "@sanity/eventsource" "^5.0.0"
+    "@vercel/stega" "0.1.0"
+    get-it "^8.4.18"
+    rxjs "^7.0.0"
+
+"@sanity/client@^6.15.9":
   version "6.15.9"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.9.tgz#48aa0fac80d883a998a6c491561459ca6f682669"
   integrity sha512-fIWKn5wb7HsFxWVPu/yxMjVpivQn2C0iMrxGs0UJa+W0tg+hilrPskWxtFo37rIuY+vhLhzIyDrL4mCGqs+cpg==
@@ -4122,6 +4132,22 @@ get-it@^8.4.17:
   version "8.4.17"
   resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.17.tgz#644057569318d740637bb6526801c4911b406342"
   integrity sha512-GloykKQFXggi8dZcJ4KVJahAc6hbuZ/RT/gVfCGpQw3t7jtm4xtq2f37tXajeqSA2icTYgkypluyPH1/bJ6ibA==
+  dependencies:
+    debug "^4.3.4"
+    decompress-response "^7.0.0"
+    follow-redirects "^1.15.6"
+    into-stream "^6.0.0"
+    is-plain-object "^5.0.0"
+    is-retry-allowed "^2.2.0"
+    is-stream "^2.0.1"
+    parse-headers "^2.0.5"
+    progress-stream "^2.0.0"
+    tunnel-agent "^0.6.0"
+
+get-it@^8.4.18:
+  version "8.4.18"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.18.tgz#dfba7f5535cfb5dcded632731f08d1f5c6dd9336"
+  integrity sha512-cOrL+qRSix45onwUNEO/ITrtuh2cvJT+vCFG2qahC/dFBC2z03LxLTwAZ33VPptoytBJN4Ht0AdnYCDBUm/M+Q==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"

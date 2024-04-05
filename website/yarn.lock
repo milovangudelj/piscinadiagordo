@@ -1909,10 +1909,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.15.10":
-  version "6.15.10"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.10.tgz#c3f94967c44b9b42e67d286131d38f342fe95207"
-  integrity sha512-yQgeVDErGCLiKOnOT99DjViwBFER9iKd8DcVHA8Y0fE4h4TGSb2SIzSsNtYZzFgaqvXnC5lbZhT0R3ZisaXSjw==
+"@sanity/client@6.15.11":
+  version "6.15.11"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.15.11.tgz#8f2070bdbdd5c4be26ac7255681cd83d1d72b35a"
+  integrity sha512-+dAEEKy6LrugjbssVnmef1ZoXOodiEj+0jMzqpygHmw0+uuyeb0jCvAnDdguF1thY/n3H1x+N1edt0CvVrD7Qg==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"

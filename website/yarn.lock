@@ -1918,23 +1918,23 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.4.17":
-  version "1.4.17"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.17.tgz#2e721cc16c038c875bd331e0695b8c0838f7bbd3"
-  integrity sha512-zDW/IcsTyROGDKEjixHWTwhnkDZGcqcEL0eu4H/jJ0G5wxMPtxtzSCzAafCKuUgSsiybxBRpjo2h6tjm9/AUIA==
+"@sanity/preview-kit-compat@1.4.18":
+  version "1.4.18"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.18.tgz#df3382b61ab80100cf84a6a4cbcb63470284e876"
+  integrity sha512-7TPWuSRzfNVUAaEsC5L2r/ZQfvUM5SFTBYGzLEO/NtPAn7f8wkO95kReaE/r5Ln4u1E0l+n/lj1zAd4HDLcs9A==
 
-"@sanity/preview-kit@5.0.45":
-  version "5.0.45"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.45.tgz#225dfdde60942ebe79716d214f8808cd0881278e"
-  integrity sha512-2tkZr4rJYaPG39iMnM55cjMUNPzFo22IIT7JB+bbKhc9k/GoP8zn+clMNW974TWv+gQ4RQcxFvqzwWUJb0qkaw==
+"@sanity/preview-kit@5.0.46":
+  version "5.0.46"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.46.tgz#ebbc9ae47f2aa1cf3949193dd5f8ea11da7582d9"
+  integrity sha512-2g7uPKl8/UIEWGp5+zGgTpeL8rMmQLoiHRlNMkd7ULnorOQMVvzjTmSu9ZgcaaVkzyOm2laK9P6WAtJi9qfYpw==
   dependencies:
-    "@sanity/preview-kit-compat" "1.4.17"
+    "@sanity/preview-kit-compat" "1.4.18"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.9":
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.9.tgz#0829b9a6ec6de94307fb978ff3de26f3c153ace4"
-  integrity sha512-tJsjpRqqedbxTg8H56pfy4K9vmpTDd88VrXJZy7rpR14lgSCwVcoWvkMLV0jOPc+j4D2CGoJkYsgXFkG81sSUg==
+"@sanity/preview-url-secret@^1.6.10":
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.10.tgz#fb73c6150004596daf946c1c8118954ec0d92a65"
+  integrity sha512-ZQO+B+QCKpwOP3VEBIW7HpKaLxNjr8zCd3ue66l5Y0HZz6owd3lTp1SkCKW+qATdktNeNd1hgalGTMDKvS8CGw==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -1946,12 +1946,12 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@1.8.12":
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.12.tgz#63520684fefa720ddba4e52f9534a0518af8a86f"
-  integrity sha512-wqhGrh3M4pZx+oRI1UXpz/PCpyPCd09n817CTSLbxGsAlmecbVC5F7SpyarifW0eE5EI12AbEcaNXGpTvaO9Yw==
+"@sanity/visual-editing@1.8.14":
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.14.tgz#475f54f6932415e6d54e64acd8be89aec97c052a"
+  integrity sha512-mB3/bUb6jVcNiHUd15SPiUS3gDFp6ebzTyKHjCw3tin281YYnaOJCI5HOaoNz6xDig3iLvOtbf+JYa2mvPwvZQ==
   dependencies:
-    "@sanity/preview-url-secret" "^1.6.9"
+    "@sanity/preview-url-secret" "^1.6.10"
     "@vercel/stega" "0.1.0"
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -5509,15 +5509,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.0.7:
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.7.tgz#e3c9d6f72bf335c21b1a8fd86d7d29b72baeec72"
-  integrity sha512-2q42UFAEL9SZva74DLn0FZ8OaqULVFQbjYuw/hGq2KtKbCRqNOZJaXqvOfPUfdRE2FRDIn7WZ11Pvyf0knHbVA==
+next-sanity@9.0.8:
+  version "9.0.8"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.8.tgz#5927eb097981529e1c9a330adfd6e9492eff4bdc"
+  integrity sha512-ETR728mhbpLruyjg6DUckkN/U+byV772FsRBhcV3rqDpT6MXaytQesyEGKS/3MTPLEOCXFTi6xDHBVIL1zA02Q==
   dependencies:
     "@portabletext/react" "^3.0.18"
     "@sanity/client" "^6.15.19"
-    "@sanity/preview-kit" "5.0.45"
-    "@sanity/visual-editing" "1.8.12"
+    "@sanity/preview-kit" "5.0.46"
+    "@sanity/visual-editing" "1.8.14"
     "@sanity/webhook" "4.0.2-bc"
     groq "^3.37.1"
     history "^5.3.0"

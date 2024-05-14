@@ -4249,10 +4249,10 @@ graceful-fs@^4.2.4, graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-groq@3.41.2:
-  version "3.41.2"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.41.2.tgz#b21460a6910648b0c03e1c95d239c8571f41b36b"
-  integrity sha512-VbrD2GIRRPe00sI1BnKFkgIdMd7+aHIVQUE5+G1vYXbJZNTY+SXtNj33Cd9if8xPQA3/ZZYzjxt0ptgUIC2l6Q==
+groq@3.42.0:
+  version "3.42.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.42.0.tgz#c7caa1cb57786c353edb72c32d24c297040e6787"
+  integrity sha512-/wovvpOMzbkFXAmiMwE0zJ2B5NkZndRvb//ajU5Ip5ioBdFbKCstH/2hlIWOPUXTGdl5rz+n/IbZOXIh1Z3kBQ==
 
 groq@^3.37.1:
   version "3.37.2"

@@ -1918,23 +1918,23 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.4.22":
-  version "1.4.22"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.22.tgz#7e2715cc2d19fd37d0ec31d482ee06739f1b2e0c"
-  integrity sha512-NEPQ1koNmhM0HPrKDsmghloLpBAoL78J+vavlSwh5EtJQ/anwuDvCedkZYJ3XmH+3YLLJ3tjJnmxUZvLs2UfuA==
+"@sanity/preview-kit-compat@1.4.23":
+  version "1.4.23"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.23.tgz#5db7e995b63efd71e1583670c372b85ed7737544"
+  integrity sha512-tDYZJQ8KU4byo/YW2cVkY+yGFEDKq5Lc4stv4FEZNWvoWfF7UVLQS7AFfS5dUQO6vzoQ6YkWqnCs2YUE0U+Wdg==
 
-"@sanity/preview-kit@5.0.57":
-  version "5.0.57"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.57.tgz#ce0eee13c231564f329fe59be89f9147d1e25e0c"
-  integrity sha512-OBRE4mJNygaaT+uWecZ6YyZN8YAebmf5x88q9zLpB0fAEv5jWTeb2MKeAAHj5dDAQ7VnHgtK2muGwqJzWfsakw==
+"@sanity/preview-kit@5.0.58":
+  version "5.0.58"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.58.tgz#b7078f1fdb394b07f39fdb4404eecd6c38d182a0"
+  integrity sha512-8JYVkn06ARWiTwL+im02UAm1foquYtomBqJXHAgEe/jSTmZ3O3WNppQ61M4fOVMSAfBoZnoMd/+WmDCyi7vfIA==
   dependencies:
-    "@sanity/preview-kit-compat" "1.4.22"
+    "@sanity/preview-kit-compat" "1.4.23"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.12":
-  version "1.6.12"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.12.tgz#02f73f328b775c5c453d01e8aaf6704780f4f22a"
-  integrity sha512-DoXtOVSlT7YjCpRfwhT2B7tpxS+xtxlh0piSCK0ur5NbPy3TvcGtZxuc3I5VCXcWO8O+BEv7BxEjXsctLngPYw==
+"@sanity/preview-url-secret@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.13.tgz#f15e97f2701d7c624c6c64cf99b96ae055bf0629"
+  integrity sha512-3ZAadWN0bKtoa5A0ZDTerjaBRbxUNpIWWKEl/FF5s6rH84+Hx5ugtqVt0hjzK8SnWwHiq5KQsPuB8T+lqFomGA==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -1946,12 +1946,12 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@1.8.19":
-  version "1.8.19"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.19.tgz#3e6a4a183ad3d2234482075b34fd7600019f06f5"
-  integrity sha512-X6J0VsJnNEKVYesZ04MzjhlwDz9Npz+9aI7ROSjA8XPNB2Omg2QH7Urh4P73tvyvQ7BmRaZUfaKkMk0bwL32nQ==
+"@sanity/visual-editing@1.8.20":
+  version "1.8.20"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-1.8.20.tgz#39fb8b51ad1fab9d74ad4d35c92d1de530dc675b"
+  integrity sha512-pBiOlvOBLyXZSpADDbX+lnjgq1Dj8XOqTg0wtPXu3TyCkoCCUkBU9nEqNSkA1nVHRHZ1ohZgS70nSrgb648bbw==
   dependencies:
-    "@sanity/preview-url-secret" "^1.6.12"
+    "@sanity/preview-url-secret" "^1.6.13"
     "@vercel/stega" "0.1.2"
     react "^18.3.1"
     react-dom "^18.3.1"
@@ -5504,15 +5504,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.0.18:
-  version "9.0.18"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.18.tgz#ad96b81029aae2495e8fecd72caaf441d5c5d745"
-  integrity sha512-tpNNZt6SapO59O74y1tq0z0toEwT5/SxCify8tjRqXMZ+w5VVOumdWxn+JrrgvNSORcyaSRKrf5AeMSgDlgYLA==
+next-sanity@9.0.19:
+  version "9.0.19"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.19.tgz#a6b0c695ec8cc0e7bc4373463dd4f914f4850a5e"
+  integrity sha512-0a18Q9UOPRHc1JSucWmA8r6etcuiBFwaKwhAzccSSgZ766XoYtlKMTiQ+kRRIAWb0fjCXl5Fl+1PuyqweSLZuQ==
   dependencies:
     "@portabletext/react" "^3.0.18"
     "@sanity/client" "^6.18.2"
-    "@sanity/preview-kit" "5.0.57"
-    "@sanity/visual-editing" "1.8.19"
+    "@sanity/preview-kit" "5.0.58"
+    "@sanity/visual-editing" "1.8.20"
     groq "^3.37.1"
     history "^5.3.0"
 

@@ -5504,10 +5504,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.0.20:
-  version "9.0.20"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.0.20.tgz#e3037d4d70b5c68819d89112e024ea50c35d7b4b"
-  integrity sha512-FlE9Z48RmuH+Gq4GNpNsbL4EdrfbIn/nqcjWNoJIfJwy3G8N9wK22H2hoFuAkFhELscug2M3NlvAKjEvf3SmJg==
+next-sanity@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.1.0.tgz#aa0dc9e424a9774e8cd63b87edf283240e972e2d"
+  integrity sha512-3LVq0gerc1pzV8XIC0fyqYdTSBL3dMhAAUsG5YByKHW85qJFIjqwoPlsUb8ypSb7L5hfT7vg+zlUY9XDEkrzDQ==
   dependencies:
     "@portabletext/react" "^3.0.18"
     "@sanity/client" "^6.18.2"

@@ -1869,18 +1869,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@portabletext/react@3.1.0":
+"@portabletext/react@3.1.0", "@portabletext/react@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.1.0.tgz#95d08b67e74d380705726db6762321bf926796a6"
   integrity sha512-ZGHlvS+NvId9RSqnflN8xF2KVZgAgD399dK1GaycurnGNZGZYTd5nZmc8by1yL76Ar8n/dbVtouUDJIkO4Tupw==
-  dependencies:
-    "@portabletext/toolkit" "^2.0.15"
-    "@portabletext/types" "^2.0.13"
-
-"@portabletext/react@^3.0.18":
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.0.18.tgz#cdc05c7663a6fc2b683920f75fdac1fd6e00ce33"
-  integrity sha512-AsWiZin7GpA8RTTl9kmR5wiMj72Ynotjjw0bBgbmL0vOYp0jc8nNslJyPPMSMngSLzLa8+rPAg47+d9KtrzLVw==
   dependencies:
     "@portabletext/toolkit" "^2.0.15"
     "@portabletext/types" "^2.0.13"
@@ -5491,12 +5483,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.3.3:
-  version "9.3.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.3.3.tgz#28885647ffe61ac446b602614eece2febf8ea6c4"
-  integrity sha512-a6MrL0VJxaVnNxNrNl62kdLzbda8Zq9OJr9oZHwvHQFy9WTxdD19U50Bv2og2P3LYoZpEiy9iIVqXVebEhdvIw==
+next-sanity@9.3.4:
+  version "9.3.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.3.4.tgz#1b543c7d3b973c61b4897b066c7259a372a5aaca"
+  integrity sha512-F0I14eovtEEyqhvaGoDD3lkqR+6AJKq5Je7MxpIe77YLdHqBtK4I/WUz5U8lFpcKohKD+MXXsIopcI5e+bf7wg==
   dependencies:
-    "@portabletext/react" "^3.0.18"
+    "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.19.0"
     "@sanity/preview-kit" "5.0.59"
     "@sanity/visual-editing" "2.0.0"

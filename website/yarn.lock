@@ -1918,23 +1918,23 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
   integrity sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==
 
-"@sanity/preview-kit-compat@1.4.24":
-  version "1.4.24"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.4.24.tgz#f899e5a48ee9ed42c55c09562719ad4c29ec3785"
-  integrity sha512-S7Ug90Nz+O4E+vahoznEAn9kYoDKf6EXZsYEndXtzKXUZXEBGxnXnjgIdpD+WTlDEyIIKlQcwAxwgK3QI8Avkg==
+"@sanity/preview-kit-compat@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.5.0.tgz#6f9cfc9107e108bb785361bd29b0d2f41c323bcc"
+  integrity sha512-LdRiPV/+zmg7KR5Fi38YuLVQ4x6S5HSYnl2whPPGwzAdIqSf+K6qLgcTr0G+7h/WnqC4Lt0erv/VETNtAAtbuQ==
 
-"@sanity/preview-kit@5.0.60":
-  version "5.0.60"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.60.tgz#aa42d3e86454c81c77eba44758121bd49d39084b"
-  integrity sha512-XpOLSWZLmV9EdwORrHXKcXNga4sheZKvrqQ2DCRVVCvTmyWakPjH+wnzsYzAqJCc0CQ4GR38uzpUxIYFgwJoeg==
+"@sanity/preview-kit@5.0.61":
+  version "5.0.61"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.61.tgz#62e376909ebe79619595666e3ef294665ae7cbfb"
+  integrity sha512-u/Maiep1oesyqS0fAnALZMW4TMBpZnwH7r/LqpSDnlx0ehU3rijt7FMYS4o/WdY8zzxWZI6zoBHcc1D8x8tQnA==
   dependencies:
-    "@sanity/preview-kit-compat" "1.4.24"
+    "@sanity/preview-kit-compat" "1.5.0"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.15":
-  version "1.6.15"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.15.tgz#99f3f1ffaab92409e792cf9ac50b1e305d5830bf"
-  integrity sha512-ccq6B2m1OYb3x1nFWLFQGpzMwA68M2qvWXwrXHqSoRXaDnT7gDXqi3gbaYgEdXMNuqnHCFnecK4cOZNY2QqVuQ==
+"@sanity/preview-url-secret@^1.6.16":
+  version "1.6.16"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.16.tgz#834d949bb53a4205aa8aacdb0fcb481eb5d19c15"
+  integrity sha512-iZaE8LNrt9InD9R3yxhpPAluMVnZkN2NC46OaciruKrW/juot3lGBAi7JK0CrqH8iOGNWjBCDlmhDfG0CogCGg==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -1946,12 +1946,12 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.1.1.tgz#5436f265dbd3f1eda10217836a17bcd3d1b06d3e"
-  integrity sha512-d0lBD8n1KzqBv243Amk15SjRjrgOEohyNJck6wRZbGkZQdDH9CU7CzejNGGzOD9Y3sGUtEt+Yc/6F1xu6ELsYw==
+"@sanity/visual-editing@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.1.2.tgz#fe5510a85ed922ca26aa2baf67f5bb79bd142f66"
+  integrity sha512-MTd2re32qu8kFBziWpxrak0A4RPXNvKaSQKdE+smkbVzrmznm7W+/ZIJm1SEmiZXd17oOHrhkVaIgWc//DtZmw==
   dependencies:
-    "@sanity/preview-url-secret" "^1.6.15"
+    "@sanity/preview-url-secret" "^1.6.16"
     "@vercel/stega" "0.1.2"
     scroll-into-view-if-needed "^3.1.0"
     valibot "0.30.0"
@@ -5483,15 +5483,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.3.7:
-  version "9.3.7"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.3.7.tgz#4d0d6b4a6cc4f0073bf8812b2d25e0db69339dc9"
-  integrity sha512-JXKEh5Yo2zqIfTEwGGnCotzx32t8C5a2DyJessSRjM7GlnibD85P/xt3Nx+hSzZRpQJbXpZU8dw7/d8jq9FDOA==
+next-sanity@9.3.8:
+  version "9.3.8"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.3.8.tgz#830422e9c96b6e36627e7a52b84900be767c8e81"
+  integrity sha512-yT2M2TytG4MhrrVBSm9eYrtqYepyScziB99JxCzYAmIwGBjhlRsMmlrpiALiyCG7RTwFNvadOBgfBINqcHLoEQ==
   dependencies:
     "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.19.0"
-    "@sanity/preview-kit" "5.0.60"
-    "@sanity/visual-editing" "2.1.1"
+    "@sanity/preview-kit" "5.0.61"
+    "@sanity/visual-editing" "2.1.2"
     groq "^3.37.1"
     history "^5.3.0"
 

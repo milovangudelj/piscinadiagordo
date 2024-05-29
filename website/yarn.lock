@@ -1894,7 +1894,16 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.19.0", "@sanity/client@^6.19.0":
+"@sanity/client@6.19.1":
+  version "6.19.1"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.19.1.tgz#1fbafcc4ef7e0e500e3cabd14ea3c9ea7885a313"
+  integrity sha512-D3ZDc1xj0a+lAnsAd5oXc4+JStJ92Z1GlkgL2+6PoKcqiK6xAQUXwcrUwgniWzzSmafXxBJYokpg/i1VuI/mCA==
+  dependencies:
+    "@sanity/eventsource" "^5.0.2"
+    get-it "^8.5.0"
+    rxjs "^7.0.0"
+
+"@sanity/client@^6.19.0":
   version "6.19.0"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.19.0.tgz#86aa2a5804424821fa7f4db5c4936a037099f10a"
   integrity sha512-TAqthXojzGHRm6Cke7mwBCLck9C6I/cT7p4ojjf3c+iHt0TqQDl1BXU9Q8qhz+TOvP8OESjXNawAKXvwnP7vQg==

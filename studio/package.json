@@ -22,7 +22,7 @@
     "@sanity/default-login": "2.36.2",
     "@sanity/desk-tool": "2.36.2",
     "@sanity/eslint-config-studio": "4.0.0",
-    "@sanity/vision": "3.51.0",
+    "@sanity/vision": "3.52.0",
     "classnames": "2.5.1",
     "eslint": "9.7.0",
     "phosphor-react": "1.4.1",
@@ -35,7 +35,7 @@
     "styled-components": "6.1.12"
   },
   "devDependencies": {
-    "@sanity/cli": "3.51.0",
+    "@sanity/cli": "3.52.0",
     "autoprefixer": "10.4.19",
     "postcss": "8.4.39",
     "tailwindcss": "3.4.6"

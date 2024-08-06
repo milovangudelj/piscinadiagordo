@@ -1894,22 +1894,13 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@sanity/client@6.21.1":
+"@sanity/client@6.21.1", "@sanity/client@^6.21.1":
   version "6.21.1"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.21.1.tgz#88547f236a4fe214315fa04fe69893b8aa5424a0"
   integrity sha512-j6OnE6Ytso0c5imjuIviglJDKXgd3jCVyPmZO+GpqWDtPWSXPucqH/mFyHcs5+kWyfAfkY5G1R2+Er0L7Sb0hA==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.3"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.20.1":
-  version "6.20.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.20.1.tgz#92ec3d57fda8f0678f34938b435b123af5db2d1a"
-  integrity sha512-iyqooCYAMWxHwlGYuePlZlaL2VsgX57cV610czxPLh2ooUnW4U/7zE3oIlSY1VFQ4WDfg4w5//xp6+5WdyEs9A==
-  dependencies:
-    "@sanity/eventsource" "^5.0.2"
-    get-it "^8.6.1"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@^5.0.2":
@@ -1940,10 +1931,10 @@
     "@sanity/preview-kit-compat" "1.5.1"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.17":
-  version "1.6.17"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.17.tgz#07a43cc1a2758189ca0db930122f076d06987353"
-  integrity sha512-Gj0bnochUdyGJdcYdZMJ8up81aqp6dCy1ldE5Hx3tIktANc7LYie0KfZctexY1h+teBi50vKpk8uiVID/V2e2w==
+"@sanity/preview-url-secret@^1.6.19":
+  version "1.6.19"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.19.tgz#e1792b3cbad3ae7f30a72903daf93243cd8c5f41"
+  integrity sha512-uOeC0+cca5uQzQUfAEXK3a48A07PJczHsPfSNh9sbtSgDBaBlMoiQjV/jE/eMADvKmKnJ13Yrobn2jscavI9TA==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -1955,12 +1946,12 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.1.5.tgz#aa7c887ce3e91aa454c48092ac717687aff1d14c"
-  integrity sha512-CWwqI60Fvcsg+KbvtwKrgfumAtQ+nJUJ9NSl7SlGSkeQLlpIKnLOsTpLx0JuNxkR57/j79jU2eOh56FGVDiACg==
+"@sanity/visual-editing@2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.1.8.tgz#01d019bca13b48da1aa567fb01a63dfee8878871"
+  integrity sha512-9aF7J9rN9E95AIA9z7ZhgnPBPUO0Um1ED4z9C1POGGPRhJDSvlg76ecFU2S7YITErjq4hptKDHt2W49qiQcKaA==
   dependencies:
-    "@sanity/preview-url-secret" "^1.6.17"
+    "@sanity/preview-url-secret" "^1.6.19"
     "@vercel/stega" "0.1.2"
     scroll-into-view-if-needed "^3.1.0"
     valibot "0.31.1"
@@ -4054,17 +4045,6 @@ get-intrinsic@^1.1.3, get-intrinsic@^1.2.0, get-intrinsic@^1.2.1:
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
 
-get-it@^8.6.1:
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.1.tgz#b424f136e91f7898551323378af4ad38f92c15a9"
-  integrity sha512-fCK6M+WkN1TuXzYac0RYk9OK4VdJKV1xG3fe9D3TU2is/G8ofz6/+hRBCiddO/eNPhnhMBpYIk2kNx1S4NRdsg==
-  dependencies:
-    decompress-response "^7.0.0"
-    follow-redirects "^1.15.6"
-    is-retry-allowed "^2.2.0"
-    progress-stream "^2.0.0"
-    tunnel-agent "^0.6.0"
-
 get-it@^8.6.3:
   version "8.6.3"
   resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.3.tgz#eeadb1bfe52df74c1b38d2f03384da47a07027f7"
@@ -5479,15 +5459,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.4.3:
-  version "9.4.3"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.3.tgz#f2b5bc0d5044dd4e101043893c1eec0b9502ad0f"
-  integrity sha512-Lg1zYwlJJq8YcLcNsGsSER7Lxo7qAzFZMcTGJuemWgIuuyl+RL/JgTPKfB8AJWs4pK+wuEjyqhVs+lvlERQ0VQ==
+next-sanity@9.4.4:
+  version "9.4.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.4.tgz#d2ce2b83ee6623f06e1b45e7c7e35a46228c12f8"
+  integrity sha512-3AkFx+gi5cumZ0KzW+WlRL156qzCkyRBTWpWinPv2SHdbf2i+hssnoHmL3T/gMFoNICIYwO6TaILPf3LCnjXBg==
   dependencies:
     "@portabletext/react" "^3.1.0"
-    "@sanity/client" "^6.20.1"
+    "@sanity/client" "^6.21.1"
     "@sanity/preview-kit" "5.1.0"
-    "@sanity/visual-editing" "2.1.5"
+    "@sanity/visual-editing" "2.1.8"
     groq "^3.37.1"
     history "^5.3.0"
 

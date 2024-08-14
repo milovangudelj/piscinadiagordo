@@ -35,7 +35,7 @@
     "styled-components": "6.1.12"
   },
   "devDependencies": {
-    "@sanity/cli": "3.53.0",
+    "@sanity/cli": "3.54.0",
     "autoprefixer": "10.4.20",
     "postcss": "8.4.41",
     "tailwindcss": "3.4.10"

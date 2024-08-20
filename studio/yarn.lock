@@ -3026,22 +3026,22 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.54.0":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.54.0.tgz#5451c71b7b81701a0608cfdc288109860955a987"
-  integrity sha512-3vu0Y/IlWdhVaYmSLNPCH83Usd2KUkwBRmQa5KRttU4HYy3ERO9DneerBC59R1F+ks7lCXQBZnLnYmI36U4NHw==
+"@sanity/cli@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.55.0.tgz#41e5c3689e135dd386f584fdf47374ba695d3c1b"
+  integrity sha512-Pu0QRiOB0bFBJtBOC9fjNEpyIi8Y7vmAXXWcZLQGMWF/a2JybuTRNnfZIGEvH+EqPXJB9jpdz4y/9UHCcl4AWA==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/client" "^6.21.2"
-    "@sanity/codegen" "3.54.0"
+    "@sanity/codegen" "3.55.0"
     "@sanity/telemetry" "^0.7.7"
-    "@sanity/util" "3.54.0"
+    "@sanity/util" "3.55.0"
     chalk "^4.1.2"
     debug "^4.3.4"
     decompress "^4.2.0"
     esbuild "0.21.5"
     esbuild-register "^3.5.0"
-    get-it "^8.6.4"
+    get-it "^8.6.5"
     groq-js "^1.12.0"
     node-machine-id "^1.1.12"
     pkg-dir "^5.0.0"
@@ -3070,10 +3070,10 @@
     get-it "^8.6.4"
     rxjs "^7.0.0"
 
-"@sanity/codegen@3.54.0":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.54.0.tgz#65d7ad326f8915e4332ca9a0ba4bbb5ff052470f"
-  integrity sha512-1ICEM8RQGPb3DMVM9XivHxavpUuIyi5Rp9cdNAjJVncT4Wb/538TkP3XyzfuhOXrDDFkirFubfUZGsCgNMFA5A==
+"@sanity/codegen@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.55.0.tgz#3ae981fc3ab08518b9a4c52ae8426dbba59a089b"
+  integrity sha512-zTYrWOiqNWBjEF8GLfYFqnOvYShZfnmPILaPqdm3zGjDXnHSj9WSx6sPrklBTDSWFqPmYxDBxScpga6wcLgKzg==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/generator" "^7.23.6"
@@ -3085,7 +3085,7 @@
     "@babel/types" "^7.23.9"
     debug "^4.3.4"
     globby "^10.0.0"
-    groq "3.54.0"
+    groq "3.55.0"
     groq-js "^1.12.0"
     json5 "^2.2.3"
     tsconfig-paths "^4.2.0"
@@ -3693,10 +3693,10 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.54.0":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.54.0.tgz#731a3fd4320635f7556eb8734a4ce84bde1b47ba"
-  integrity sha512-Jc9elNbuwxLl/sqL4KIbGbpVBTucu55KTPlR1wps3Yqjs4UGXJ+0Ogb3HsSkK0gByL7WHk/+k0/8Rz76YSaINg==
+"@sanity/types@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.55.0.tgz#bb23570e8cf0935fe542d86f6c034e93caddea13"
+  integrity sha512-3oeVFeYVWurYXN3qN23kpwS1KfZ1Jk1J/fybHrAHSl2bRrnvAoLkbtTvuvOuR4/kOup0o1S/aNTYLzQmu+xGOA==
   dependencies:
     "@sanity/client" "^6.21.2"
     "@types/react" "^18.3.3"
@@ -3776,13 +3776,13 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.54.0":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.54.0.tgz#398aedabb15a7de6c775731752afa74a5bc1f1a2"
-  integrity sha512-CpCFm8dqN6cVv41I0TtdAm0QG53SN7jGW7hCWdX0VOLEMe5JPTcKxGBNXV2GgNCogPfbvdFLZR2g8Oj2FbENeQ==
+"@sanity/util@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.55.0.tgz#52d70bb43f4f7f0451daf6a90765d1e718575861"
+  integrity sha512-R1yFfLo8UVw7kQ7moJiVLg02F+xzg3KoewG50iETIGg+i1S9uGBIAVZrStWdd5Fhrj0x5vxGKhi4pmEzfxxjxQ==
   dependencies:
     "@sanity/client" "^6.21.2"
-    "@sanity/types" "3.54.0"
+    "@sanity/types" "3.55.0"
     get-random-values-esm "1.0.2"
     moment "^2.29.4"
     rxjs "^7.8.1"
@@ -3805,10 +3805,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.54.0":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.54.0.tgz#440796d1f6b6809ed22a010a0622e262a77f646e"
-  integrity sha512-LcmA4oNUG/g+q6JRSgy6CMSHE9509m9XJ88Ure6TvztDhLwOJYA2wxuC9FnS8L0rZ6J9/9KAWkaCuk8Vz3pVZg==
+"@sanity/vision@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.55.0.tgz#8a9b5774d7d6882a001aafc4dd03ae8c4cf9c64b"
+  integrity sha512-SoqiwP+dvAZW8w+rdsCbk/e1Mf+6YVmJlAGjqn62rIXykD/lRF1O7uVehMNxbUjjMz1JTjlIkppOpDXrmjv8oQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3896,6 +3896,13 @@
   resolved "https://registry.yarnpkg.com/@types/eventsource/-/eventsource-1.1.15.tgz#949383d3482e20557cbecbf3b038368d94b6be27"
   integrity sha512-XQmGcbnxUNa06HR3VBVkc9+A2Vpi9ZyLJcdS5dwaQQ/4ZMWFO+5c90FnMUpbtMZwB/FChoYHwuVg8TvkECacTA==
 
+"@types/follow-redirects@^1.14.4":
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/@types/follow-redirects/-/follow-redirects-1.14.4.tgz#ca054d72ef574c77949fc5fff278b430fcd508ec"
+  integrity sha512-GWXfsD0Jc1RWiFmMuMFCpXMzi9L7oPDVwxUnZdg89kDNnqsRfUKXEtUYtA98A6lig1WXH/CYY/fvPW9HuN5fTA==
+  dependencies:
+    "@types/node" "*"
+
 "@types/glob@^7.1.1":
   version "7.2.0"
   resolved "https://registry.npmjs.org/@types/glob/-/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"
@@ -3968,6 +3975,13 @@
   version "4.0.0"
   resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
+
+"@types/progress-stream@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/progress-stream/-/progress-stream-2.0.5.tgz#50f10be88b0717c8fce6573e7fcafa8eabbc3dcf"
+  integrity sha512-5YNriuEZkHlFHHepLIaxzq3atGeav1qCTGzB74HKWpo66qjfostF+rHc785YYYHeBytve8ZG3ejg42jEIfXNiQ==
+  dependencies:
+    "@types/node" "*"
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -8024,6 +8038,19 @@ get-it@^8.6.4:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
+get-it@^8.6.5:
+  version "8.6.5"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.5.tgz#69c85fa215707315861a32733738b578d0f8e640"
+  integrity sha512-o1hjPwrb/icm3WJbCweTSq8mKuDfJlqwbFauI+Pdgid99at/BFaBXFBJZE+uqvHyOVARE4z680S44vrDm8SsCw==
+  dependencies:
+    "@types/follow-redirects" "^1.14.4"
+    "@types/progress-stream" "^2.0.5"
+    decompress-response "^7.0.0"
+    follow-redirects "^1.15.6"
+    is-retry-allowed "^2.2.0"
+    progress-stream "^2.0.0"
+    tunnel-agent "^0.6.0"
+
 get-random-values-esm@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-random-values-esm/-/get-random-values-esm-1.0.2.tgz#7e1358ef8c5e92b6118928899d0b364d61d02e5f"
@@ -8242,10 +8269,10 @@ groq-js@^1.12.0:
   dependencies:
     debug "^4.3.4"
 
-groq@3.54.0:
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.54.0.tgz#a47195b1c2cd23aae292d62b5d83b017d859c4ec"
-  integrity sha512-leqfyLx7somDC5HTchv4iboWPIZU7LYEOTDZgd0/u91BCMgXB4EnYqmvYllYejTgEV2/Hq7lHl6bm7HWfzDrmQ==
+groq@3.55.0:
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.55.0.tgz#aea2dc6f89c1299eda6376c1794832a9f260db8a"
+  integrity sha512-oDMnjsIfEMtGfPJOMFx+6qS8fdX8YIRYbslF/VE6H77kKGOGOlrMK81diphkoiV0/xg0mS++gf9fCGbdasZIRQ==
 
 groq@^3.0.0:
   version "3.14.1"

@@ -2656,10 +2656,10 @@
   dependencies:
     "@floating-ui/dom" "^1.2.7"
 
-"@floating-ui/react-dom@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.1.tgz#cca58b6b04fc92b4c39288252e285e0422291fb0"
-  integrity sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==
+"@floating-ui/react-dom@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz#a1349bbf6a0e5cb5ded55d023766f20a4d439a31"
+  integrity sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A==
   dependencies:
     "@floating-ui/dom" "^1.0.0"
 
@@ -3056,23 +3056,23 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.62.3.tgz#22ddb35d6bce10eb97c4dea27bb3db2ebb1fb4b3"
-  integrity sha512-rOi1rm9mrrGjM6ds3VVGd0Dx0e35kcxr5IWBuske81ZBHtKUBCV1mG9AEfFp2zWC0xXmDtbbaKrPjGqS+EyL8Q==
+"@sanity/cli@3.63.0":
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.63.0.tgz#47e11faf7b8168ead7fa2dc702ed2da6076659b5"
+  integrity sha512-Q2iuJl0xVEup49sSJsbFst0NNGG7nGYE9Cw592NZSotmzoPVppYfgYEuih04TT7WMl0IlYs7pWL2DHtDJnsX5A==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/client" "^6.22.2"
-    "@sanity/codegen" "3.62.3"
+    "@sanity/codegen" "3.63.0"
     "@sanity/telemetry" "^0.7.7"
-    "@sanity/util" "3.62.3"
+    "@sanity/util" "3.63.0"
     chalk "^4.1.2"
     debug "^4.3.4"
     decompress "^4.2.0"
     esbuild "0.21.5"
     esbuild-register "^3.5.0"
     get-it "^8.6.5"
-    groq-js "^1.13.0"
+    groq-js "^1.14.0"
     pkg-dir "^5.0.0"
     prettier "^3.3.0"
     semver "^7.3.5"
@@ -3099,10 +3099,10 @@
     get-it "^8.6.5"
     rxjs "^7.0.0"
 
-"@sanity/codegen@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.62.3.tgz#abdfe69bde1bb279d13aab5e4114d41f090217b8"
-  integrity sha512-8lQj4VIW55ywSTie6WHO195swVyNHiDekeC0AEvx9W3F1Cia57m69SLU8M1D3R7rS+xGE/X5G9ibVeB5ELRxxQ==
+"@sanity/codegen@3.63.0":
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.63.0.tgz#037e2a3b1fa450fb750dcbc6d4c0c898b5e63dd2"
+  integrity sha512-Cf+S+uIcDmcoisgOANzjT4er1NvBnk0gD1FjPKewkixCNX4kp4Pciea4zMGCXMj/BPvviuclL83thNIYnMZqlw==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/generator" "^7.23.6"
@@ -3114,8 +3114,8 @@
     "@babel/types" "^7.23.9"
     debug "^4.3.4"
     globby "^10.0.0"
-    groq "3.62.3"
-    groq-js "^1.13.0"
+    groq "3.63.0"
+    groq-js "^1.14.0"
     json5 "^2.2.3"
     tsconfig-paths "^4.2.0"
     zod "^3.22.4"
@@ -3722,10 +3722,10 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.62.3.tgz#02e9c370130b523b5e7fb9fb5aba4f88f73e80ad"
-  integrity sha512-9dXm3KCbpGezzJ50mOQbkgGb0kRS+tt5hHX9hJsBdQ7J+hYO/X4nBOqqf7VFNqYE0LNnxjrceIwKHZqAlNGRNg==
+"@sanity/types@3.63.0":
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.63.0.tgz#20515a408b916d16160e4b0c861607666ab1f6f1"
+  integrity sha512-d7Qbd07mzbvI6bEfb4j7LnDH5dAf5nwEyYPj+e8tHjlPYzyoutKQ5wmTU8rNqTmg4PiuvNYyDo6zWcEVrUW8Vw==
   dependencies:
     "@sanity/client" "^6.22.2"
     "@types/react" "^18.3.5"
@@ -3770,16 +3770,17 @@
     framer-motion "^10.16.2"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^2.8.10":
-  version "2.8.10"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.10.tgz#ae434aad4d96d06397d3e754026ab95635723aa5"
-  integrity sha512-TcYrLksnsh668NqFjiHJMfOfqPIw3e0WixHPc8v1AR/SIVV6c/Osho5bXWKC4rIormnTUhsy19E8MEyYODhYKg==
+"@sanity/ui@^2.8.19":
+  version "2.8.19"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.19.tgz#20e94b07ad855eed65b2bb85f1274458ecc95739"
+  integrity sha512-3o5yQJXzTtXSRCptinYqPP8ME2+vatN7q42bSB96T45viX1tVHETGR3s2KCQCLFskdCHSwC3gsPLl8RbTZQmDw==
   dependencies:
-    "@floating-ui/react-dom" "^2.1.1"
+    "@floating-ui/react-dom" "^2.1.2"
     "@sanity/color" "^3.0.6"
     "@sanity/icons" "^3.4.0"
     csstype "^3.1.3"
     framer-motion "11.0.8"
+    react-compiler-runtime "19.0.0-beta-9ee70a1-20241017"
     react-refractor "^2.2.0"
     use-effect-event "^1.0.2"
 
@@ -3805,13 +3806,13 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.62.3.tgz#eecd2307bed4eb164cf3fdb7ad8f86054dafd925"
-  integrity sha512-3hYi693WgaA+Q/XpRPx1uaPdzQIaXIKJUR5nVdACHRH/avEM/RwkP+t5XQk6ZDz+0EiOUJFCAFgQSpwiIw/zJQ==
+"@sanity/util@3.63.0":
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.63.0.tgz#1f5b2f77f04061855583d0c21a45d1f203b2cefd"
+  integrity sha512-AZLrGMMhNUFRKohEjTWkWFgUVHcokBC+NXxGsJl2NKU9iabwb1OFrnaOskjskLpF8SQ4cs34YoH3ydB+k4zZ2g==
   dependencies:
     "@sanity/client" "^6.22.2"
-    "@sanity/types" "3.62.3"
+    "@sanity/types" "3.63.0"
     get-random-values-esm "1.0.2"
     moment "^2.30.1"
     rxjs "^7.8.1"
@@ -3834,10 +3835,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.62.3.tgz#373c357006a7ad12dc50809717063c77fd40d7b0"
-  integrity sha512-cm5sAQhS1WwURws07hJ6qO2H2+y+I+iS6AdCym+75de4rQQ/2NDZ/uIdj8kGf6WG3OH4Xk2L6+Z+KB4tvxAkTg==
+"@sanity/vision@3.63.0":
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.63.0.tgz#cbbce0c746c9ea16cddc7b3c6e9c8b8dd019815e"
+  integrity sha512-mDd3HcgYlP9g9dmTHLkc/kwHhLJ2yGksVTYne3f9mse7cE2Dp6ImAIANmkNVI6LR+X08PRjGtAeVL+ua465yEA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3852,7 +3853,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.4.0"
-    "@sanity/ui" "^2.8.10"
+    "@sanity/ui" "^2.8.19"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
@@ -8296,17 +8297,17 @@ groq-js@^0.2.0:
   resolved "https://registry.npmjs.org/groq-js/-/groq-js-0.2.0.tgz#abd4870014a1ccdf0936d5d75a78063aff9197c0"
   integrity sha512-qJeuEgziddryH1ClsJvMoZM9aXNQbBViNZZrJwhHKr2wU8HGGM7uNWNVFglWXMX60MMaa2SClX3UohP76Ut68g==
 
-groq-js@^1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/groq-js/-/groq-js-1.13.0.tgz#b7cd2a0cd710fcce2c5cd74069be0a3e8f05954b"
-  integrity sha512-TfNyvCVDOEVZFFbeO6TbwwrslHTXpDNN4WwCYAcuSuORx4dLQU5Zn+cIsEFUQvLycU4lc0BqU1FIgldbhi4acQ==
+groq-js@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/groq-js/-/groq-js-1.14.0.tgz#e8ef6e16901fd139d9353621a2a0ab6d2d184c4a"
+  integrity sha512-nrrEswAovzFcG2nXWHCwbXq0ciavKSq8ZvuqT93zxIHWGX3FYCN+MkvHyYRTVuM4SuQAjU7FXkcN3DBt4BHTxA==
   dependencies:
     debug "^4.3.4"
 
-groq@3.62.3:
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.62.3.tgz#33a9e66050e3457fd0b34c20772afbe2404d367c"
-  integrity sha512-kLqp8d0ILKr9DejGol3I7Vud6Cj4jzpHLOu0noaUQQAk8/ISUqCPlVpI9JQYA8D03LMP5rgaNppJfVvPLJqIJA==
+groq@3.63.0:
+  version "3.63.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.63.0.tgz#34c60e674eb7614000d42cd50512a0fa15cd2d7e"
+  integrity sha512-9YzXsNTXqRFput/5HoRS7HJKl5J6of21qpc89ZnzDC/LcQPI1UzpRSuJ6AHYPzj1Re9nGRYtr88uwJsBjS4aLw==
 
 groq@^3.0.0:
   version "3.14.1"
@@ -12078,6 +12079,11 @@ react-clientside-effect@^1.2.5:
   integrity sha512-2bL8qFW1TGBHozGGbVeyvnggRpMjibeZM2536AKNENLECutp2yfs44IL8Hmpn8qjFQ2K7A9PnYf3vc7aQq/cPA==
   dependencies:
     "@babel/runtime" "^7.12.13"
+
+react-compiler-runtime@19.0.0-beta-9ee70a1-20241017:
+  version "19.0.0-beta-9ee70a1-20241017"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-9ee70a1-20241017.tgz#ca35ba4ec80f2412fcdbfb911831308670acc13a"
+  integrity sha512-hVrlYbVacwEdZi08RUxSwIzZR2/+WxUsWRa7mjViRhqcqUYK+7u8UEVZoJrF5/gsCHMU9PhJRvolygSCaaE0nA==
 
 react-copy-to-clipboard@^5.0.4:
   version "5.0.4"

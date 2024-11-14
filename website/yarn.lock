@@ -2041,15 +2041,6 @@
     get-it "^8.6.5"
     rxjs "^7.0.0"
 
-"@sanity/comlink@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-1.1.1.tgz#818f9b116cb900dd344ee5dda6fae25521e0b3e2"
-  integrity sha512-hmjL8X9/muInbO4Fko6rn9WOZhZWMPKz5n3FHttb/KurKaHbkhcon/jIkZ8DowxW75wkUDp8m/nkBZznJ58HIA==
-  dependencies:
-    rxjs "^7.8.1"
-    uuid "^10.0.0"
-    xstate "^5.18.2"
-
 "@sanity/comlink@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-1.1.2.tgz#a8013a4136f8de3a5e8232ba006a537937b5b711"
@@ -2099,19 +2090,19 @@
     "@sanity/comlink" "1.1.2"
     use-effect-event "^1.0.2"
 
-"@sanity/preview-kit-compat@1.5.18":
-  version "1.5.18"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.5.18.tgz#eaa0b6c2d00fc20a74b4b45a533afacc74044f98"
-  integrity sha512-NJv4YtT2Aoks+5HM/tWqGv90XbF3hEw8E38tpM4UoEGhOmYjYhL/AMt1i5rhh2j4Ze3iw1m0znmEKrAd0NAhOQ==
+"@sanity/preview-kit-compat@1.5.19":
+  version "1.5.19"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.5.19.tgz#27bc5b738ccb81041cea2ef7948889522279d491"
+  integrity sha512-zoj4HjNRSjYQKDNO99N9D4C745cnFEC5O8DE4/mWzHvjX2oAhAMwTx2l51qlvnl5XyANlrSIwLPOzxi7MIBHbw==
   dependencies:
-    "@sanity/comlink" "1.1.1"
+    "@sanity/comlink" "1.1.2"
 
-"@sanity/preview-kit@5.1.15":
-  version "5.1.15"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.15.tgz#617585ec3592130902c76888dbf070cdc392fbcf"
-  integrity sha512-2zO9SsWePz90P6x3Mx4kGVk/gEKszLdugU6uTDPBm6FiCniaSWu71bH6JlY+yKCfRJCMsk1mZVJFLEijWA6phw==
+"@sanity/preview-kit@5.1.16":
+  version "5.1.16"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.16.tgz#b3b692592febf2790750f2d2c647ee473442834b"
+  integrity sha512-LkhVAqRqCJeKmV/BDDv1OubfuT5OoFt5ulq17vQUl2reUIu8ugZYhRw8Q+LjQNE5W0mjEyuu1xA32ghMtYSdAA==
   dependencies:
-    "@sanity/preview-kit-compat" "1.5.18"
+    "@sanity/preview-kit-compat" "1.5.19"
     mendoza "3.0.7"
 
 "@sanity/preview-url-secret@2.0.3":
@@ -5989,15 +5980,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.8.12:
-  version "9.8.12"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.12.tgz#d92179c0cca768081155c70daf376e6564ab76d2"
-  integrity sha512-uDVM7TFWsWaSlHku4nUiQp56XO9b9osqk3ylTRC1VvdkIgzKHB7RYmQDHqHfZf6W2a3cMusXCqEvyeg7w0opEw==
+next-sanity@9.8.13:
+  version "9.8.13"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.13.tgz#4a72e4d2e9d748060eaedf5c5152071234f5435c"
+  integrity sha512-CxoDFSvxc3iRoQZreXHyyxQECXJwAoA7BjgciaiVeHMTeXYS90Xypc3Tla4FX9RVK5B8rW40BnVz7fFFCaD0Ug==
   dependencies:
     "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.22.4"
     "@sanity/next-loader" "1.1.6"
-    "@sanity/preview-kit" "5.1.15"
+    "@sanity/preview-kit" "5.1.16"
     "@sanity/preview-url-secret" "2.0.3"
     "@sanity/visual-editing" "2.7.0"
     groq "^3.64.0"
@@ -7860,11 +7851,6 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xstate@^5.18.2:
-  version "5.18.2"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.18.2.tgz#924122af5102f3c3f7e172ebf20a09455ddb2963"
-  integrity sha512-hab5VOe29D0agy8/7dH1lGw+7kilRQyXwpaChoMu4fe6rDP+nsHYhDYKfS2O4iXE7myA98TW6qMEudj/8NXEkA==
 
 xstate@^5.19.0:
   version "5.19.0"

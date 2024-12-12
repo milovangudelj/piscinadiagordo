@@ -2019,27 +2019,12 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@portabletext/react@3.2.0":
+"@portabletext/react@3.2.0", "@portabletext/react@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.2.0.tgz#676ce1c7fc89ad574f6c1827eb02ec953ec5d630"
   integrity sha512-BA216Z8yhb/eP24bfb09uiT0SVnQHTVZMPXf4MRBEZ+G8cMzZM/ab3tcp8owyp91+3kTKR0qSIpzYSKdm1Pakw==
   dependencies:
     "@portabletext/toolkit" "^2.0.16"
-    "@portabletext/types" "^2.0.13"
-
-"@portabletext/react@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.1.0.tgz#95d08b67e74d380705726db6762321bf926796a6"
-  integrity sha512-ZGHlvS+NvId9RSqnflN8xF2KVZgAgD399dK1GaycurnGNZGZYTd5nZmc8by1yL76Ar8n/dbVtouUDJIkO4Tupw==
-  dependencies:
-    "@portabletext/toolkit" "^2.0.15"
-    "@portabletext/types" "^2.0.13"
-
-"@portabletext/toolkit@^2.0.15":
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-2.0.15.tgz#f13764efeebfcc92bcb792b1c3724fa0456703fe"
-  integrity sha512-KRNEUAd6eOxE9y591qC0sE24ZG2q27OHXe0dsPclj4IoEzf8aEuDcHR64wfFtB0aHq9Wdx3pIinmhZZcl35/vg==
-  dependencies:
     "@portabletext/types" "^2.0.13"
 
 "@portabletext/toolkit@^2.0.16":
@@ -2123,10 +2108,10 @@
     mendoza "^3.0.7"
     rxjs "^7.8.1"
 
-"@sanity/next-loader@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-1.2.3.tgz#3c6b7c3271186b4f40d22035c8fcbd5f2158a0b7"
-  integrity sha512-LsIfq9xvxpNPvcWB5BAXQFybTLWHeFtSSyccJLY3b+0frYADEh02mKM+UMIztUB1CtnCQSY6f8t6yLKHSyBjTQ==
+"@sanity/next-loader@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-1.2.5.tgz#c8ad4f81a01b0a926cb2f8c6d480b6882e1ab29f"
+  integrity sha512-9Ldq+iRfRINSGgL0SvqAEpG1EQKQ/4MqJGiixLSL/tsRr0uv278jsU8aNkDK3EJfa2bfF3m+l+nPnV+vza8hGA==
   dependencies:
     "@sanity/client" "^6.24.1"
     "@sanity/comlink" "2.0.1"
@@ -2162,17 +2147,17 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing@2.10.5":
-  version "2.10.5"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.10.5.tgz#68fb3ff40d7dcb995fbdf3784937633cf4baa93d"
-  integrity sha512-mCNzfeBV8ln6szbrGvQKfnsqAlOLK2hI0fC3PR/PDa7zDHZAHKIFSeNGAw7UWNqY3YfUekje4ywU8ALdiRH71g==
+"@sanity/visual-editing@2.10.6":
+  version "2.10.6"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.10.6.tgz#a7222d33e0431bb3a4303d4deafcf4052399596a"
+  integrity sha512-+edG4S6o4s7VOJJMSLDHea1X7tds566bfgG5aHEdLqkV9RFd8Bkri5IoWtffKXfPQa9GfoozqsYQzVNPhaEPGw==
   dependencies:
     "@sanity/comlink" "2.0.1"
     "@sanity/mutate" "0.11.0-canary.3"
     "@sanity/preview-url-secret" "2.0.5"
     "@vercel/stega" "0.1.2"
     get-random-values-esm "^1.0.2"
-    react-compiler-runtime "19.0.0-beta-df7b47d-20241124"
+    react-compiler-runtime "19.0.0-beta-37ed2a7-20241206"
     rxjs "^7.8.1"
     scroll-into-view-if-needed "^3.1.0"
     use-effect-event "^1.0.2"
@@ -4732,15 +4717,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-groq@3.67.1:
+groq@3.67.1, groq@^3.66.1:
   version "3.67.1"
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.67.1.tgz#668c870f36ba5ad31e9577077133a870e8edf79c"
   integrity sha512-3plMQ9IRhz5EQ8cI3HEcEPHk7Y7eceU0Zw3N5m+8Lg/VufCd+RNV10Pqi9ph7Ti1m2ew35tJ969Jx1AW4bk/Pg==
-
-groq@^3.66.0:
-  version "3.66.1"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.66.1.tgz#8387abc2cf88aed2f953639e38c128c28ccc9d12"
-  integrity sha512-03VxAjpI8BAxSZ4czNUNtMvj+Z5poETQJgd8O8JLUhI9RsKnC6F+NTyNbnbfBvf4Kz7OUhkHM5ttAl5S60EYkg==
 
 has-bigints@^1.0.1:
   version "1.0.1"
@@ -6095,18 +6075,18 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.8.25:
-  version "9.8.25"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.25.tgz#05cffd1fcd3d45e9949b8784a03494180d1f6d58"
-  integrity sha512-9jNjc1pkgKt14izxNjwlWIQWt/zhLJqegVmoKVWjy3lvwpoOp1kS5KTNcpZfUTmIyepFKcJPD5hnZUnznJDG6w==
+next-sanity@9.8.27:
+  version "9.8.27"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.27.tgz#284e9a0d58270c7023d5d564fd2b79b21dff7732"
+  integrity sha512-jo/7725A4GVb2EcOu6Gpcn+FwC/Ohr3O1AaPB2q3KHrZCYts1yVuHgcPB/P26tF8I7BKXtdQXQ7Af/kJgLeW/Q==
   dependencies:
-    "@portabletext/react" "^3.1.0"
+    "@portabletext/react" "^3.2.0"
     "@sanity/client" "^6.24.1"
-    "@sanity/next-loader" "1.2.3"
+    "@sanity/next-loader" "1.2.5"
     "@sanity/preview-kit" "5.1.23"
     "@sanity/preview-url-secret" "2.0.5"
-    "@sanity/visual-editing" "2.10.5"
-    groq "^3.66.0"
+    "@sanity/visual-editing" "2.10.6"
+    groq "^3.66.1"
     history "^5.3.0"
 
 next@15.1.0:
@@ -6638,10 +6618,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-compiler-runtime@19.0.0-beta-df7b47d-20241124:
-  version "19.0.0-beta-df7b47d-20241124"
-  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-df7b47d-20241124.tgz#0b0585bf4d97682c83c5d7b5685a2866e86c1ef3"
-  integrity sha512-HLFbEf5rEhynZNxI/f1y26Hw0SCvFWh9aS0gCaDndak202oOAvRhy0qsUhmVyaeuRYqIxvPeltMvqDfvO+9/Fw==
+react-compiler-runtime@19.0.0-beta-37ed2a7-20241206:
+  version "19.0.0-beta-37ed2a7-20241206"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-37ed2a7-20241206.tgz#f05231928f2daf9ff5ff9b63e5861161de2c3e6d"
+  integrity sha512-9e6rCpVylr9EnVocgYAjft7+2v01BDpajeHKRoO+oc9pKcAMTpstHtHvE/TSVbyf4FvzCGjfKcfHM9XGTXI6Tw==
 
 react-dom@19.0.0:
   version "19.0.0"

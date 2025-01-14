@@ -4442,23 +4442,23 @@
   resolved "https://registry.yarnpkg.com/@sanity/browserslist-config/-/browserslist-config-1.0.5.tgz#4769f3919af98ab4131707317f994d8b3ac2da88"
   integrity sha512-so+/UtCge8t1jq509hH0otbbptRz0zM/Aa0dh5MhMD7HGT6n2igWIL2VWH/9QR9e77Jn3dJsjz23mW1WCxT+sg==
 
-"@sanity/cli@3.69.0":
-  version "3.69.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.69.0.tgz#ef4e21bcb95a0a9622f839c9bf53117a9c1e973f"
-  integrity sha512-2lntlilK8m8+dRBkEyS+SbTbx5uMhOZomH7FdlBi6+V1O/CrVjwdl1anEirzal2wKqM8sf8cgU2nTEjo3XMrGg==
+"@sanity/cli@3.70.0":
+  version "3.70.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.70.0.tgz#3fabd3d93fa6d33b7ddb2c45c8dc4e92258aa381"
+  integrity sha512-bB4MeJsNYpuCcRdcmvQ9jeD52hwwj2re005FvqSvZgtTn9zW5jxib1PTxM3XyY5Q834hrA/2H6ZtUxfQbMoYTQ==
   dependencies:
     "@babel/traverse" "^7.23.5"
-    "@sanity/client" "^6.24.1"
-    "@sanity/codegen" "3.69.0"
+    "@sanity/client" "^6.24.3"
+    "@sanity/codegen" "3.70.0"
     "@sanity/telemetry" "^0.7.7"
-    "@sanity/template-validator" "^2.0.0"
-    "@sanity/util" "3.69.0"
+    "@sanity/template-validator" "^2.3.2"
+    "@sanity/util" "3.70.0"
     chalk "^4.1.2"
     debug "^4.3.4"
     decompress "^4.2.0"
     esbuild "0.21.5"
     esbuild-register "^3.5.0"
-    get-it "^8.6.5"
+    get-it "^8.6.6"
     groq-js "^1.14.2"
     pkg-dir "^5.0.0"
     prettier "^3.3.0"
@@ -4476,19 +4476,19 @@
     object-assign "^4.1.1"
     rxjs "^6.0.0"
 
-"@sanity/client@^6.24.1":
-  version "6.24.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.24.1.tgz#e346607817d23b310a443231ddca1d47da25229d"
-  integrity sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==
+"@sanity/client@^6.24.3":
+  version "6.24.3"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.24.3.tgz#b0716b25199e7bef5024e9adb5e3c2d9b38a824f"
+  integrity sha512-WfF6Gq2rCxv7n9IcWYRvtGpCYq4398MT303HJhwP/jf3jeU81OxWZ+ApGat37BOJ37tDZmhHxG3Pb1boDxA0EQ==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.5"
     rxjs "^7.0.0"
 
-"@sanity/codegen@3.69.0":
-  version "3.69.0"
-  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.69.0.tgz#d7a424059e32667eb8393286bdd406ea80aa5252"
-  integrity sha512-zV6LKciEpTJGxXieIMp6LtvD5dq7LQHLuwpW1iiLyQ2Cgb7yd8w9sSWPICd/d3YV+7eIPDQUoXmHe2JCpdBsuA==
+"@sanity/codegen@3.70.0":
+  version "3.70.0"
+  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.70.0.tgz#a028e7b15a08ddccba5af7d99e8513eb1fe66fa3"
+  integrity sha512-bXAL5WG4R48AHnlTTkth+IuP1Y6TD92nQayMtpQ4qbWTq2oT6lZ1h42rVQsKFILgOqxQbS3mmcSh4ukag6VE1w==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/generator" "^7.23.6"
@@ -4500,7 +4500,7 @@
     "@babel/types" "^7.23.9"
     debug "^4.3.4"
     globby "^11.1.0"
-    groq "3.69.0"
+    groq "3.70.0"
     groq-js "^1.14.2"
     json5 "^2.2.3"
     tsconfig-paths "^4.2.0"
@@ -5121,7 +5121,7 @@
     rxjs "^7.8.1"
     typeid-js "^0.3.0"
 
-"@sanity/template-validator@^2.0.0":
+"@sanity/template-validator@^2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@sanity/template-validator/-/template-validator-2.3.2.tgz#d4cb66ecc5c95fcbac4f7c0cbec28a6fe1f3ceb5"
   integrity sha512-eGWNXVBZbDcCOvmco4kE6gW6BwZUT9necgt8esdUHo5rFUBphAPl26rCzCNHUjjCGWWLs1ExMwtMkRIAxOT2Ow==
@@ -5162,12 +5162,12 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.69.0":
-  version "3.69.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.69.0.tgz#3e1f29779b76cf6b3306f6c9576667b9aa7b9c5b"
-  integrity sha512-LePixWL1co4dxYEtxz6zWYuM7oilAsVhn+FHN9YvBzwg1oBDuMLh6rQWW4ywYghs4J9Xvaq9zv//frXdHUaiTw==
+"@sanity/types@3.70.0":
+  version "3.70.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.70.0.tgz#8754fbc58254d47e3f39c31f5169352108972dda"
+  integrity sha512-Qr2tk9Kr6VP2nL30w/wo+92NI/De+RmpMgkL9jY1hLLWYiGG1c3cJyR2pUK7iIwF3pUHwHPGV+S1APhw5XQ8zw==
   dependencies:
-    "@sanity/client" "^6.24.1"
+    "@sanity/client" "^6.24.3"
 
 "@sanity/ui@^0.37.22":
   version "0.37.22"
@@ -5245,13 +5245,13 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.69.0":
-  version "3.69.0"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.69.0.tgz#897b9fe9f59afa273f8c674432559590ea878ec2"
-  integrity sha512-pN6dfM8AF5pxvzHxUwiCamV8WiSx7ZYqv0cWp96seumCj8iiyHOAvzOE4QPlFcu5ymGWveKUB0aCZEmuoUfMpw==
+"@sanity/util@3.70.0":
+  version "3.70.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.70.0.tgz#85a68b3a53ac16c88b4610fff3a5e845544b5480"
+  integrity sha512-F7U23gTv9+ZEo+JktWkhnRgFEz+OrUuRKb1bPceWfkXj8d3nAAdJ+8+hZ1tik0KFxnl4dooltcDxp/5Jo+OnNg==
   dependencies:
-    "@sanity/client" "^6.24.1"
-    "@sanity/types" "3.69.0"
+    "@sanity/client" "^6.24.3"
+    "@sanity/types" "3.70.0"
     get-random-values-esm "1.0.2"
     moment "^2.30.1"
     rxjs "^7.8.1"
@@ -9475,6 +9475,11 @@ follow-redirects@^1.15.6:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
   integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
 
+follow-redirects@^1.15.9:
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
+  integrity sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==
+
 follow-redirects@^1.2.4:
   version "1.14.9"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
@@ -9808,6 +9813,19 @@ get-it@^8.0.9, get-it@^8.6.5:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
+get-it@^8.6.6:
+  version "8.6.6"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.6.tgz#616d6fbf4aa144493a937bfaef48573861db9a73"
+  integrity sha512-2YKp5J+/x7VE9n8n6QGF6+gE4o1WOVSWrJd/C79JFqPlzHzWx/JQS6L49STWwqmkonkrXHhohQ/PkaI2o7l01g==
+  dependencies:
+    "@types/follow-redirects" "^1.14.4"
+    "@types/progress-stream" "^2.0.5"
+    decompress-response "^7.0.0"
+    follow-redirects "^1.15.9"
+    is-retry-allowed "^2.2.0"
+    progress-stream "^2.0.0"
+    tunnel-agent "^0.6.0"
+
 get-latest-version@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/get-latest-version/-/get-latest-version-5.1.0.tgz#928f7fda59a9a34d7c7cf3664a2006dfd9af6aa7"
@@ -10081,10 +10099,10 @@ groq-js@^1.14.2:
   dependencies:
     debug "^4.3.4"
 
-groq@3.69.0:
-  version "3.69.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.69.0.tgz#297bca497fa81e16bc1c4237d660f81aaf36b219"
-  integrity sha512-z/UnX+4op+xM1X4BStvydrHg484CbI/VoZcfhGDlIZA0xj5DeKQsPO3MXyWqLvuMcU2nnDlnpJZ1ccI1XAlO8Q==
+groq@3.70.0:
+  version "3.70.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.70.0.tgz#9cd024881cdeb2eedb66a233cb93cb7bb28ee158"
+  integrity sha512-OMYdOmBZCZ7zbXOicpJUpAZc8kOSDW2+TaO3GRjBx3bJTk04lPsqgG1Mfhi1E+lEVbhjhW3h+k7TCyApe4idQA==
 
 groq@^3.0.0:
   version "3.14.1"

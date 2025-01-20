@@ -2147,10 +2147,10 @@
     "@sanity/comlink" "^3.0.1"
     "@sanity/presentation-comlink" "^1.0.0"
 
-"@sanity/preview-kit@5.1.30":
-  version "5.1.30"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.30.tgz#18b7d64fb23a69bea2ce9a93be14000316f1a5e3"
-  integrity sha512-9a2Q/2HKnOhuoh0CiCK8B7A+qBychl2F4jNAO2bqINArzsJxY4/l9Y9kZSQBcdKweg8B+OBUXm2CCMnECNuvgA==
+"@sanity/preview-kit@5.1.31":
+  version "5.1.31"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.31.tgz#f0acf8e6fa90617dabe30c4977fa6cc3a4a2e4ca"
+  integrity sha512-wHDymb3y0O4t8x4prUnMbWyqmnyiV/gGGlHSR6Ir/e9Nr5fal55FQAr05XyhR2505SgHrxnRSCmBnILzxcaGoA==
   dependencies:
     "@sanity/preview-kit-compat" "1.5.33"
     mendoza "3.0.8"
@@ -6149,15 +6149,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.8.38:
-  version "9.8.38"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.38.tgz#c18488d7c1acd982a2c1de823c4ccec7053fab3b"
-  integrity sha512-piFl4ATCcZibnnFV7kRhu4E1s7gGw9+La157QgSuWeRDHAC2qSf5LuWK+jcldR+a1SKgEy+c1LWossi9PJDE3A==
+next-sanity@9.8.39:
+  version "9.8.39"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.39.tgz#5bbd21232ce5b31d6d7449d16ab6b9f8e032ce94"
+  integrity sha512-s5jgg1N5+5LkTiNJzWzc5dB9n4rrADNmwvm5jQrddW9mZa/mJLjufqJqXZRphhN2DiJNv4fFvjzUYZE0iVDT/w==
   dependencies:
     "@portabletext/react" "^3.2.0"
     "@sanity/client" "^6.25.0"
     "@sanity/next-loader" "1.2.15"
-    "@sanity/preview-kit" "5.1.30"
+    "@sanity/preview-kit" "5.1.31"
     "@sanity/preview-url-secret" "2.1.0"
     "@sanity/visual-editing" "2.12.3"
     groq "^3.70.0"

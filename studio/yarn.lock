@@ -4442,17 +4442,17 @@
   resolved "https://registry.yarnpkg.com/@sanity/browserslist-config/-/browserslist-config-1.0.5.tgz#4769f3919af98ab4131707317f994d8b3ac2da88"
   integrity sha512-so+/UtCge8t1jq509hH0otbbptRz0zM/Aa0dh5MhMD7HGT6n2igWIL2VWH/9QR9e77Jn3dJsjz23mW1WCxT+sg==
 
-"@sanity/cli@3.71.0":
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.71.0.tgz#04206afe570bfb5ab8522e7f684b1fe691cec84b"
-  integrity sha512-XM4zk0atEgVQtAAjxGpPur3zooo+OhMVZqrlbHenGNXAT6GGhO4qLHex+V2pRdJz/tcTuYgw5pSI7ISQZJ0zaQ==
+"@sanity/cli@3.71.1":
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.71.1.tgz#df85e8281e0cf43c60c674c7a516016cba837104"
+  integrity sha512-0lGm1UA5l5SwtvbBGMBzIc/AR/8C1y85gacWH9GR0uHioyHZxgd460t5WYl7HCV+2UWqbBBkIgBPkOkbuvCU8w==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/client" "^6.25.0"
-    "@sanity/codegen" "3.71.0"
+    "@sanity/codegen" "3.71.1"
     "@sanity/telemetry" "^0.7.7"
     "@sanity/template-validator" "^2.3.2"
-    "@sanity/util" "3.71.0"
+    "@sanity/util" "3.71.1"
     chalk "^4.1.2"
     debug "^4.3.4"
     decompress "^4.2.0"
@@ -4485,10 +4485,10 @@
     get-it "^8.6.6"
     rxjs "^7.0.0"
 
-"@sanity/codegen@3.71.0":
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.71.0.tgz#b0b68c3ded78458110bb1d66ec950466c2a481e6"
-  integrity sha512-adAS/eMq9ra3JWnnEb5/g9CyZxxXjP/vH9avWxr5w47ZCJd0OC3+4L41UwxLkhltU2/EqThpPv6DD1DqTATYpQ==
+"@sanity/codegen@3.71.1":
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.71.1.tgz#0df5e626d1990cf7f7b281fb9db0ce6cb21f02e6"
+  integrity sha512-+Bq1lf5WlkZ1QAPxQ765BjDuLXLmjlMHkmBsbnTPp21iUeZOlGSziaWrfYEYALgxYBSO+2fTzE1Ykd9moKRqew==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/generator" "^7.23.6"
@@ -4500,7 +4500,7 @@
     "@babel/types" "^7.23.9"
     debug "^4.3.4"
     globby "^11.1.0"
-    groq "3.71.0"
+    groq "3.71.1"
     groq-js "^1.14.2"
     json5 "^2.2.3"
     tsconfig-paths "^4.2.0"
@@ -5162,10 +5162,10 @@
     "@sanity/client" "^3.3.3"
     "@types/react" "^17.0.42"
 
-"@sanity/types@3.71.0":
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.71.0.tgz#263bca71c32a4e65c1be825e09320b678b573fbe"
-  integrity sha512-kKWglHug7reDQj6G+YNr5LqrFLphsIkjCpTarlbYrJPBdZ8C/g0ikkEotaF2XYyS3nGgudSra59HolCJZ/jJJg==
+"@sanity/types@3.71.1":
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.71.1.tgz#e42b8091eb946f293b575015a02fa216dd040ff1"
+  integrity sha512-Qg8WsOw0+1DMZscDlTXy3qUhqXIVvn5y/UVH21sssc8m5V2UHVTqd/QMT2SM4POB7HNABFtWrNLv5k/R0yGHdw==
   dependencies:
     "@sanity/client" "^6.25.0"
 
@@ -5245,13 +5245,13 @@
     get-random-values-esm "^1.0.0"
     moment "^2.29.4"
 
-"@sanity/util@3.71.0":
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.71.0.tgz#2d9a76c9ab8c86fbb38393f5f8780e97d7a7e43c"
-  integrity sha512-UzsyhylQlzOaygE3LW0a1ISMUxAcqziqf0HJTdC5+mauMmTL74aXp2RtWWYYCpGJLC1TVV4vnOtqriKqxHuoEA==
+"@sanity/util@3.71.1":
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.71.1.tgz#e9731be5a0cab66ad82dd5bf2ab540e9252b172b"
+  integrity sha512-quuaNoFefs6Bs7ekieqroI8Dtvd/0/9U1XXCMIWrUwcaEzK5Z/ZUgGbFovV+clgcJdBPOpz5mwffBes7qtcXDA==
   dependencies:
     "@sanity/client" "^6.25.0"
-    "@sanity/types" "3.71.0"
+    "@sanity/types" "3.71.1"
     get-random-values-esm "1.0.2"
     moment "^2.30.1"
     rxjs "^7.8.1"
@@ -5274,10 +5274,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.71.0":
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.71.0.tgz#a763c179b230d7e34dfdaf542665905c117aba2c"
-  integrity sha512-hPBEW8yLBab70ED7zT7S2iSI5lH6eqI9ebGCjYl3SZ5I5hetEYkAkYvpIUSp/g96LkroY3WZnGrZYoZj/no7og==
+"@sanity/vision@3.71.1":
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.71.1.tgz#841c3187b4b8e5986b2b5a171ef10eee204c250b"
+  integrity sha512-EZpXjKfPaYXHTJGL9ZFL7AAF+l3ET4zPr/4vGxJWRV+cLtqQNYQV483MmsGubKxR5d9kAFXtwF2fYnvaXsgCbQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -10099,10 +10099,10 @@ groq-js@^1.14.2:
   dependencies:
     debug "^4.3.4"
 
-groq@3.71.0:
-  version "3.71.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.71.0.tgz#3e3ab8aa961b0b818309956dfac352655f6593e3"
-  integrity sha512-oI0Uico9yAn3cTGELETNfEhWGcbNywbew8oI6pFVRk2MTAGmJsi1pz2+zn0BWpjLLlHtPJkHQ7tysz6XRClH1Q==
+groq@3.71.1:
+  version "3.71.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.71.1.tgz#5bcb41b0503d3d176f2cb12dcb4470e946491b00"
+  integrity sha512-756GxrNoG/OCmoXATnVjDCxB3xNN4QHariFuoUOtoJ/kQEJ6qhOyW2hn2OgOXM23GZZ2VKM+99KkkQ084XRuag==
 
 groq@^3.0.0:
   version "3.14.1"

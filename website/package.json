@@ -19,7 +19,7 @@
 		"date-fns": "4.1.0",
 		"groq": "3.72.1",
 		"next": "15.1.6",
-		"next-sanity": "9.8.48",
+		"next-sanity": "9.8.49",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-textfit": "1.1.1"

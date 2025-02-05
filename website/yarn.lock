@@ -2145,10 +2145,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.4.tgz#50493735b004ffcb9533fb1bbb2cbc58e0a61964"
   integrity sha512-zg4fObu+okPBD4/xAYF1IQjvtDTmRzS2eRFYvqG+TGHGygNIZjIx0obZAMioXvUoTZqy3eZzyzyadbsYM/w0RA==
 
-"@sanity/visual-editing@2.12.12":
-  version "2.12.12"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.12.12.tgz#14e1b47118d90a938a204815f6212ace2561783c"
-  integrity sha512-begfBEqh5HRu89puaU4IddMCwTSaO4aaPjsL9hYMFvNRr7JbVj3nudQdPEDlCwFJTKMwZNvJvAXQ0/Klgt6+KQ==
+"@sanity/visual-editing@2.12.13":
+  version "2.12.13"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.12.13.tgz#f95e02cc39795db42eca17656e65a9289b4b4fbc"
+  integrity sha512-yuB3SZd7KeDtQcG20X+t5TOjOaHj6gohVUIY1zVrNtq8DZuFXDqMe9Wg327r+P7OojQjG5Ckc/JiMLEl2gD1Cg==
   dependencies:
     "@sanity/comlink" "^3.0.1"
     "@sanity/mutate" "0.11.0-canary.4"
@@ -5938,17 +5938,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.8.49:
-  version "9.8.49"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.49.tgz#74253e2cf07cab7ec6b8ea941fff387c8cda5751"
-  integrity sha512-MVV5kmk5lb+/AbQ5N1C6mi6VZt0i6ZpXPF7izHYqrEIdngvaV21m78VvQhy2CeUU2aWhyrsDoLjUlitqTNDr2Q==
+next-sanity@9.8.50:
+  version "9.8.50"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.50.tgz#a1e9da380799d3ec417b49121b9e2abdbdf53207"
+  integrity sha512-FCIZs3Jim/oP8fqnqhL3xCBAvYRZic5QNCaROiJEfDxJdlCbsLExah72NmMix7oZ3OTHbuHVZg4gy9ZKYvcA5g==
   dependencies:
     "@portabletext/react" "^3.2.0"
     "@sanity/client" "^6.27.2"
     "@sanity/next-loader" "1.2.22"
     "@sanity/preview-kit" "5.2.2"
     "@sanity/preview-url-secret" "2.1.4"
-    "@sanity/visual-editing" "2.12.12"
+    "@sanity/visual-editing" "2.12.13"
     groq "^3.73.0"
     history "^5.3.0"
 

@@ -5252,10 +5252,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.74.0":
-  version "3.74.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.74.0.tgz#5acd736871fd1ec47cc26f84016c44eb6fb36d8a"
-  integrity sha512-n5vqiZ0P787JNpeJRQBznr6RUQBmma3RiSQnmD9tscCba0BTivZL0AZMX+8MxpTuxkcif10/S3aB/fILKC8fpQ==
+"@sanity/vision@3.74.1":
+  version "3.74.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.74.1.tgz#4a2f37c5750e50e183312ef0c4e6c6c8669b97f9"
+  integrity sha512-r8L43x2loBGuNXIY853AlN5Ol7vMDdGuj9NtUrrJWkd8B2vSjZf1dZVROJ5nBQZNx53qxGmeQfs71sjobROasQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"

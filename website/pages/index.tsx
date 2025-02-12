@@ -1,3 +1,4 @@
+import { GetStaticProps } from "next";
 import Head from "next/head";
 
 // Components
@@ -17,24 +18,49 @@ import imageAttivita from "../public/assets/images/attività.webp";
 
 // Sanity
 import { getClient } from "../lib/sanity.server";
-import { recentPostsQuery, sponsorQuery } from "../lib/queries";
+import { navbarQuery, recentPostsQuery, sponsorQuery } from "../data/queries";
+import { getPage } from "../data";
+import { useEffect } from "react";
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async ({
+	params,
+	preview,
+	previewData,
+}) => {
+	const pageData = await getPage(params?.slug, preview);
+
 	const { sponsors } = await getClient().fetch(sponsorQuery);
 	const { posts } = await getClient().fetch(recentPostsQuery);
+	const { navItems } = await getClient().fetch(navbarQuery);
 
 	return {
 		props: {
 			sponsors,
 			posts,
+			pageData,
+			navItems,
 		},
 	};
 };
 
-const Home = ({ sponsors, posts }: { sponsors: any[]; posts: any[] }) => {
+const Home = ({
+	sponsors,
+	posts,
+	pageData,
+	navItems,
+}: {
+	sponsors: any[];
+	posts: any[];
+	pageData: any;
+	navItems: any;
+}) => {
+	useEffect(() => {
+		console.log({ pageData, navItems });
+	}, []);
+
 	return (
 		<>
-			<Layout>
+			<Layout navItems={navItems}>
 				<Head>
 					<title>Piscina di Agordo</title>
 				</Head>

@@ -13,7 +13,7 @@ import {
 import { Person } from "../lib/types";
 
 // Lib
-import { queryCollaboratori, queryDirettivo } from "../lib/queries";
+import { queryCollaboratori, queryDirettivo } from "../data/queries";
 import { getClient } from "../lib/sanity.server";
 
 // Assets

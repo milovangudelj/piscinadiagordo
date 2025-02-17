@@ -5,64 +5,102 @@ import { PhoneIcon, PlusSmIcon } from "@heroicons/react/solid";
 import { Button } from "../Button";
 import { Logo } from "../Logo";
 import cn from "classnames";
+import { useEffect, useState } from "react";
 
-const links = [
-	{
-		text: "Home",
-		href: "/",
-		dropdown: [
-			{
-				text: "Regolamento",
-				href: "/regolamento",
-			},
-			{
-				text: "Norme COVID-19",
-				href: "/norme-covid-19",
-			},
-		],
-	},
-	{
-		text: "Team",
-		href: "/team",
-	},
-	{
-		text: "Piscina",
-		href: "/piscina",
-		dropdown: [
-			{
-				text: "Nuoto libero",
-				href: "/piscina/nuoto-libero",
-			},
-			{
-				text: "Corsi",
-				href: "/piscina/corsi",
-			},
-			{
-				text: "Acquafitness",
-				href: "/piscina/acquafitness",
-			},
-			{
-				text: "Fisioterapia",
-				href: "/piscina/fisioterapia",
-			},
-		],
-	},
-	{
-		text: "Palazzetto",
-		href: "/palazzetto",
-	},
-	{
-		text: "Centro estivo",
-		href: "/centro-estivo",
-	},
-	{
-		text: "News",
-		href: "/news",
-	},
-];
+// const links = [
+// 	{
+// 		text: "Home",
+// 		href: "/",
+// 		dropdown: [
+// 			{
+// 				text: "Regolamento",
+// 				href: "/regolamento",
+// 			},
+// 			{
+// 				text: "Norme COVID-19",
+// 				href: "/norme-covid-19",
+// 			},
+// 		],
+// 	},
+// 	{
+// 		text: "Team",
+// 		href: "/team",
+// 	},
+// 	{
+// 		text: "Piscina",
+// 		href: "/piscina",
+// 		dropdown: [
+// 			{
+// 				text: "Nuoto libero",
+// 				href: "/piscina/nuoto-libero",
+// 			},
+// 			{
+// 				text: "Corsi",
+// 				href: "/piscina/corsi",
+// 			},
+// 			{
+// 				text: "Acquafitness",
+// 				href: "/piscina/acquafitness",
+// 			},
+// 			{
+// 				text: "Fisioterapia",
+// 				href: "/piscina/fisioterapia",
+// 			},
+// 		],
+// 	},
+// 	{
+// 		text: "Palazzetto",
+// 		href: "/palazzetto",
+// 	},
+// 	{
+// 		text: "Centro estivo",
+// 		href: "/centro-estivo",
+// 	},
+// 	{
+// 		text: "News",
+// 		href: "/news",
+// 	},
+// ];
 
-export const Navbar = () => {
+type NavLinks = {
+	text: string;
+	href: string;
+	dropdown?: {
+		text: string;
+		href: string;
+	}[];
+}[];
+
+export const Navbar = ({ navItems = [] }: { navItems: NavLinks }) => {
 	const { pathname } = useRouter();
+	const [links, setLinks] = useState<NavLinks>([]);
+
+	const makeLinks = (items: NavLinks) => {
+		const navLinks = items.map((item) => {
+			const { text, href, dropdown } = item;
+
+			return {
+				text,
+				href: `/${href}`,
+				dropdown: dropdown
+					? dropdown.map((item) => {
+							const { text, href } = item;
+
+							return {
+								text,
+								href: `/${href}`,
+							};
+					  })
+					: undefined,
+			};
+		});
+
+		setLinks(navLinks);
+	};
+
+	useEffect(() => {
+		makeLinks(navItems);
+	}, [navItems]);
 
 	return (
 		<div className="sticky top-0 z-10 bg-white py-2 px-4 shadow-sm">
@@ -100,8 +138,8 @@ export const Navbar = () => {
 										</a>
 									</Link>
 									{link.dropdown && (
-										<div className="absolute top-full hidden w-max flex-col border-t-2 border-primary-500 bg-white transition-all group-hover:flex">
-											{link.dropdown.map((item) => (
+										<div className="absolute top-full hidden w-max flex-col border-t-2 border-primary-500 bg-white shadow-lg transition-all group-hover:flex">
+											{link.dropdown.map((item: any) => (
 												<Link
 													href={item.href}
 													passHref

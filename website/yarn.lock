@@ -2062,10 +2062,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.4.tgz#427d5549943a9c6fce808e39ea64dbe60d4047f1"
   integrity sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==
 
-"@sanity/client@6.28.0", "@sanity/client@^6.28.0":
-  version "6.28.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.28.0.tgz#400150af2c61e172e87d564f6041a0058ec5c4fc"
-  integrity sha512-2kXmiOPAfT2/5cxmwIyLv+/1HXbZXwWYAtaPkOoujySVP3tcXYmzTwYbjUXMlRcvs0u28C2afZmSNoK+RDiQqA==
+"@sanity/client@6.28.1":
+  version "6.28.1"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.28.1.tgz#8b2d2c3802b3617809dd2e79a981ce7ac51fbbf2"
+  integrity sha512-SPMr3IbFTHjLXB779GX7eDVZiNgNslbQkeGMC1ZWJnvs8zGGPU+wZo7goNC7EeMfP93+WOlt4UKLPVX5NfCW6g==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.7"
@@ -2078,6 +2078,15 @@
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.5"
+    rxjs "^7.0.0"
+
+"@sanity/client@^6.28.0":
+  version "6.28.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.28.0.tgz#400150af2c61e172e87d564f6041a0058ec5c4fc"
+  integrity sha512-2kXmiOPAfT2/5cxmwIyLv+/1HXbZXwWYAtaPkOoujySVP3tcXYmzTwYbjUXMlRcvs0u28C2afZmSNoK+RDiQqA==
+  dependencies:
+    "@sanity/eventsource" "^5.0.2"
+    get-it "^8.6.7"
     rxjs "^7.0.0"
 
 "@sanity/color@^3.0.6":

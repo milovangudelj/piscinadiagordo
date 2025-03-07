@@ -29,7 +29,7 @@
     "prop-types": "15.8.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "sanity-plugin-media": "2.4.2",
+    "sanity-plugin-media": "3.0.0",
     "sanity-plugin-note-field": "2.0.2",
     "sanity-plugin-table": "2.3.0",
     "styled-components": "6.1.15"

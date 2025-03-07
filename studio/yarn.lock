@@ -10756,11 +10756,6 @@ is-hotkey@^0.1.6:
   resolved "https://registry.npmjs.org/is-hotkey/-/is-hotkey-0.1.8.tgz#6b1f4b2d0e5639934e20c05ed24d623a21d36d25"
   integrity sha512-qs3NZ1INIS+H+yeo7cD9pDfwYV/jqRh1JG9S9zYrNudkoUQg7OL7ziXqRKu+InFjUIDoP2o6HIkLYMh1pcWgyQ==
 
-is-hotkey@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/is-hotkey/-/is-hotkey-0.2.0.tgz#1835a68171a91e5c9460869d96336947c8340cef"
-  integrity sha512-UknnZK4RakDmTgz4PI1wIph5yxSs/mvChWs9ifnlXsKuXgWmOkY/hAE0H/k2MIqH0RlRye0i1oC07MCRSD28Mw==
-
 is-map@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/is-map/-/is-map-2.0.3.tgz#ede96b7fe1e270b3c4465e3a465658764926d62e"
@@ -14684,10 +14679,10 @@ react-virtual@^2.10.4:
   dependencies:
     "@reach/observe-rect" "^1.1.0"
 
-react-virtuoso@^4.3.11:
-  version "4.3.11"
-  resolved "https://registry.yarnpkg.com/react-virtuoso/-/react-virtuoso-4.3.11.tgz#ab24e707287ef1b4bb5b52f3b14795ba896e9768"
-  integrity sha512-0YrCvQ5GsIKRcN34GxrzhSJGuMNI+hGxWci5cTVuPQ8QWTEsrKfCyqm7YNBMmV3pu7onG1YVUBo86CyCXdejXg==
+react-virtuoso@^4.12.5:
+  version "4.12.5"
+  resolved "https://registry.yarnpkg.com/react-virtuoso/-/react-virtuoso-4.12.5.tgz#cf92efc2527e56d6df1d4d63c6e4dd3fac5a4030"
+  integrity sha512-YeCbRRsC9CLf0buD0Rct7WsDbzf+yBU1wGbo05/XjbcN2nJuhgh040m3y3+6HVogTZxEqVm45ac9Fpae4/MxRQ==
 
 react@19.0.0:
   version "19.0.0"
@@ -14852,7 +14847,7 @@ reduce-function-call@^1.0.1, reduce-function-call@^1.0.2:
   dependencies:
     balanced-match "^1.0.0"
 
-redux-observable@^3.0.0-rc.2:
+redux-observable@3.0.0-rc.2:
   version "3.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/redux-observable/-/redux-observable-3.0.0-rc.2.tgz#baef603781c5dabd9ddd70526357076cd5c128a2"
   integrity sha512-gG/pWIKgSrcTyyavm2so5tc7tuyCQ47p3VdCAG6wt+CV0WGhDr50cMQHLcYKxFZSGgTm19a8ZmyfJGndmGDpYg==
@@ -15444,10 +15439,10 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-media@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-3.0.0.tgz#d64985f885b9ee21c83cd027ccfb35650c2b8e25"
-  integrity sha512-913Brh8nXDi7ZHw4PRz6bhV9RIQGJL2HBReM45Wbj1hbLGs/6AtzaFlE8It57iObPhdLmE37fqpFPled+X5Rdw==
+sanity-plugin-media@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-3.0.1.tgz#f44a0438997d9a081cc1b938f83e91232eb53fde"
+  integrity sha512-2PNHzt+KlPX03emqj4/L67XpUTZ6Ou7kxuEFlY3uPrONak6EK3LwOdmaS08nT8ooht8ANeeiygwc+sxLeOcnNA==
   dependencies:
     "@hookform/resolvers" "^3.1.1"
     "@reduxjs/toolkit" "^2.6.0"
@@ -15462,7 +15457,7 @@ sanity-plugin-media@3.0.0:
     date-fns "^2.27.0"
     filesize "^9.0.0"
     groq "^3.0.0"
-    is-hotkey "^0.2.0"
+    is-hotkey-esm "^1.0.0"
     nanoid "^3.3.8"
     pluralize "^8.0.0"
     react-dropzone "^11.3.1"
@@ -15470,9 +15465,9 @@ sanity-plugin-media@3.0.0:
     react-hook-form "^7.54.2"
     react-redux "^9.2.0"
     react-select "^5.3.2"
-    react-virtuoso "^4.3.11"
+    react-virtuoso "^4.12.5"
     redux "^5.0.1"
-    redux-observable "^3.0.0-rc.2"
+    redux-observable "3.0.0-rc.2"
     rxjs "^7.8.1"
     zod "^3.21.4"
 

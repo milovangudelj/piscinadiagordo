@@ -11,7 +11,7 @@ import {
 import { PaginationProvider } from "../../context/pagination";
 
 // Lib
-import { postCountQuery, postsQueryPaginated } from "../../lib/queries";
+import { postCountQuery, postsQueryPaginated } from "../../data/queries";
 import { getClient } from "../../lib/sanity.server";
 
 // Types

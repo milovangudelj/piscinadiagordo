@@ -2216,10 +2216,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.10.tgz#417c6f0e0b4a203fe0d64365adc55656742d401b"
   integrity sha512-KWiRACxDZ2d9ovpIF4KQ3rPcuJ9/uh/wfpH7f67YdjQj2ThYBSCArtk7ohHewMWgWbteVqFadT+/27IK1u/ERQ==
 
-"@sanity/visual-editing@2.13.9":
-  version "2.13.9"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.13.9.tgz#2a75a0669e1e5958a29b5e3931639e44f839fcb2"
-  integrity sha512-/e4VNv9QXTsZXbfmJY27PxlRzFxpgRjGqalTdh2ggRVRGCyZBGq2f4sG9AVUwzBEMiwfOgDOVl51CesyfdeK6w==
+"@sanity/visual-editing@2.13.10":
+  version "2.13.10"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.13.10.tgz#8ee0d36cf3bec711462e71553f3452df1d90b578"
+  integrity sha512-bJf7D8jXs1Q8LYZke8nvJnY0bO3Gn6qinqIh2HDUL2s22tzfByNDxKA87Ui4bL9xTqKsVvkWRAWhaDjbnJrTIQ==
   dependencies:
     "@sanity/comlink" "^3.0.1"
     "@sanity/icons" "^3.7.0"
@@ -6101,17 +6101,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.9.2:
-  version "9.9.2"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.9.2.tgz#98678cbb7fac01e9c610f26dbcd69117f69dd8a4"
-  integrity sha512-W76VpdpzItB+Ww8gFcJsNTxGQEgglflHEL8D0KxtutGVTQWpik+f/r+QerLyGHLSEKNAFKrFABl3/C0p8gvtKg==
+next-sanity@9.9.3:
+  version "9.9.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.9.3.tgz#cef41da72a8147ffe4e5a24a0c264f0dd079b3ba"
+  integrity sha512-m+bHLnmJ44nD9n1u4Q1qVEbXlFG28GjBE4z2FzntR9IbQIvhDGGNLLBMxJJukBYhhR7mY2uVFDfwAyALzy19LQ==
   dependencies:
     "@portabletext/react" "^3.2.1"
     "@sanity/client" "^6.28.3"
     "@sanity/next-loader" "1.3.5"
     "@sanity/preview-kit" "6.0.1"
     "@sanity/preview-url-secret" "2.1.6"
-    "@sanity/visual-editing" "2.13.9"
+    "@sanity/visual-editing" "2.13.10"
     groq "^3.79.0"
     history "^5.3.0"
 

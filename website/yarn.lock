@@ -2124,15 +2124,15 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.1.0.tgz#f26905ef5bdd27165b0f04d8571eb75dc7cdf50a"
   integrity sha512-JHumVRxzzaZAJyOimntdukA9TjjzsJiaiq/uUBdTknMLCNvtM6KQ5OCp6W5fIdY78uyFxtQjz+MPXwK8WBIxWg==
 
-"@sanity/insert-menu@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@sanity/insert-menu/-/insert-menu-1.1.5.tgz#06d937bb72467dae0e708e9ef72de57698c302a9"
-  integrity sha512-wjhQzX3gY91qsC+BJNza9+XKlQdoebrqEFR1NUw1t4/v1h+2aPnbJmnUzZrkbVglsilnG2eyfoghaa7JmhhkUg==
+"@sanity/insert-menu@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@sanity/insert-menu/-/insert-menu-1.1.6.tgz#1e2e662b873c66ff369c56bed5a90274e2e32b08"
+  integrity sha512-a35Bp/hicQQeEF5/bmD//r0p6usjiSocBg/yohoZS45SiZpqqkBM1n0bAHqcYCT57spaHFz/HJVoclDhm049Fw==
   dependencies:
     "@sanity/icons" "^3.7.0"
-    "@sanity/ui" "^2.15.5"
+    "@sanity/ui" "^2.15.6"
     lodash "^4.17.21"
-    react-compiler-runtime "19.0.0-beta-e1e972c-20250221"
+    react-compiler-runtime "19.0.0-beta-3229e95-20250315"
 
 "@sanity/mutate@0.11.0-canary.4":
   version "0.11.0-canary.4"
@@ -2147,31 +2147,31 @@
     mendoza "^3.0.7"
     rxjs "^7.8.1"
 
-"@sanity/next-loader@^1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-1.3.6.tgz#741e1f2bae0d56b77b9fc5425854d3f4508d7e66"
-  integrity sha512-Nb3oKBAu8ky6jBlChRBFWmlG3t6zuJasKhyLzwSAsclORNPAjUp+QGFehqmZN5yQvV36tqdgrG6ztbGeYh+T2A==
+"@sanity/next-loader@^1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-1.3.7.tgz#fa27dc195c975105bdd2c2d1352131ba7998a2bb"
+  integrity sha512-nGnDK/bmLmUpk9jG0LUQOiDuuf2YXDocb+gPZ4dAo8rLhDaoFpOZ263M3sRUt/KiGqbnWYzgOVR9oYZFpdpfAw==
   dependencies:
     "@sanity/client" "^6.28.3"
     "@sanity/comlink" "^3.0.1"
-    "@sanity/presentation-comlink" "^1.0.11"
+    "@sanity/presentation-comlink" "^1.0.12"
     use-effect-event "^1.0.2"
 
-"@sanity/presentation-comlink@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.11.tgz#63e14f4102c6d50e57b9cebcf95e750f5179117b"
-  integrity sha512-CuAKJIduwnLtmm+jAKujtVNFm0AZAOU67R6wck3K6ffe39lpw2QRhck0Iq+0ZOx4oA7uqxUHmLAHvUBnhU9jyQ==
+"@sanity/presentation-comlink@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.12.tgz#acff841471120ef45a07511b126350b55e0462e7"
+  integrity sha512-gXwNjL+95E2nxTkT1CBcyvxXOo9C1m59h3J685Xsa0Q8MD4kSmQkWe/ehBcfVaoaIv29Il69MKgG2xH9akkscA==
   dependencies:
     "@sanity/comlink" "^3.0.1"
-    "@sanity/visual-editing-types" "^1.0.10"
+    "@sanity/visual-editing-types" "^1.0.11"
 
-"@sanity/preview-kit@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-6.0.2.tgz#9ea3b4365941078a1049b8bfb9dd6a76fe37b9f2"
-  integrity sha512-K531pAUZVlejzfdRCVLlp9BLORk39b38UrF2H06PIZla4UZ/ft/IOOjo0IDpXmV0ylKVlBBIcVR7emXzuCqfVA==
+"@sanity/preview-kit@^6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-6.0.3.tgz#14c4a717476f2b51d5741d890b0e326f63583fa2"
+  integrity sha512-y633+NXVXR+6MamYQEbwAx7ti6qzr6Mn/S7vg2VrOHy+IPVhhsm7PHUm5ZXb37aCdhwMHK1qnoPAmFLAbfcvrg==
   dependencies:
     "@sanity/comlink" "^3.0.1"
-    "@sanity/presentation-comlink" "^1.0.11"
+    "@sanity/presentation-comlink" "^1.0.12"
 
 "@sanity/preview-url-secret@^2.1.6":
   version "2.1.6"
@@ -2180,7 +2180,7 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/ui@^2.15.5", "@sanity/ui@^2.15.6":
+"@sanity/ui@^2.15.6":
   version "2.15.6"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.15.6.tgz#7f163a3576326f31be5606ff6710d3e00529f43d"
   integrity sha512-SRkAE+2oCIH5ewnpue48HY0VaICo4SGZOBPCLr+VJmsLLr+PjThc0A5gLBddNFJb69EQBfKVr7eYWfaxeLSkdw==
@@ -2203,35 +2203,35 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/visual-editing-csm@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.8.tgz#ee794f94a2e77a31833eac3269e189acbf333d3f"
-  integrity sha512-AMqM8rLcmZGa4NG8rLYU6+zkZ2dbdjN2DaraxBeakKORQK+6h9uDOM3sCrhhRqjz6uTdZAuwMjNttqK9EyId9A==
+"@sanity/visual-editing-csm@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.9.tgz#a1064fc4172ce58e1710222c943ce9a82fe3a9a9"
+  integrity sha512-6plsEyHly95JS7voJv4lbhmXpzpMhDY1rXtsVexIziheSl806k6tMTeXraOStYbD65y/cL3OoHJcyC34DLtiVw==
   dependencies:
-    "@sanity/visual-editing-types" "^1.0.10"
+    "@sanity/visual-editing-types" "^1.0.11"
     valibot "0.31.1"
 
-"@sanity/visual-editing-types@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.10.tgz#417c6f0e0b4a203fe0d64365adc55656742d401b"
-  integrity sha512-KWiRACxDZ2d9ovpIF4KQ3rPcuJ9/uh/wfpH7f67YdjQj2ThYBSCArtk7ohHewMWgWbteVqFadT+/27IK1u/ERQ==
+"@sanity/visual-editing-types@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.11.tgz#08c945046f1b88eb91d00b8aaab49ff1d43b5e7a"
+  integrity sha512-EkN9fnhcEDADuksXWg5Q23RakGY59nBvQj6UyYm5qb1ITTERnXWkHEGPK25vg8P54d/pfX9rzhu7j3EFf3eAzw==
 
-"@sanity/visual-editing@^2.13.11":
-  version "2.13.11"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.13.11.tgz#bd2264d51972c8d127219bdbd1e424fbf43194fe"
-  integrity sha512-mcCncLToC10Qa3gaPm2AWxa3tYK57MAWVkblaGktSYyKKi7Jl71ZgD7P6EzvngimTtsFC2raZv8IIWUM+cCysg==
+"@sanity/visual-editing@^2.13.12":
+  version "2.13.12"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.13.12.tgz#8e357fea5223a2e6daf1c8edca9a1feb7a94ab3c"
+  integrity sha512-dKyu8kCigOzuPhhqRaqtrVBw6n/AHKXxAAV+O609SzNlbsR1+L8WLoX3Y1KMntXRaI9JbuNLNVF2qSFU9LI1yQ==
   dependencies:
     "@sanity/comlink" "^3.0.1"
     "@sanity/icons" "^3.7.0"
-    "@sanity/insert-menu" "^1.1.5"
+    "@sanity/insert-menu" "^1.1.6"
     "@sanity/mutate" "0.11.0-canary.4"
-    "@sanity/presentation-comlink" "^1.0.11"
+    "@sanity/presentation-comlink" "^1.0.12"
     "@sanity/preview-url-secret" "^2.1.6"
     "@sanity/ui" "^2.15.6"
-    "@sanity/visual-editing-csm" "^2.0.8"
+    "@sanity/visual-editing-csm" "^2.0.9"
     "@vercel/stega" "0.1.2"
     get-random-values-esm "^1.0.2"
-    react-compiler-runtime "19.0.0-beta-e1e972c-20250221"
+    react-compiler-runtime "19.0.0-beta-3229e95-20250315"
     rxjs "^7.8.2"
     scroll-into-view-if-needed "^3.1.0"
     use-effect-event "^1.0.2"
@@ -6101,17 +6101,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-sanity@9.9.4:
-  version "9.9.4"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.9.4.tgz#12be6d70687416862cf160ceaed30cf24954bfdf"
-  integrity sha512-IP1ZvCBjzmfFVDUpHIyyaZpSlOFIcbGdM263UOMBfCcQSg7pA0v87QzdVlL9Xt2jXTyrV9DBdsBsF1nu4Jaiow==
+next-sanity@9.9.5:
+  version "9.9.5"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.9.5.tgz#13ed82d4330cfb3557d9fc1db3b109169c7458a6"
+  integrity sha512-1ro/RN34L0upoByO1c/mTb3AxuXreXPxpl6MsmO+9AojRsfahEGrdQA06cKDFXCFaNQ/H+QWX8KTDwyBDfMTSQ==
   dependencies:
     "@portabletext/react" "^3.2.1"
     "@sanity/client" "^6.28.3"
-    "@sanity/next-loader" "^1.3.6"
-    "@sanity/preview-kit" "^6.0.2"
+    "@sanity/next-loader" "^1.3.7"
+    "@sanity/preview-kit" "^6.0.3"
     "@sanity/preview-url-secret" "^2.1.6"
-    "@sanity/visual-editing" "^2.13.11"
+    "@sanity/visual-editing" "^2.13.12"
     groq "^3.79.0"
     history "^5.3.0"
 
@@ -6600,6 +6600,11 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+react-compiler-runtime@19.0.0-beta-3229e95-20250315:
+  version "19.0.0-beta-3229e95-20250315"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-3229e95-20250315.tgz#1b71628c50300ebb534d3be77b4fc1864e584ac5"
+  integrity sha512-Xid04KQ0GxRVl0TsUPNalVefjrC6YqG/zclXPS9vbl8jmU6OwCiQBO4BpPTC9yw7sEroOdPdDKZ/1AYOH3BaaQ==
 
 react-compiler-runtime@19.0.0-beta-e1e972c-20250221:
   version "19.0.0-beta-e1e972c-20250221"

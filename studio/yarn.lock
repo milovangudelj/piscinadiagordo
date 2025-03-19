@@ -6761,10 +6761,15 @@ dataloader@^2.0.0:
   resolved "https://registry.npmjs.org/dataloader/-/dataloader-2.1.0.tgz#c69c538235e85e7ac6c6c444bae8ecabf5de9df7"
   integrity sha512-qTcEYLen3r7ojZNgVUaRggOI+KM7jrKxXeSHhogh/TWxYMeONEMqY+hmkobiYQozsGIyg9OYVzO4ZIfoB4I0pQ==
 
-date-fns@^2.16.1, date-fns@^2.27.0:
+date-fns@^2.16.1:
   version "2.28.0"
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
+
+date-fns@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-4.1.0.tgz#64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14"
+  integrity sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==
 
 date-now@1.0.1:
   version "1.0.1"
@@ -13510,10 +13515,10 @@ react-rx@^1.0.0-beta.6:
   dependencies:
     observable-callback "^1.0.1"
 
-react-select@^5.3.2:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.6.1.tgz#22f3d3f763ab24ac250739254f0191d46a2f1064"
-  integrity sha512-dYNRswtxUHW+F1Sc0HnxO5ryecPIAsG0+Cwyq5EIXZJBxCxUG2hFfQz41tc++30/2ISuuPglDikc4hEb4NsiuA==
+react-select@^5.10.1:
+  version "5.10.1"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.10.1.tgz#e858dd98358ccd864b65d53ab0fb682cd5e96b89"
+  integrity sha512-roPEZUL4aRZDx6DcsD+ZNreVl+fM8VsKn0Wtex1v4IazH60ILp5xhdlp464IsEAlJdXeD+BhDAFsBVMfvLQueA==
   dependencies:
     "@babel/runtime" "^7.12.0"
     "@emotion/cache" "^11.4.0"
@@ -13523,7 +13528,7 @@ react-select@^5.3.2:
     memoize-one "^6.0.0"
     prop-types "^15.6.0"
     react-transition-group "^4.3.0"
-    use-isomorphic-layout-effect "^1.1.2"
+    use-isomorphic-layout-effect "^1.2.0"
 
 react-sortable-hoc@^1.11.0:
   version "1.11.0"
@@ -14240,10 +14245,10 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-media@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-3.0.1.tgz#f44a0438997d9a081cc1b938f83e91232eb53fde"
-  integrity sha512-2PNHzt+KlPX03emqj4/L67XpUTZ6Ou7kxuEFlY3uPrONak6EK3LwOdmaS08nT8ooht8ANeeiygwc+sxLeOcnNA==
+sanity-plugin-media@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-media/-/sanity-plugin-media-3.0.2.tgz#222786b65f4ef926f796f2b9f76d6c0ca05d6142"
+  integrity sha512-nH3m/a5fw+mVuQ/r4nu1GptNmw8txvvYdYL8nEaSXfwG71RK4sQCa/RgYuOWbt7OLjI+0WAO/xUZ3/cOrHJgkA==
   dependencies:
     "@hookform/resolvers" "^3.1.1"
     "@reduxjs/toolkit" "^2.6.0"
@@ -14255,7 +14260,7 @@ sanity-plugin-media@3.0.1:
     "@sanity/uuid" "^3.0.1"
     "@tanem/react-nprogress" "^5.0.55"
     copy-to-clipboard "^3.3.1"
-    date-fns "^2.27.0"
+    date-fns "^4.0.0"
     filesize "^9.0.0"
     groq "^3.0.0"
     is-hotkey-esm "^1.0.0"
@@ -14265,7 +14270,7 @@ sanity-plugin-media@3.0.1:
     react-file-icon "^1.6.0"
     react-hook-form "^7.54.2"
     react-redux "^9.2.0"
-    react-select "^5.3.2"
+    react-select "^5.10.1"
     react-virtuoso "^4.12.5"
     redux "^5.0.1"
     redux-observable "3.0.0-rc.2"
@@ -15980,10 +15985,10 @@ use-effect-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/use-effect-event/-/use-effect-event-1.0.2.tgz#426bde4a166e762592005f194550e36639d39c7c"
   integrity sha512-9c8AAmtQja4LwJXI0EQPhQCip6dmrcSe0FMcTUZBeGh/XTCOLgw3Qbt0JdUT8Rcrm/ZH+Web7MIcMdqgQKdXJg==
 
-use-isomorphic-layout-effect@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz#497cefb13d863d687b08477d9e5a164ad8c1a6fb"
-  integrity sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==
+use-isomorphic-layout-effect@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.0.tgz#afb292eb284c39219e8cb8d3d62d71999361a21d"
+  integrity sha512-q6ayo8DWoPZT0VdG4u3D3uxcgONP3Mevx2i2b0434cwWBoL+aelL1DzkXI6w3PhTZzUeR2kaVlZn70iCiseP6w==
 
 use-sidecar@^1.0.5:
   version "1.0.5"

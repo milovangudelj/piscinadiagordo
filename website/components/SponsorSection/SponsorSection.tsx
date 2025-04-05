@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { sponsorQuery } from "../../lib/queries";
+import { sponsorQuery } from "../../data/queries";
 import { urlForImage } from "../../lib/sanity";
 import { sanityClient } from "../../lib/sanity.server";
 

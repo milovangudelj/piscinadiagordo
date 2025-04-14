@@ -12,7 +12,7 @@ import {
 } from "../../components";
 
 // Lib
-import { queryCorsi } from "../../lib/queries";
+import { queryCorsi } from "../../data/queries";
 import { urlForImage } from "../../lib/sanity";
 import { getClient } from "../../lib/sanity.server";
 
